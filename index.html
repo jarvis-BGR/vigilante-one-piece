@@ -17,10 +17,12 @@
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
     font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  header{padding:26px 20px 10px;max-width:1100px;margin:0 auto}
+  header{padding:22px 20px 8px;max-width:1100px;margin:0 auto}
   h1{font-size:22px;margin:0 0 4px;letter-spacing:-.2px}
   h1 span{color:var(--accent)}
   .sub{color:var(--muted);margin:0}
+  .cfg{max-width:1100px;margin:6px auto 0;padding:0 20px;font-size:12px;color:var(--muted)}
+  .cfg a{color:var(--accent2);cursor:pointer;text-decoration:underline}
   .bar{position:sticky;top:0;z-index:5;background:var(--bg);
     border-bottom:1px solid var(--line);padding:12px 20px}
   .bar .wrap{max-width:1100px;margin:0 auto;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
@@ -60,7 +62,6 @@
   .price{font-weight:700;color:var(--ink)}
   .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
   .empty{color:var(--muted);text-align:center;padding:40px}
-  /* barra inferior de seleccion */
   .tray{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);
     box-shadow:0 -6px 20px rgba(0,0,0,.06);padding:12px 20px}
   .tray .wrap{max-width:1100px;margin:0 auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
@@ -68,33 +69,41 @@
   .btn{border:0;border-radius:10px;padding:11px 16px;font-size:14px;font-weight:600;
     cursor:pointer;background:var(--accent);color:#fff}
   .btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
-  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .btn:disabled{opacity:.5;cursor:not-allowed}
   dialog{border:0;border-radius:16px;max-width:640px;width:92%;padding:0;box-shadow:var(--shadow);
     background:var(--card);color:var(--ink)}
   dialog::backdrop{background:rgba(0,0,0,.45)}
   .dlg{padding:20px}
   .dlg h2{margin:0 0 6px;font-size:18px}
   .dlg p{color:var(--muted);margin:0 0 12px}
-  textarea{width:100%;height:180px;border:1px solid var(--line);border-radius:10px;
+  textarea{width:100%;height:150px;border:1px solid var(--line);border-radius:10px;
     background:var(--bg);color:var(--ink);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
     font-size:12px;padding:10px;resize:vertical}
+  input[type=password],input[type=text].tok{width:100%;padding:11px 12px;border:1px solid var(--line);
+    border-radius:10px;background:var(--bg);color:var(--ink);font-size:13px;
+    font-family:ui-monospace,Menlo,monospace}
   .steps{font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);
     border-radius:10px;padding:12px 14px;margin:12px 0}
   .steps ol{margin:6px 0 0;padding-left:20px}
-  .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .steps li{margin:3px 0}
+  .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;align-items:center}
   a.gh{display:inline-block;background:#24292f;color:#fff;text-decoration:none;
     padding:11px 16px;border-radius:10px;font-weight:600;font-size:14px}
   .note{font-size:12px;color:var(--muted);margin-top:10px}
+  .msg{font-size:13px;margin-top:10px;min-height:18px}
+  .msg.ok{color:var(--ok)} .msg.err{color:var(--accent)}
+  details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:8px}
 </style>
 </head>
 <body>
 <header>
   <h1>Selector <span>One Piece</span></h1>
-  <p class="sub">Elige los productos que quieres vigilar. El vigilante (en el servidor) revisará las tiendas cada pocas horas y te avisará por Telegram solo cuando haya un cambio.</p>
+  <p class="sub">Elige los productos que quieres vigilar. El vigilante revisará las tiendas cada pocas horas y te avisará por Telegram solo cuando haya un cambio.</p>
 </header>
+<div class="cfg" id="cfg"></div>
 
 <div class="bar"><div class="wrap">
-  <input id="q" type="search" placeholder="Busca por nombre o EAN…  (ej: booster, Kami)">
+  <input id="q" type="search" placeholder="Busca por nombre o EAN…  (ej: booster, Kami, ST16)">
   <select id="fSet"><option value="">Todas las ediciones</option></select>
   <select id="fTipo"><option value="">Todos los tipos</option></select>
   <span class="count" id="count"></span>
@@ -107,36 +116,63 @@
 </main>
 
 <div class="tray"><div class="wrap">
-  <b id="selCount">0 productos seleccionados</b>
-  <span class="count">Tienda activa: Comic Stores · (Zacatrus, Turol, OzJuegos, Punt de Partida: próximamente)</span>
+  <b id="selCount">0 productos</b>
+  <span class="count">Tiendas: Comic Stores, Area151 · (más: próximamente)</span>
   <span style="flex:1"></span>
   <button class="btn ghost" id="clear">Vaciar</button>
-  <button class="btn" id="gen" disabled>Generar mi lista de vigilancia ▸</button>
+  <button class="btn" id="save" disabled>💾 Guardar mi vigilancia</button>
 </div></div>
 
+<!-- Dialogo de guardado -->
 <dialog id="dlg"><div class="dlg">
-  <h2>Tu lista de vigilancia</h2>
-  <p>Esto es el contenido del archivo <b>productos.json</b>. Cópialo y pégalo en GitHub para que el vigilante empiece a vigilar lo que has elegido.</p>
-  <textarea id="out" readonly></textarea>
+  <h2>Guardar tu vigilancia</h2>
+  <p id="dlgLead">Se guardará tu selección directamente. El vigilante la tendrá en cuenta en la próxima revisión.</p>
   <div class="row">
-    <button class="btn" id="copy">Copiar</button>
-    <a class="gh" href="https://github.com/jarvis-BGR/vigilante-one-piece/edit/main/productos.json" target="_blank" rel="noopener">Abrir productos.json en GitHub ▸</a>
+    <button class="btn" id="doSave">💾 Guardar ahora</button>
+    <span class="count" id="savingHint"></span>
   </div>
+  <div class="msg" id="saveMsg"></div>
+  <details>
+    <summary>Prefiero copiar y pegar a mano (o estoy en el ordenador)</summary>
+    <textarea id="out" readonly></textarea>
+    <div class="row">
+      <button class="btn ghost" id="copy">Copiar</button>
+      <a class="gh" href="https://github.com/jarvis-BGR/vigilante-one-piece/edit/main/productos.json" target="_blank" rel="noopener">Abrir en GitHub ▸</a>
+    </div>
+  </details>
+  <div class="row"><button class="btn ghost" id="close">Cerrar</button></div>
+</div></dialog>
+
+<!-- Dialogo de clave de acceso -->
+<dialog id="dlgTok"><div class="dlg">
+  <h2>Activar el guardado automático</h2>
+  <p>Para guardar desde el móvil sin copiar nada, la app necesita una <b>clave de acceso</b> de GitHub. Se guarda <b>solo en este dispositivo</b> y solo puede editar los archivos de <b>este</b> repositorio (no toca tu Telegram ni nada más). Puedes anularla cuando quieras.</p>
   <div class="steps">
-    <b>Cómo activarlo (30 segundos):</b>
+    <b>Cómo crearla (una sola vez):</b>
     <ol>
-      <li>Pulsa <b>Copiar</b>.</li>
-      <li>Pulsa <b>Abrir productos.json en GitHub</b>.</li>
-      <li>Borra todo lo que haya en el recuadro y <b>pega</b> lo copiado.</li>
-      <li>Abajo, <b>Commit changes</b> → <b>Commit changes</b>. ¡Listo!</li>
+      <li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">esta página de GitHub</a> (estando con tu sesión iniciada).</li>
+      <li><b>Token name</b>: <i>selector one piece</i>. <b>Expiration</b>: 1 año.</li>
+      <li><b>Repository access</b> → <b>Only select repositories</b> → elige <b>vigilante-one-piece</b>.</li>
+      <li><b>Permissions</b> → <b>Repository permissions</b> → <b>Contents</b> → <b>Read and write</b> (lo demás déjalo en No access).</li>
+      <li>Abajo, <b>Generate token</b> y <b>copia</b> el código (empieza por <i>github_pat_</i>).</li>
+      <li>Pégalo aquí:</li>
     </ol>
   </div>
-  <div class="row"><button class="btn ghost" id="close">Cerrar</button></div>
-  <p class="note">Nota: cada producto trae ya su enlace directo de Comic Stores. La foto se carga desde Comic Stores al abrir esta página en tu navegador.</p>
+  <input type="password" class="tok" id="tokInput" placeholder="github_pat_…" autocomplete="off">
+  <div class="msg" id="tokMsg"></div>
+  <div class="row">
+    <button class="btn" id="tokSave">Guardar clave en este dispositivo</button>
+    <button class="btn ghost" id="tokDel">Borrar clave</button>
+    <button class="btn ghost" id="tokClose">Cancelar</button>
+  </div>
 </div></dialog>
 
 <script>
-// ---- CATÁLOGO (muestra inicial real; se ampliará a OP-12..OP-18 + EB) ----
+const OWNER="jarvis-BGR", REPO="vigilante-one-piece", FILE="productos.json";
+const LS="opv_gh_token";
+function getTok(){ try{return localStorage.getItem(LS)||""}catch(e){return ""} }
+function setTok(t){ try{ t?localStorage.setItem(LS,t):localStorage.removeItem(LS) }catch(e){} }
+
 const CATALOGO = [
   {ean:"810199501963", set:"OP-17", tipo:"Sobre", idioma:"Inglés", nombre:"OP17 The World's Strongest Warriors", precio:"7.59", moneda:"EUR", avail:"out of stock",
    img:"https://comicstores.es/imagenes/8101995/810199501963.webp",
@@ -189,93 +225,161 @@ const CATALOGO = [
   {ean:"810199503851", set:"DP-13", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set DP13", precio:"14.24", moneda:"EUR", avail:"out of stock",
    img:"https://comicstores.es/imagenes/8101995/810199503851.webp",
    url:"https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp13-ingles_604943"},
+  {ean:"810199501970", set:"OP-17", tipo:"Caja", idioma:"Inglés", tienda:"Area151", nombre:"OP17 The World's Strongest Warriors — Booster Box (24 sobres)", precio:"129.95", moneda:"EUR", avail:"preorder",
+   img:"https://comicstores.es/imagenes/8101995/810199501970.webp",
+   url:"https://area151.es/products/booster-box-display-op-17-24-sobres-ingles-one-piece-card-game"},
 ];
 
-const AVAIL = {"in stock":["#1f9d55","Disponible"],"out of stock":["#c8102e","Agotado"],
+const AVAIL={"in stock":["#1f9d55","Disponible"],"out of stock":["#c8102e","Agotado"],
   "available for order":["#e0a021","Preventa"],"preorder":["#e0a021","Preventa"]};
-
 const sel = new Set();
-const grid = document.getElementById('grid');
-const q = document.getElementById('q');
+const kel = p => (p.tienda||"Comic Stores")+"|"+p.ean;   // clave única por tienda+producto
+const q=document.getElementById('q'), grid=document.getElementById('grid');
 
 function precioTxt(p,m){ if(!p) return ""; const s=Number(p).toFixed(2).replace('.',',');
-  const sim={EUR:"€",USD:"$",GBP:"£"}[m]||m||""; return s+" "+sim; }
+  return s+" "+({EUR:"€",USD:"$",GBP:"£"}[m]||m||""); }
 
 function poblarFiltros(){
   const sets=[...new Set(CATALOGO.map(p=>p.set))];
-  const tipos=[...new Set(CATALOGO.map(p=>p.tipo))].sort();
+  const tipos=[...new Set(CATALOGO.map(p=>p.tipo))];
   const fSet=document.getElementById('fSet'), fTipo=document.getElementById('fTipo');
   sets.forEach(s=>fSet.insertAdjacentHTML('beforeend',`<option value="${s}">${s}</option>`));
   tipos.forEach(t=>fTipo.insertAdjacentHTML('beforeend',`<option value="${t}">${t}</option>`));
 }
 
 function render(){
-  const term = q.value.trim().toLowerCase();
-  const fs = document.getElementById('fSet').value;
-  const ft = document.getElementById('fTipo').value;
-  const items = CATALOGO.filter(p =>
+  const term=q.value.trim().toLowerCase();
+  const fs=document.getElementById('fSet').value, ft=document.getElementById('fTipo').value;
+  const items=CATALOGO.filter(p=>
     (!term || (p.set+" "+p.nombre+" "+p.ean+" "+p.tipo).toLowerCase().includes(term)) &&
-    (!fs || p.set===fs) && (!ft || p.tipo===ft));
-  grid.innerHTML = "";
+    (!fs||p.set===fs) && (!ft||p.tipo===ft));
+  grid.innerHTML="";
   items.forEach(p=>{
-    const [col,lab] = AVAIL[p.avail]||["#6b655c","—"];
-    const card = document.createElement('div');
-    card.className = 'card'+(sel.has(p.ean)?' sel':'');
-    card.innerHTML = `
+    const [col,lab]=AVAIL[p.avail]||["#6b655c","—"];
+    const card=document.createElement('div');
+    const k=kel(p);
+    card.className='card'+(sel.has(k)?' sel':'');
+    card.innerHTML=`
       <div class="thumb">
-        <img src="${p.img}" alt="" loading="lazy"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="${p.img}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="ph" style="display:none">${p.set}<br>(sin foto)</div>
-        <div class="tick">${sel.has(p.ean)?'✓':''}</div>
+        <div class="tick">${sel.has(k)?'✓':''}</div>
       </div>
       <div class="body">
-        <div class="set">${p.set} · ${p.tipo} · ${p.idioma}</div>
+        <div class="set">${p.set} · ${p.tipo} · ${p.tienda||"Comic Stores"}</div>
         <div class="name">${p.nombre}</div>
-        <div class="meta">
-          <span><span class="dot" style="background:${col}"></span>${lab}</span>
-          <span class="price">${precioTxt(p.precio,p.moneda)}</span>
-        </div>
+        <div class="meta"><span><span class="dot" style="background:${col}"></span>${lab}</span>
+          <span class="price">${precioTxt(p.precio,p.moneda)}</span></div>
       </div>`;
-    card.onclick = ()=>{ sel.has(p.ean)?sel.delete(p.ean):sel.add(p.ean); render(); updateTray(); };
+    card.onclick=()=>{ sel.has(k)?sel.delete(k):sel.add(k); render(); updateTray(); };
     grid.appendChild(card);
   });
-  document.getElementById('empty').hidden = items.length>0;
-  document.getElementById('count').textContent = items.length+" de "+CATALOGO.length+" productos";
+  document.getElementById('empty').hidden=items.length>0;
+  document.getElementById('count').textContent=items.length+" de "+CATALOGO.length+" productos";
 }
 
 function updateTray(){
-  document.getElementById('selCount').textContent = sel.size+" producto"+(sel.size===1?"":"s")+" seleccionado"+(sel.size===1?"":"s");
-  document.getElementById('gen').disabled = sel.size===0;
+  document.getElementById('selCount').textContent=sel.size+" producto"+(sel.size===1?"":"s");
+  document.getElementById('save').disabled=false; // permitir guardar incluso lista vacia (para dejar de vigilar todo)
 }
 
-function generar(){
-  const lista = CATALOGO.filter(p=>sel.has(p.ean)).map(p=>({
-    id:"comicstores|"+p.ean,
+function construirLista(){
+  return CATALOGO.filter(p=>sel.has(kel(p))).map(p=>({
+    id:kel(p),
     nombre:"One Piece "+p.nombre+" ("+p.idioma+")",
-    tienda:"Comic Stores",
-    ean:p.ean,
-    url:p.url
+    tienda:(p.tienda||"Comic Stores"), ean:p.ean, url:p.url
   }));
-  document.getElementById('out').value = JSON.stringify(lista,null,2);
+}
+
+function pintarCfg(){
+  const c=document.getElementById('cfg');
+  if(getTok()) c.innerHTML='Guardado automático en este dispositivo: <b>activado</b> ✓ · <a id="cfgLink">cambiar/borrar clave</a>';
+  else c.innerHTML='Guardado automático: <b>no configurado en este dispositivo</b> · <a id="cfgLink">configurar</a>';
+  document.getElementById('cfgLink').onclick=abrirToken;
+}
+
+// ---- base64 UTF-8 ----
+function b64(str){ return btoa(unescape(encodeURIComponent(str))); }
+function ub64(str){ try{return decodeURIComponent(escape(atob(str)))}catch(e){return atob(str)} }
+
+async function ghGet(token){
+  const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=main&t=`+Date.now(),{
+    headers:Object.assign({'Accept':'application/vnd.github+json'}, token?{'Authorization':'token '+token}:{})});
+  if(!r.ok) throw new Error('GET '+r.status);
+  return r.json();
+}
+
+async function guardar(){
+  const token=getTok();
+  if(!token){ document.getElementById('dlg').close(); abrirToken(); return; }
+  const btn=document.getElementById('doSave'), msg=document.getElementById('saveMsg');
+  const old=btn.textContent; btn.disabled=true; btn.textContent='Guardando…'; msg.className='msg'; msg.textContent='';
+  try{
+    let sha; try{ sha=(await ghGet(token)).sha; }catch(e){ sha=undefined; }
+    const body={message:'Actualizar vigilancia desde el selector',
+      content:b64(JSON.stringify(construirLista(),null,2)), branch:'main'};
+    if(sha) body.sha=sha;
+    const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`,{
+      method:'PUT', headers:{'Accept':'application/vnd.github+json','Authorization':'token '+token,'Content-Type':'application/json'},
+      body:JSON.stringify(body)});
+    if(!r.ok){ const t=await r.text(); throw new Error(r.status+' '+t.slice(0,160)); }
+    btn.textContent='¡Guardado! ✓';
+    msg.className='msg ok'; msg.textContent='Guardado. El vigilante lo tendrá en cuenta en la próxima revisión (máx. unas horas).';
+    setTimeout(()=>{btn.textContent=old;btn.disabled=false;},2500);
+  }catch(e){
+    btn.disabled=false; btn.textContent=old; msg.className='msg err';
+    const s=String(e);
+    if(s.includes('401')||s.includes('403')||s.includes('404'))
+      msg.textContent='La clave no vale o no tiene permiso sobre este repo. Revisa que sea "Contents: Read and write" sobre vigilante-one-piece.';
+    else msg.textContent='No se pudo guardar: '+e.message;
+  }
+}
+
+function abrirGuardar(){
+  document.getElementById('out').value=JSON.stringify(construirLista(),null,2);
+  document.getElementById('dlgLead').textContent = getTok()
+    ? 'Se guardará tu selección automáticamente en tu vigilante ('+sel.size+' producto'+(sel.size===1?'':'s')+').'
+    : 'Aún no has activado el guardado automático en este dispositivo. Al pulsar Guardar te ayudo a configurarlo (30 s, una sola vez).';
+  document.getElementById('saveMsg').textContent='';
   document.getElementById('dlg').showModal();
 }
+function abrirToken(){
+  document.getElementById('tokInput').value=getTok();
+  document.getElementById('tokMsg').textContent='';
+  document.getElementById('dlgTok').showModal();
+}
 
-document.getElementById('gen').onclick = generar;
-document.getElementById('clear').onclick = ()=>{ sel.clear(); render(); updateTray(); };
-document.getElementById('close').onclick = ()=>document.getElementById('dlg').close();
-document.getElementById('copy').onclick = ()=>{
-  const t=document.getElementById('out'); t.select();
-  navigator.clipboard.writeText(t.value).then(()=>{
-    const b=document.getElementById('copy'); b.textContent="¡Copiado!"; setTimeout(()=>b.textContent="Copiar",1500);
-  });
+document.getElementById('save').onclick=abrirGuardar;
+document.getElementById('doSave').onclick=guardar;
+document.getElementById('clear').onclick=()=>{ sel.clear(); render(); updateTray(); };
+document.getElementById('close').onclick=()=>document.getElementById('dlg').close();
+document.getElementById('copy').onclick=()=>{ const t=document.getElementById('out'); t.select();
+  navigator.clipboard.writeText(t.value).then(()=>{ const b=document.getElementById('copy'); b.textContent='¡Copiado!'; setTimeout(()=>b.textContent='Copiar',1500); }); };
+document.getElementById('tokSave').onclick=()=>{
+  const v=document.getElementById('tokInput').value.trim();
+  if(!v){ document.getElementById('tokMsg').className='msg err'; document.getElementById('tokMsg').textContent='Pega la clave primero.'; return; }
+  setTok(v); pintarCfg();
+  document.getElementById('tokMsg').className='msg ok'; document.getElementById('tokMsg').textContent='Clave guardada en este dispositivo. Ya puedes guardar tu vigilancia.';
+  setTimeout(()=>document.getElementById('dlgTok').close(),900);
 };
-q.oninput = render;
-document.getElementById('fSet').onchange = render;
-document.getElementById('fTipo').onchange = render;
-poblarFiltros();
-document.getElementById('seed').textContent =
-  "Catálogo Comic Stores: "+CATALOGO.length+" productos verificados (sobres, extra boosters, mazos ST y Double Packs). Las cajas/booster box y sets como OP-16 y OP-18 se añadirán al incorporar más tiendas que los vendan.";
-render(); updateTray();
+document.getElementById('tokDel').onclick=()=>{ setTok(''); pintarCfg();
+  document.getElementById('tokInput').value=''; document.getElementById('tokMsg').className='msg'; document.getElementById('tokMsg').textContent='Clave borrada de este dispositivo.'; };
+document.getElementById('tokClose').onclick=()=>document.getElementById('dlgTok').close();
+q.oninput=render;
+document.getElementById('fSet').onchange=render;
+document.getElementById('fTipo').onchange=render;
+
+poblarFiltros(); pintarCfg(); render(); updateTray();
+document.getElementById('seed').textContent=
+  "Catálogo: "+CATALOGO.length+" productos verificados de Comic Stores y Area151 (sobres, extra boosters, mazos ST, Double Packs y la primera caja/booster box). Se irán añadiendo más cajas y tiendas.";
+
+// Al abrir, marca lo que ya estás vigilando (lee productos.json del repo)
+(async()=>{ try{
+  const d=await ghGet(getTok());
+  const arr=JSON.parse(ub64(d.content));
+  arr.forEach(it=>{ sel.add(it.id || ((it.tienda||"Comic Stores")+"|"+it.ean)); });
+  render(); updateTray();
+}catch(e){ /* si no se puede leer, no pasa nada */ } })();
 </script>
 </body>
 </html>
