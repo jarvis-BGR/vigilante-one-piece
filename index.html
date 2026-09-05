@@ -5,105 +5,80 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Selector One Piece</title>
 <style>
-  :root{
-    --bg:#f6f5f2; --card:#ffffff; --ink:#1c1a17; --muted:#6b655c;
-    --line:#e7e3db; --accent:#c8102e; --accent2:#e0a021; --ok:#1f9d55;
-    --shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(0,0,0,.06);
-  }
-  @media (prefers-color-scheme:dark){
-    :root{--bg:#15140f;--card:#201e18;--ink:#f2efe8;--muted:#a49d90;
-    --line:#332f27;--shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.5);}
-  }
+  :root{--bg:#f6f5f2;--card:#fff;--ink:#1c1a17;--muted:#6b655c;--line:#e7e3db;
+    --accent:#c8102e;--accent2:#e0a021;--ok:#1f9d55;--shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(0,0,0,.06);}
+  @media (prefers-color-scheme:dark){:root{--bg:#15140f;--card:#201e18;--ink:#f2efe8;--muted:#a49d90;
+    --line:#332f27;--shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.5);}}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);
-    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  header{padding:22px 20px 8px;max-width:1100px;margin:0 auto}
-  h1{font-size:22px;margin:0 0 4px;letter-spacing:-.2px}
-  h1 span{color:var(--accent)}
-  .sub{color:var(--muted);margin:0}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{padding:20px 20px 6px;max-width:1100px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 4px;letter-spacing:-.2px}h1 span{color:var(--accent)}
+  .sub{color:var(--muted);margin:0;font-size:14px}
   .cfg{max-width:1100px;margin:6px auto 0;padding:0 20px;font-size:12px;color:var(--muted)}
   .cfg a{color:var(--accent2);cursor:pointer;text-decoration:underline}
-  .bar{position:sticky;top:0;z-index:5;background:var(--bg);
-    border-bottom:1px solid var(--line);padding:12px 20px}
+  .bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 20px}
   .bar .wrap{max-width:1100px;margin:0 auto;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
-  input[type=search]{flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--line);
-    border-radius:10px;background:var(--card);color:var(--ink);font-size:15px;outline:none}
+  input[type=search]{flex:1;min-width:200px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:15px;outline:none}
   input[type=search]:focus{border-color:var(--accent2)}
-  select{padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);
-    color:var(--ink);font-size:14px;outline:none;cursor:pointer;max-width:48%}
-  select:focus{border-color:var(--accent2)}
+  select{padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:14px;cursor:pointer;max-width:48%}
   .count{color:var(--muted);font-size:13px;white-space:nowrap}
   main{max-width:1100px;margin:0 auto;padding:16px 20px 40px}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
-  @media (max-width:560px){
-    .grid{grid-template-columns:repeat(2,1fr);gap:10px}
-    .name{font-size:12px}.set{font-size:10px}.meta{font-size:11px}
-    select{max-width:100%;flex:1}
-  }
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
-    box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;
-    transition:transform .12s ease,border-color .12s ease}
+  @media (max-width:560px){.grid{grid-template-columns:repeat(2,1fr);gap:10px}.name{font-size:12px}.set{font-size:10px}select{max-width:100%;flex:1}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;transition:transform .12s ease,border-color .12s ease;position:relative}
   .card:hover{transform:translateY(-2px)}
-  .card.sel{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset,var(--shadow)}
-  .thumb{aspect-ratio:1/1;background:#f0ece3 center/contain no-repeat;display:flex;
-    align-items:center;justify-content:center;position:relative}
+  .card.watch{border-color:var(--accent2);box-shadow:0 0 0 2px var(--accent2) inset,var(--shadow)}
+  .star{position:absolute;top:8px;left:8px;background:var(--accent2);color:#fff;border-radius:20px;font-size:11px;font-weight:700;padding:2px 8px;z-index:2}
+  .thumb{aspect-ratio:1/1;background:#f0ece3 center/contain no-repeat;display:flex;align-items:center;justify-content:center}
   @media (prefers-color-scheme:dark){.thumb{background:#2a271f}}
   .thumb img{width:100%;height:100%;object-fit:contain}
   .ph{color:var(--muted);font-weight:600;font-size:13px;text-align:center;padding:8px}
-  .tick{position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:50%;
-    background:rgba(255,255,255,.85);border:1px solid var(--line);display:flex;
-    align-items:center;justify-content:center;font-size:15px;color:var(--muted)}
-  .card.sel .tick{background:var(--accent);color:#fff;border-color:var(--accent)}
-  .body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;flex:1}
+  .body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:3px;flex:1}
   .set{font-size:11px;font-weight:700;color:var(--accent2);letter-spacing:.4px}
   .name{font-size:13px;font-weight:600;line-height:1.3}
-  .meta{margin-top:auto;display:flex;justify-content:space-between;align-items:center;
-    color:var(--muted);font-size:12px;padding-top:6px}
-  .price{font-weight:700;color:var(--ink)}
-  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+  .best{margin-top:auto;font-size:12.5px;font-weight:600;padding-top:6px}
+  .best small{display:block;font-weight:500;color:var(--muted);font-size:11px}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
   .empty{color:var(--muted);text-align:center;padding:40px}
-  .tray{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);
-    box-shadow:0 -6px 20px rgba(0,0,0,.06);padding:12px 20px}
+  .tray{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.06);padding:12px 20px}
   .tray .wrap{max-width:1100px;margin:0 auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
   .tray b{font-size:14px}
-  .btn{border:0;border-radius:10px;padding:11px 16px;font-size:14px;font-weight:600;
-    cursor:pointer;background:var(--accent);color:#fff}
+  .btn{border:0;border-radius:10px;padding:11px 16px;font-size:14px;font-weight:600;cursor:pointer;background:var(--accent);color:#fff}
   .btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .btn.amber{background:var(--accent2)}
   .btn:disabled{opacity:.5;cursor:not-allowed}
-  dialog{border:0;border-radius:16px;max-width:640px;width:92%;padding:0;box-shadow:var(--shadow);
-    background:var(--card);color:var(--ink)}
+  dialog{border:0;border-radius:16px;max-width:560px;width:94%;padding:0;box-shadow:var(--shadow);background:var(--card);color:var(--ink)}
   dialog::backdrop{background:rgba(0,0,0,.45)}
   .dlg{padding:20px}
-  .dlg h2{margin:0 0 6px;font-size:18px}
-  .dlg p{color:var(--muted);margin:0 0 12px}
-  textarea{width:100%;height:150px;border:1px solid var(--line);border-radius:10px;
-    background:var(--bg);color:var(--ink);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
-    font-size:12px;padding:10px;resize:vertical}
-  input[type=password],input[type=text].tok{width:100%;padding:11px 12px;border:1px solid var(--line);
-    border-radius:10px;background:var(--bg);color:var(--ink);font-size:13px;
-    font-family:ui-monospace,Menlo,monospace}
-  .steps{font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);
-    border-radius:10px;padding:12px 14px;margin:12px 0}
+  .dlg h2{margin:0 0 2px;font-size:18px}
+  .dhead{display:flex;gap:14px;align-items:center;margin-bottom:12px}
+  .dhead img{width:74px;height:74px;object-fit:contain;border:1px solid var(--line);border-radius:10px;background:#f0ece3}
+  .offer{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
+  .offer .tn{font-weight:600}.offer .pr{margin-left:auto;font-weight:700;white-space:nowrap}
+  .offer .lk{margin-left:8px}
+  .offer a{color:#fff;background:var(--accent);text-decoration:none;padding:7px 10px;border-radius:8px;font-size:13px;font-weight:600;white-space:nowrap}
+  .offer.off{opacity:.55}
+  textarea{width:100%;height:120px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font-family:ui-monospace,Menlo,monospace;font-size:12px;padding:10px}
+  input[type=password]{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font-size:13px;font-family:ui-monospace,Menlo,monospace}
+  .steps{font-size:13px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0}
   .steps ol{margin:6px 0 0;padding-left:20px}
-  .steps li{margin:3px 0}
   .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;align-items:center}
-  a.gh{display:inline-block;background:#24292f;color:#fff;text-decoration:none;
-    padding:11px 16px;border-radius:10px;font-weight:600;font-size:14px}
+  a.gh{display:inline-block;background:#24292f;color:#fff;text-decoration:none;padding:11px 16px;border-radius:10px;font-weight:600;font-size:14px}
   .note{font-size:12px;color:var(--muted);margin-top:10px}
-  .msg{font-size:13px;margin-top:10px;min-height:18px}
-  .msg.ok{color:var(--ok)} .msg.err{color:var(--accent)}
+  .msg{font-size:13px;margin-top:10px;min-height:18px}.msg.ok{color:var(--ok)}.msg.err{color:var(--accent)}
+  label.chk{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center;cursor:pointer}
   details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:8px}
 </style>
 </head>
 <body>
 <header>
   <h1>Selector <span>One Piece</span></h1>
-  <p class="sub">Elige los productos que quieres vigilar. El vigilante revisará las tiendas cada pocas horas y te avisará por Telegram solo cuando haya un cambio.</p>
+  <p class="sub">Toca un producto para ver todas sus tiendas ordenadas por precio y stock. Marca "Vigilar" para recibir aviso por Telegram cuando cambie.</p>
 </header>
 <div class="cfg" id="cfg"></div>
 
 <div class="bar"><div class="wrap">
-  <input id="q" type="search" placeholder="Busca por nombre o EAN…  (ej: booster, Kami, ST16)">
+  <input id="q" type="search" placeholder="Busca por nombre, set o EAN…">
   <select id="fSet"><option value="">Todas las ediciones</option></select>
   <select id="fTipo"><option value="">Todos los tipos</option></select>
   <span class="count" id="count"></span>
@@ -111,275 +86,496 @@
 
 <main>
   <div class="grid" id="grid"></div>
-  <div class="empty" id="empty" hidden>No hay productos que coincidan con tu búsqueda.</div>
+  <div class="empty" id="empty" hidden>No hay productos que coincidan.</div>
   <p class="note" id="seed"></p>
 </main>
 
 <div class="tray"><div class="wrap">
-  <b id="selCount">0 productos</b>
-  <span class="count">Tiendas: Comic Stores, Area151 · (más: próximamente)</span>
+  <b id="selCount">0 vigilados</b>
+  <span class="count" id="stores"></span>
   <span style="flex:1"></span>
   <button class="btn ghost" id="clear">Vaciar</button>
   <button class="btn" id="save" disabled>💾 Guardar mi vigilancia</button>
 </div></div>
 
-<!-- Dialogo de guardado -->
-<dialog id="dlg"><div class="dlg">
-  <h2>Guardar tu vigilancia</h2>
-  <p id="dlgLead">Se guardará tu selección directamente. El vigilante la tendrá en cuenta en la próxima revisión.</p>
+<!-- Ficha de producto -->
+<dialog id="dlgP"><div class="dlg">
+  <div class="dhead"><img id="dImg" alt=""><div><h2 id="dTitle"></h2><div class="count" id="dMeta"></div></div></div>
+  <label class="chk"><input type="checkbox" id="soloStock"> Mostrar solo tiendas en stock</label>
+  <div id="offers"></div>
   <div class="row">
-    <button class="btn" id="doSave">💾 Guardar ahora</button>
-    <span class="count" id="savingHint"></span>
+    <button class="btn amber" id="dWatch"></button>
+    <span class="count" id="dMedia"></span>
+    <button class="btn ghost" id="dClose" style="margin-left:auto">Cerrar</button>
   </div>
-  <div class="msg" id="saveMsg"></div>
-  <details>
-    <summary>Prefiero copiar y pegar a mano (o estoy en el ordenador)</summary>
-    <textarea id="out" readonly></textarea>
-    <div class="row">
-      <button class="btn ghost" id="copy">Copiar</button>
-      <a class="gh" href="https://github.com/jarvis-BGR/vigilante-one-piece/edit/main/productos.json" target="_blank" rel="noopener">Abrir en GitHub ▸</a>
-    </div>
-  </details>
-  <div class="row"><button class="btn ghost" id="close">Cerrar</button></div>
 </div></dialog>
 
-<!-- Dialogo de clave de acceso -->
-<dialog id="dlgTok"><div class="dlg">
+<!-- Guardar -->
+<dialog id="dlgS"><div class="dlg">
+  <h2>Guardar tu vigilancia</h2>
+  <p class="sub" id="sLead"></p>
+  <div class="row"><button class="btn" id="doSave">💾 Guardar ahora</button><span class="count" id="sHint"></span></div>
+  <div class="msg" id="sMsg"></div>
+  <details><summary>Prefiero copiar y pegar (ordenador)</summary>
+    <textarea id="out" readonly></textarea>
+    <div class="row"><button class="btn ghost" id="copy">Copiar</button>
+      <a class="gh" href="https://github.com/jarvis-BGR/vigilante-one-piece/edit/main/productos.json" target="_blank" rel="noopener">Abrir en GitHub ▸</a></div>
+  </details>
+  <div class="row"><button class="btn ghost" id="sClose">Cerrar</button></div>
+</div></dialog>
+
+<!-- Clave de acceso -->
+<dialog id="dlgT"><div class="dlg">
   <h2>Activar el guardado automático</h2>
-  <p>Para guardar desde el móvil sin copiar nada, la app necesita una <b>clave de acceso</b> de GitHub. Se guarda <b>solo en este dispositivo</b> y solo puede editar los archivos de <b>este</b> repositorio (no toca tu Telegram ni nada más). Puedes anularla cuando quieras.</p>
-  <div class="steps">
-    <b>Cómo crearla (una sola vez):</b>
-    <ol>
-      <li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">esta página de GitHub</a> (estando con tu sesión iniciada).</li>
-      <li><b>Token name</b>: <i>selector one piece</i>. <b>Expiration</b>: 1 año.</li>
-      <li><b>Repository access</b> → <b>Only select repositories</b> → elige <b>vigilante-one-piece</b>.</li>
-      <li><b>Permissions</b> → <b>Repository permissions</b> → <b>Contents</b> → <b>Read and write</b> (lo demás déjalo en No access).</li>
-      <li>Abajo, <b>Generate token</b> y <b>copia</b> el código (empieza por <i>github_pat_</i>).</li>
-      <li>Pégalo aquí:</li>
-    </ol>
-  </div>
-  <input type="password" class="tok" id="tokInput" placeholder="github_pat_…" autocomplete="off">
-  <div class="msg" id="tokMsg"></div>
-  <div class="row">
-    <button class="btn" id="tokSave">Guardar clave en este dispositivo</button>
-    <button class="btn ghost" id="tokDel">Borrar clave</button>
-    <button class="btn ghost" id="tokClose">Cancelar</button>
-  </div>
+  <p class="sub">Para guardar desde el móvil sin copiar nada, la app necesita una <b>clave de acceso</b> de GitHub. Se guarda <b>solo en este dispositivo</b> y solo edita este repositorio (no toca tu Telegram).</p>
+  <div class="steps"><b>Crearla (una vez):</b>
+    <ol><li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">esta página</a> (con tu sesión iniciada).</li>
+    <li><b>Token name</b>: selector one piece · <b>Expiration</b>: 1 año.</li>
+    <li><b>Repository access</b> → <b>Only select repositories</b> → <b>vigilante-one-piece</b>.</li>
+    <li><b>Permissions</b> → <b>Contents</b> → <b>Read and write</b>.</li>
+    <li><b>Generate token</b>, copia (github_pat_…) y pégalo aquí:</li></ol></div>
+  <input type="password" id="tokInput" placeholder="github_pat_…" autocomplete="off">
+  <div class="msg" id="tMsg"></div>
+  <div class="row"><button class="btn" id="tSave">Guardar clave</button>
+    <button class="btn ghost" id="tDel">Borrar clave</button>
+    <button class="btn ghost" id="tClose">Cancelar</button></div>
 </div></dialog>
 
 <script>
-const OWNER="jarvis-BGR", REPO="vigilante-one-piece", FILE="productos.json";
+const OWNER="jarvis-BGR", REPO="vigilante-one-piece";
+const RAW=p=>`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${p}?t=`+Date.now();
 const LS="opv_gh_token";
-function getTok(){ try{return localStorage.getItem(LS)||""}catch(e){return ""} }
-function setTok(t){ try{ t?localStorage.setItem(LS,t):localStorage.removeItem(LS) }catch(e){} }
+function getTok(){try{return localStorage.getItem(LS)||""}catch(e){return""}}
+function setTok(t){try{t?localStorage.setItem(LS,t):localStorage.removeItem(LS)}catch(e){}}
 
-const CATALOGO = [
-  {ean:"810199501963", set:"OP-17", tipo:"Sobre", idioma:"Inglés", nombre:"OP17 The World's Strongest Warriors", precio:"7.59", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101995/810199501963.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-booster-op17-the-world-s-strongest-warriors-ingles_600648"},
-  {ean:"810158838437", set:"OP-15", tipo:"Sobre", idioma:"Inglés", nombre:"OP15 EB-04 Adventure on Kami's Island", precio:"6.64", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158838437.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-booster-op15-eb-04-ingles_599199"},
-  {ean:"810158836389", set:"OP-14", tipo:"Sobre", idioma:"Inglés", nombre:"OP14-EB04 The Azure Sea's Seven", precio:"6.64", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158836389.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-booster-op14-eb04-the-azure-sea-s-seven-ingles_590348"},
-  {ean:"810158833517", set:"OP-13", tipo:"Sobre", idioma:"Inglés", nombre:"OP13", precio:"6.60", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158833517.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-booster-op13-ingles_589136"},
-  {ean:"810158830936", set:"OP-12", tipo:"Sobre", idioma:"Inglés", nombre:"OP12 Legacy of the Master", precio:"5.65", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158830936.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-booster-op12-ingles_585998"},
-  {ean:"810199502786", set:"EB-05", tipo:"Sobre", idioma:"Inglés", nombre:"Extra Booster EB05", precio:"6.64", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101995/810199502786.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-extra-booster-eb05-ingles_604407"},
-  {ean:"810059787124", set:"ST-16", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST16 Uta (Verde)", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8100597/810059787124.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st16-uta-verde-ingles_574611"},
-  {ean:"810059787155", set:"ST-17", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST17 Doflamingo (Azul)", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8100597/810059787155.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st17-doflamingo-azul-ingles_574612"},
-  {ean:"810059787186", set:"ST-18", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST18 Luffy (Morado)", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8100597/810059787186.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st18-luffy-morado-ingles_574613"},
-  {ean:"810059787247", set:"ST-20", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST20 Katakuri (Amarillo)", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8100597/810059787247.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st20-katakuri-amarillo-ingles_574615"},
-  {ean:"810158832367", set:"ST-23", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST23 Red Shanks", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158832367.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st23-ingles_583970"},
-  {ean:"810158832428", set:"ST-25", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST25", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158832428.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st25-ingles_583972"},
-  {ean:"810158832459", set:"ST-26", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST26", precio:"16.63", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158832459.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st26-ingles_583973"},
-  {ean:"810158839977", set:"ST-30", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST30", precio:"20.89", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101588/810158839977.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st30-ingles_599206"},
-  {ean:"810059786073", set:"DP-05", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set Vol.5 DP05", precio:"11.35", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8100597/810059786073.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-doble-pack-set-vol-5-dp05-ingles_572437"},
-  {ean:"1015883643", set:"DP-09", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set DP09", precio:"12.30", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/1015883/1015883643.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp09-ingles_590349"},
-  {ean:"810199503851", set:"DP-13", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set DP13", precio:"14.24", moneda:"EUR", avail:"out of stock",
-   img:"https://comicstores.es/imagenes/8101995/810199503851.webp",
-   url:"https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp13-ingles_604943"},
-  {ean:"810199501970", set:"OP-17", tipo:"Caja", idioma:"Inglés", tienda:"Area151", nombre:"OP17 The World's Strongest Warriors — Booster Box (24 sobres)", precio:"129.95", moneda:"EUR", avail:"preorder",
-   img:"https://area151.es/cdn/shop/files/op17.webp?v=1777029292",
-   url:"https://area151.es/products/booster-box-display-op-17-24-sobres-ingles-one-piece-card-game"},
+const FALLBACK_CAT = /*__FALLBACK__*/ [
+  {
+    "prod": "OP-17-sobre",
+    "set": "OP-17",
+    "tipo": "Sobre",
+    "idioma": "Inglés",
+    "nombre": "OP17 The World's Strongest Warriors",
+    "img": "https://comicstores.es/imagenes/8101995/810199501963.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810199501963",
+        "url": "https://comicstores.es/producto/one-piece-card-game-booster-op17-the-world-s-strongest-warriors-ingles_600648"
+      }
+    ]
+  },
+  {
+    "prod": "OP-15-sobre",
+    "set": "OP-15",
+    "tipo": "Sobre",
+    "idioma": "Inglés",
+    "nombre": "OP15 EB-04 Adventure on Kami's Island",
+    "img": "https://comicstores.es/imagenes/8101588/810158838437.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158838437",
+        "url": "https://comicstores.es/producto/one-piece-card-game-booster-op15-eb-04-ingles_599199"
+      }
+    ]
+  },
+  {
+    "prod": "OP-14-sobre",
+    "set": "OP-14",
+    "tipo": "Sobre",
+    "idioma": "Inglés",
+    "nombre": "OP14-EB04 The Azure Sea's Seven",
+    "img": "https://comicstores.es/imagenes/8101588/810158836389.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158836389",
+        "url": "https://comicstores.es/producto/one-piece-card-game-booster-op14-eb04-the-azure-sea-s-seven-ingles_590348"
+      }
+    ]
+  },
+  {
+    "prod": "OP-13-sobre",
+    "set": "OP-13",
+    "tipo": "Sobre",
+    "idioma": "Inglés",
+    "nombre": "OP13",
+    "img": "https://comicstores.es/imagenes/8101588/810158833517.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158833517",
+        "url": "https://comicstores.es/producto/one-piece-card-game-booster-op13-ingles_589136"
+      }
+    ]
+  },
+  {
+    "prod": "OP-12-sobre",
+    "set": "OP-12",
+    "tipo": "Sobre",
+    "idioma": "Inglés",
+    "nombre": "OP12 Legacy of the Master",
+    "img": "https://comicstores.es/imagenes/8101588/810158830936.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158830936",
+        "url": "https://comicstores.es/producto/one-piece-card-game-booster-op12-ingles_585998"
+      }
+    ]
+  },
+  {
+    "prod": "EB-05-sobre",
+    "set": "EB-05",
+    "tipo": "Sobre",
+    "idioma": "Inglés",
+    "nombre": "Extra Booster EB05",
+    "img": "https://comicstores.es/imagenes/8101995/810199502786.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810199502786",
+        "url": "https://comicstores.es/producto/one-piece-card-game-extra-booster-eb05-ingles_604407"
+      }
+    ]
+  },
+  {
+    "prod": "ST-16",
+    "set": "ST-16",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST16 Uta (Verde)",
+    "img": "https://comicstores.es/imagenes/8100597/810059787124.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810059787124",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st16-uta-verde-ingles_574611"
+      }
+    ]
+  },
+  {
+    "prod": "ST-17",
+    "set": "ST-17",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST17 Doflamingo (Azul)",
+    "img": "https://comicstores.es/imagenes/8100597/810059787155.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810059787155",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st17-doflamingo-azul-ingles_574612"
+      }
+    ]
+  },
+  {
+    "prod": "ST-18",
+    "set": "ST-18",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST18 Luffy (Morado)",
+    "img": "https://comicstores.es/imagenes/8100597/810059787186.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810059787186",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st18-luffy-morado-ingles_574613"
+      }
+    ]
+  },
+  {
+    "prod": "ST-20",
+    "set": "ST-20",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST20 Katakuri (Amarillo)",
+    "img": "https://comicstores.es/imagenes/8100597/810059787247.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810059787247",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st20-katakuri-amarillo-ingles_574615"
+      }
+    ]
+  },
+  {
+    "prod": "ST-23",
+    "set": "ST-23",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST23 Red Shanks",
+    "img": "https://comicstores.es/imagenes/8101588/810158832367.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158832367",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st23-ingles_583970"
+      }
+    ]
+  },
+  {
+    "prod": "ST-25",
+    "set": "ST-25",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST25",
+    "img": "https://comicstores.es/imagenes/8101588/810158832428.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158832428",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st25-ingles_583972"
+      }
+    ]
+  },
+  {
+    "prod": "ST-26",
+    "set": "ST-26",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST26",
+    "img": "https://comicstores.es/imagenes/8101588/810158832459.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158832459",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st26-ingles_583973"
+      }
+    ]
+  },
+  {
+    "prod": "ST-30",
+    "set": "ST-30",
+    "tipo": "Mazo ST",
+    "idioma": "Inglés",
+    "nombre": "Starter Deck ST30",
+    "img": "https://comicstores.es/imagenes/8101588/810158839977.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810158839977",
+        "url": "https://comicstores.es/producto/one-piece-card-game-starter-deck-st30-ingles_599206"
+      }
+    ]
+  },
+  {
+    "prod": "DP-05",
+    "set": "DP-05",
+    "tipo": "Double Pack",
+    "idioma": "Inglés",
+    "nombre": "Double Pack Set Vol.5 DP05",
+    "img": "https://comicstores.es/imagenes/8100597/810059786073.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810059786073",
+        "url": "https://comicstores.es/producto/one-piece-card-game-doble-pack-set-vol-5-dp05-ingles_572437"
+      }
+    ]
+  },
+  {
+    "prod": "DP-09",
+    "set": "DP-09",
+    "tipo": "Double Pack",
+    "idioma": "Inglés",
+    "nombre": "Double Pack Set DP09",
+    "img": "https://comicstores.es/imagenes/1015883/1015883643.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "1015883643",
+        "url": "https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp09-ingles_590349"
+      }
+    ]
+  },
+  {
+    "prod": "DP-13",
+    "set": "DP-13",
+    "tipo": "Double Pack",
+    "idioma": "Inglés",
+    "nombre": "Double Pack Set DP13",
+    "img": "https://comicstores.es/imagenes/8101995/810199503851.webp",
+    "tiendas": [
+      {
+        "tienda": "Comic Stores",
+        "ean": "810199503851",
+        "url": "https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp13-ingles_604943"
+      }
+    ]
+  },
+  {
+    "prod": "OP-17-caja",
+    "set": "OP-17",
+    "tipo": "Caja",
+    "idioma": "Inglés",
+    "nombre": "OP17 The World's Strongest Warriors — Booster Box (24 sobres)",
+    "img": "https://area151.es/cdn/shop/files/op17.webp?v=1777029292",
+    "tiendas": [
+      {
+        "tienda": "Area151",
+        "ean": "810199501970",
+        "url": "https://area151.es/products/booster-box-display-op-17-24-sobres-ingles-one-piece-card-game"
+      }
+    ]
+  }
 ];
-
-const AVAIL={"in stock":["#1f9d55","Disponible"],"out of stock":["#c8102e","Agotado"],
-  "available for order":["#e0a021","Preventa"],"preorder":["#e0a021","Preventa"]};
+let CAT = FALLBACK_CAT.slice();
+let DATOS = {items:{}};
 const sel = new Set();
-const kel = p => (p.tienda||"Comic Stores")+"|"+p.ean;   // clave única por tienda+producto
-const q=document.getElementById('q'), grid=document.getElementById('grid');
+let prodActual = null;
 
-function precioTxt(p,m){ if(!p) return ""; const s=Number(p).toFixed(2).replace('.',',');
-  return s+" "+({EUR:"€",USD:"$",GBP:"£"}[m]||m||""); }
+const EST={DISPONIBLE:["#1f9d55","🟢","En stock"],PREVENTA:["#e0a021","🟡","Preventa"],
+  AGOTADO:["#c8102e","🔴","Agotado"],"—":["#9a938a","⚪","Sin datos"]};
+const $=id=>document.getElementById(id);
+const eur=n=>n==null||isNaN(n)?"":Number(n).toFixed(2).replace(".",",")+" €";
+
+function live(prod,tienda){return (DATOS.items||{})[prod+"|"+tienda]||null;}
+function ofertas(p){return (p.tiendas||[]).map(t=>{const d=live(p.prod,t.tienda)||{};
+  return {tienda:t.tienda,url:d.url||t.url,estado:d.estado||"—",
+          precio:(d.precio!=null&&d.precio!=="")?parseFloat(d.precio):null,fecha:d.fecha||""};});}
+const rank=e=>e==="DISPONIBLE"?0:e==="PREVENTA"?1:e==="AGOTADO"?2:3;
+function ordena(o){return o.slice().sort((a,b)=>rank(a.estado)-rank(b.estado)||((a.precio??1e12)-(b.precio??1e12)));}
+function mejor(o){
+  const d=o.filter(x=>x.estado==="DISPONIBLE"&&x.precio!=null).sort((a,b)=>a.precio-b.precio);
+  if(d.length) return {...d[0],clase:"DISPONIBLE"};
+  const pr=o.filter(x=>x.estado==="PREVENTA").sort((a,b)=>(a.precio??1e12)-(b.precio??1e12));
+  if(pr.length) return {...pr[0],clase:"PREVENTA"};
+  const ag=o.filter(x=>x.estado==="AGOTADO"); if(ag.length) return {...ag[0],clase:"AGOTADO"};
+  return null;
+}
+function media(o){const ps=o.map(x=>x.precio).filter(x=>x!=null&&!isNaN(x));
+  return ps.length?ps.reduce((a,b)=>a+b,0)/ps.length:null;}
 
 function poblarFiltros(){
-  const sets=[...new Set(CATALOGO.map(p=>p.set))];
-  const tipos=[...new Set(CATALOGO.map(p=>p.tipo))];
-  const fSet=document.getElementById('fSet'), fTipo=document.getElementById('fTipo');
-  sets.forEach(s=>fSet.insertAdjacentHTML('beforeend',`<option value="${s}">${s}</option>`));
-  tipos.forEach(t=>fTipo.insertAdjacentHTML('beforeend',`<option value="${t}">${t}</option>`));
+  const fSet=$("fSet"),fTipo=$("fTipo");
+  fSet.length=1; fTipo.length=1;
+  [...new Set(CAT.map(p=>p.set))].forEach(s=>fSet.insertAdjacentHTML("beforeend",`<option>${s}</option>`));
+  [...new Set(CAT.map(p=>p.tipo))].forEach(t=>fTipo.insertAdjacentHTML("beforeend",`<option>${t}</option>`));
 }
 
 function render(){
-  const term=q.value.trim().toLowerCase();
-  const fs=document.getElementById('fSet').value, ft=document.getElementById('fTipo').value;
-  const items=CATALOGO.filter(p=>
-    (!term || (p.set+" "+p.nombre+" "+p.ean+" "+p.tipo).toLowerCase().includes(term)) &&
-    (!fs||p.set===fs) && (!ft||p.tipo===ft));
-  grid.innerHTML="";
+  const term=$("q").value.trim().toLowerCase(), fs=$("fSet").value, ft=$("fTipo").value;
+  const items=CAT.filter(p=>{
+    const eans=(p.tiendas||[]).map(t=>t.ean).join(" ");
+    return (!term||(p.set+" "+p.nombre+" "+eans+" "+p.tipo).toLowerCase().includes(term))
+      &&(!fs||p.set===fs)&&(!ft||p.tipo===ft);});
+  const g=$("grid"); g.innerHTML="";
   items.forEach(p=>{
-    const [col,lab]=AVAIL[p.avail]||["#6b655c","—"];
-    const card=document.createElement('div');
-    const k=kel(p);
-    card.className='card'+(sel.has(k)?' sel':'');
-    card.innerHTML=`
-      <div class="thumb">
-        <img src="${p.img}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="ph" style="display:none">${p.set}<br>(sin foto)</div>
-        <div class="tick">${sel.has(k)?'✓':''}</div>
-      </div>
-      <div class="body">
-        <div class="set">${p.set} · ${p.tipo} · ${p.tienda||"Comic Stores"}</div>
-        <div class="name">${p.nombre}</div>
-        <div class="meta"><span><span class="dot" style="background:${col}"></span>${lab}</span>
-          <span class="price">${precioTxt(p.precio,p.moneda)}</span></div>
-      </div>`;
-    card.onclick=()=>{ sel.has(k)?sel.delete(k):sel.add(k); render(); updateTray(); };
-    grid.appendChild(card);
+    const offs=ofertas(p), b=mejor(offs), md=media(offs);
+    let bestHtml;
+    if(b){const[c,em,lab]=EST[b.clase];
+      bestHtml=`<div class="best"><span class="dot" style="background:${c}"></span>${lab}: ${b.tienda} ${b.precio!=null?"· "+eur(b.precio):""}`
+        +(md!=null?`<small>Media: ${eur(md)}</small>`:"")+`</div>`;
+    } else bestHtml=`<div class="best" style="color:var(--muted);font-weight:500">Sin datos aún<small>se actualiza a diario</small></div>`;
+    const card=document.createElement("div");
+    card.className="card"+(sel.has(p.prod)?" watch":"");
+    card.innerHTML=(sel.has(p.prod)?'<div class="star">Vigilando</div>':'')+`
+      <div class="thumb"><img src="${p.img}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="ph" style="display:none">${p.set}<br>(sin foto)</div></div>
+      <div class="body"><div class="set">${p.set} · ${p.tipo}</div>
+        <div class="name">${p.nombre}</div>${bestHtml}</div>`;
+    card.onclick=()=>abrirDetalle(p);
+    g.appendChild(card);
   });
-  document.getElementById('empty').hidden=items.length>0;
-  document.getElementById('count').textContent=items.length+" de "+CATALOGO.length+" productos";
+  $("empty").hidden=items.length>0;
+  $("count").textContent=items.length+" de "+CAT.length;
+}
+
+function abrirDetalle(p){
+  prodActual=p;
+  $("dImg").src=p.img; $("dTitle").textContent=p.nombre;
+  $("dMeta").textContent=p.set+" · "+p.tipo+" · "+(p.idioma||"Inglés");
+  pintarOfertas();
+  const md=media(ofertas(p)); $("dMedia").textContent=md!=null?("Precio medio: "+eur(md)):"";
+  pintarWatchBtn();
+  $("dlgP").showModal();
+}
+function pintarOfertas(){
+  const p=prodActual, solo=$("soloStock").checked;
+  let offs=ordena(ofertas(p)); if(solo) offs=offs.filter(o=>o.estado==="DISPONIBLE");
+  const cont=$("offers");
+  if(!offs.length){cont.innerHTML='<div class="offer" style="border:0;color:var(--muted)">Ninguna tienda en stock ahora mismo.</div>';return;}
+  cont.innerHTML=offs.map(o=>{const[c,em,lab]=EST[o.estado]||EST["—"];
+    return `<div class="offer${o.estado==="AGOTADO"||o.estado==="—"?" off":""}">
+      <span class="dot" style="background:${c}"></span>
+      <span class="tn">${o.tienda}<br><span class="count">${lab}${o.fecha?" · "+o.fecha:""}</span></span>
+      <span class="pr">${o.precio!=null?eur(o.precio):"—"}</span>
+      <span class="lk"><a href="${o.url}" target="_blank" rel="noopener">Ver ▸</a></span></div>`;}).join("");
+}
+function pintarWatchBtn(){
+  const on=sel.has(prodActual.prod);
+  const b=$("dWatch"); b.textContent=on?"✓ Vigilando (quitar)":"👁 Vigilar este producto";
+  b.className="btn "+(on?"ghost":"amber");
 }
 
 function updateTray(){
-  document.getElementById('selCount').textContent=sel.size+" producto"+(sel.size===1?"":"s");
-  document.getElementById('save').disabled=false; // permitir guardar incluso lista vacia (para dejar de vigilar todo)
+  $("selCount").textContent=sel.size+" vigilado"+(sel.size===1?"":"s");
+  $("save").disabled=false;
+  const ts=[...new Set(CAT.flatMap(p=>(p.tiendas||[]).map(t=>t.tienda)))];
+  $("stores").textContent="Tiendas: "+ts.join(", ");
 }
-
-function construirLista(){
-  return CATALOGO.filter(p=>sel.has(kel(p))).map(p=>({
-    id:kel(p),
-    nombre:"One Piece "+p.nombre+" ("+p.idioma+")",
-    tienda:(p.tienda||"Comic Stores"), ean:p.ean, url:p.url
-  }));
-}
-
 function pintarCfg(){
-  const c=document.getElementById('cfg');
-  if(getTok()) c.innerHTML='Guardado automático en este dispositivo: <b>activado</b> ✓ · <a id="cfgLink">cambiar/borrar clave</a>';
-  else c.innerHTML='Guardado automático: <b>no configurado en este dispositivo</b> · <a id="cfgLink">configurar</a>';
-  document.getElementById('cfgLink').onclick=abrirToken;
+  const c=$("cfg"); const upd=DATOS._actualizado?(" · datos del "+DATOS._actualizado):"";
+  const tk=getTok()?'Guardado automático: <b>activado</b> ✓ · <a id="cfgLink">cambiar/borrar</a>'
+                    :'Guardado automático: <b>no configurado</b> · <a id="cfgLink">configurar</a>';
+  c.innerHTML=tk+upd; if($("cfgLink")) $("cfgLink").onclick=abrirTok;
 }
 
-// ---- base64 UTF-8 ----
-function b64(str){ return btoa(unescape(encodeURIComponent(str))); }
-function ub64(str){ try{return decodeURIComponent(escape(atob(str)))}catch(e){return atob(str)} }
-
-async function ghGet(token){
-  const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=main&t=`+Date.now(),{
-    headers:Object.assign({'Accept':'application/vnd.github+json'}, token?{'Authorization':'token '+token}:{})});
-  if(!r.ok) throw new Error('GET '+r.status);
-  return r.json();
-}
-
+// ---- guardar ----
+function b64(s){return btoa(unescape(encodeURIComponent(s)));}
+async function ghGet(token){const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/productos.json?t=`+Date.now(),
+  {headers:Object.assign({'Accept':'application/vnd.github+json'},token?{'Authorization':'token '+token}:{})});
+  if(!r.ok) throw new Error('GET '+r.status); return r.json();}
 async function guardar(){
-  const token=getTok();
-  if(!token){ document.getElementById('dlg').close(); abrirToken(); return; }
-  const btn=document.getElementById('doSave'), msg=document.getElementById('saveMsg');
-  const old=btn.textContent; btn.disabled=true; btn.textContent='Guardando…'; msg.className='msg'; msg.textContent='';
+  const token=getTok(); if(!token){$("dlgS").close();abrirTok();return;}
+  const b=$("doSave"),msg=$("sMsg");const old=b.textContent;b.disabled=true;b.textContent="Guardando…";msg.className="msg";msg.textContent="";
   try{
-    let sha; try{ sha=(await ghGet(token)).sha; }catch(e){ sha=undefined; }
-    const body={message:'Actualizar vigilancia desde el selector',
-      content:b64(JSON.stringify(construirLista(),null,2)), branch:'main'};
+    let sha; try{sha=(await ghGet(token)).sha;}catch(e){sha=undefined;}
+    const body={message:"Actualizar vigilancia desde el selector",content:b64(JSON.stringify([...sel],null,2)),branch:"main"};
     if(sha) body.sha=sha;
-    const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`,{
-      method:'PUT', headers:{'Accept':'application/vnd.github+json','Authorization':'token '+token,'Content-Type':'application/json'},
-      body:JSON.stringify(body)});
-    if(!r.ok){ const t=await r.text(); throw new Error(r.status+' '+t.slice(0,160)); }
-    btn.textContent='¡Guardado! ✓';
-    msg.className='msg ok'; msg.textContent='Guardado. El vigilante lo tendrá en cuenta en la próxima revisión (máx. unas horas).';
-    setTimeout(()=>{btn.textContent=old;btn.disabled=false;},2500);
-  }catch(e){
-    btn.disabled=false; btn.textContent=old; msg.className='msg err';
-    const s=String(e);
-    if(s.includes('401')||s.includes('403')||s.includes('404'))
-      msg.textContent='La clave no vale o no tiene permiso sobre este repo. Revisa que sea "Contents: Read and write" sobre vigilante-one-piece.';
-    else msg.textContent='No se pudo guardar: '+e.message;
-  }
+    const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/productos.json`,
+      {method:"PUT",headers:{'Accept':'application/vnd.github+json','Authorization':'token '+token,'Content-Type':'application/json'},body:JSON.stringify(body)});
+    if(!r.ok){const t=await r.text();throw new Error(r.status+" "+t.slice(0,140));}
+    b.textContent="¡Guardado! ✓";msg.className="msg ok";msg.textContent="Guardado. El vigilante lo tendrá en cuenta en la próxima revisión.";
+    setTimeout(()=>{b.textContent=old;b.disabled=false;},2500);
+  }catch(e){b.disabled=false;b.textContent=old;msg.className="msg err";
+    const s=String(e); msg.textContent=(s.includes('401')||s.includes('403')||s.includes('404'))
+      ?'La clave no vale o no tiene permiso (Contents: Read and write sobre este repo).':'No se pudo guardar: '+e.message;}
 }
-
 function abrirGuardar(){
-  document.getElementById('out').value=JSON.stringify(construirLista(),null,2);
-  document.getElementById('dlgLead').textContent = getTok()
-    ? 'Se guardará tu selección automáticamente en tu vigilante ('+sel.size+' producto'+(sel.size===1?'':'s')+').'
-    : 'Aún no has activado el guardado automático en este dispositivo. Al pulsar Guardar te ayudo a configurarlo (30 s, una sola vez).';
-  document.getElementById('saveMsg').textContent='';
-  document.getElementById('dlg').showModal();
+  $("out").value=JSON.stringify([...sel],null,2);
+  $("sLead").textContent=getTok()?("Se guardarán "+sel.size+" producto(s) vigilado(s).")
+    :"Aún no has activado el guardado automático en este dispositivo. Al pulsar Guardar te ayudo (30 s, una vez).";
+  $("sMsg").textContent=""; $("dlgS").showModal();
 }
-function abrirToken(){
-  document.getElementById('tokInput').value=getTok();
-  document.getElementById('tokMsg').textContent='';
-  document.getElementById('dlgTok').showModal();
-}
+function abrirTok(){$("tokInput").value=getTok();$("tMsg").textContent="";$("dlgT").showModal();}
 
-document.getElementById('save').onclick=abrirGuardar;
-document.getElementById('doSave').onclick=guardar;
-document.getElementById('clear').onclick=()=>{ sel.clear(); render(); updateTray(); };
-document.getElementById('close').onclick=()=>document.getElementById('dlg').close();
-document.getElementById('copy').onclick=()=>{ const t=document.getElementById('out'); t.select();
-  navigator.clipboard.writeText(t.value).then(()=>{ const b=document.getElementById('copy'); b.textContent='¡Copiado!'; setTimeout(()=>b.textContent='Copiar',1500); }); };
-document.getElementById('tokSave').onclick=()=>{
-  const v=document.getElementById('tokInput').value.trim();
-  if(!v){ document.getElementById('tokMsg').className='msg err'; document.getElementById('tokMsg').textContent='Pega la clave primero.'; return; }
-  setTok(v); pintarCfg();
-  document.getElementById('tokMsg').className='msg ok'; document.getElementById('tokMsg').textContent='Clave guardada en este dispositivo. Ya puedes guardar tu vigilancia.';
-  setTimeout(()=>document.getElementById('dlgTok').close(),900);
-};
-document.getElementById('tokDel').onclick=()=>{ setTok(''); pintarCfg();
-  document.getElementById('tokInput').value=''; document.getElementById('tokMsg').className='msg'; document.getElementById('tokMsg').textContent='Clave borrada de este dispositivo.'; };
-document.getElementById('tokClose').onclick=()=>document.getElementById('dlgTok').close();
-q.oninput=render;
-document.getElementById('fSet').onchange=render;
-document.getElementById('fTipo').onchange=render;
+// ---- eventos ----
+$("q").oninput=render; $("fSet").onchange=render; $("fTipo").onchange=render;
+$("soloStock").onchange=pintarOfertas;
+$("dWatch").onclick=()=>{const k=prodActual.prod; sel.has(k)?sel.delete(k):sel.add(k); pintarWatchBtn(); render(); updateTray();};
+$("dClose").onclick=()=>$("dlgP").close();
+$("clear").onclick=()=>{sel.clear();render();updateTray();};
+$("save").onclick=abrirGuardar;
+$("doSave").onclick=guardar;
+$("sClose").onclick=()=>$("dlgS").close();
+$("copy").onclick=()=>{const t=$("out");t.select();navigator.clipboard.writeText(t.value).then(()=>{const b=$("copy");b.textContent="¡Copiado!";setTimeout(()=>b.textContent="Copiar",1500);});};
+$("tSave").onclick=()=>{const v=$("tokInput").value.trim();if(!v){$("tMsg").className="msg err";$("tMsg").textContent="Pega la clave primero.";return;}
+  setTok(v);pintarCfg();$("tMsg").className="msg ok";$("tMsg").textContent="Clave guardada en este dispositivo.";setTimeout(()=>$("dlgT").close(),900);};
+$("tDel").onclick=()=>{setTok("");pintarCfg();$("tokInput").value="";$("tMsg").className="msg";$("tMsg").textContent="Clave borrada.";};
+$("tClose").onclick=()=>$("dlgT").close();
 
-poblarFiltros(); pintarCfg(); render(); updateTray();
-document.getElementById('seed').textContent=
-  "Catálogo: "+CATALOGO.length+" productos verificados de Comic Stores y Area151 (sobres, extra boosters, mazos ST, Double Packs y la primera caja/booster box). Se irán añadiendo más cajas y tiendas.";
-
-// Al abrir, marca lo que ya estás vigilando (lee productos.json del repo)
-(async()=>{ try{
-  const d=await ghGet(getTok());
-  const arr=JSON.parse(ub64(d.content));
-  arr.forEach(it=>{ sel.add(it.id || ((it.tienda||"Comic Stores")+"|"+it.ean)); });
-  render(); updateTray();
-}catch(e){ /* si no se puede leer, no pasa nada */ } })();
+// ---- arranque ----
+poblarFiltros(); render(); updateTray(); pintarCfg();
+$("seed").textContent="Catálogo cargado. Los precios y el stock se actualizan a diario; lo que vigilas, cada 3 horas.";
+(async()=>{
+  try{const c=await fetch(RAW("catalogo.json"));if(c.ok){const j=await c.json();if(Array.isArray(j)&&j.length)CAT=j;}}catch(e){}
+  try{const d=await fetch(RAW("datos.json"));if(d.ok)DATOS=await d.json();}catch(e){}
+  try{const w=await fetch(RAW("productos.json"));if(w.ok){const a=await w.json();
+    (Array.isArray(a)?a:[]).forEach(x=>sel.add(typeof x==="string"?x:(x.prod||"")));}}catch(e){}
+  poblarFiltros(); render(); updateTray(); pintarCfg();
+})();
 </script>
 </body>
 </html>
