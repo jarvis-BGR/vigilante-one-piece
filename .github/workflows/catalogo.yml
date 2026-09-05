@@ -1,8 +1,8 @@
-name: Vigilante One Piece (vigilados)
+name: Vigilante One Piece (catalogo diario)
 
 on:
   schedule:
-    - cron: "0 */3 * * *"    # cada 3 horas: lo que vigilas, con avisos
+    - cron: "0 6 * * *"     # una vez al dia (~08:00 Madrid): repasa TODO el catalogo, sin avisos
   workflow_dispatch: {}
 
 permissions:
@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  vigilar:
+  catalogo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,12 +20,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Ejecutar vigilante (modo vigilar)
+      - name: Ejecutar vigilante (modo catalogo)
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python monitor.py --modo vigilar
-      - name: Guardar estado y datos
+        run: python monitor.py --modo catalogo
+      - name: Guardar datos
         run: |
           git config user.name "vigilante-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -33,7 +33,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "Sin cambios."
           else
-            git commit -m "Actualizar estado/datos (vigilados)"
+            git commit -m "Actualizar datos (catalogo diario)"
             git pull --rebase --autostash origin main || true
             git push
           fi
