@@ -138,22 +138,57 @@
 <script>
 // ---- CATÁLOGO (muestra inicial real; se ampliará a OP-12..OP-18 + EB) ----
 const CATALOGO = [
-  {ean:"810199501963", set:"OP-17", nombre:"The World's Strongest Warriors — Sobre", tipo:"Sobre", idioma:"Inglés",
-   precio:"7.59", moneda:"EUR", avail:"out of stock",
+  {ean:"810199501963", set:"OP-17", tipo:"Sobre", idioma:"Inglés", nombre:"OP17 The World's Strongest Warriors", precio:"7.59", moneda:"EUR", avail:"out of stock",
    img:"https://comicstores.es/imagenes/8101995/810199501963.webp",
    url:"https://comicstores.es/producto/one-piece-card-game-booster-op17-the-world-s-strongest-warriors-ingles_600648"},
-  {ean:"810158838437", set:"OP-15 EB-04", nombre:"Adventure on Kami's Island — Sobre", tipo:"Sobre", idioma:"Inglés",
-   precio:"6.64", moneda:"EUR", avail:"out of stock",
+  {ean:"810158838437", set:"OP-15", tipo:"Sobre", idioma:"Inglés", nombre:"OP15 EB-04 Adventure on Kami's Island", precio:"6.64", moneda:"EUR", avail:"out of stock",
    img:"https://comicstores.es/imagenes/8101588/810158838437.webp",
    url:"https://comicstores.es/producto/one-piece-card-game-booster-op15-eb-04-ingles_599199"},
-  {ean:"810158833517", set:"OP-13", nombre:"OP-13 — Sobre", tipo:"Sobre", idioma:"Inglés",
-   precio:"6.60", moneda:"EUR", avail:"out of stock",
+  {ean:"810158836389", set:"OP-14", tipo:"Sobre", idioma:"Inglés", nombre:"OP14-EB04 The Azure Sea's Seven", precio:"6.64", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158836389.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-booster-op14-eb04-the-azure-sea-s-seven-ingles_590348"},
+  {ean:"810158833517", set:"OP-13", tipo:"Sobre", idioma:"Inglés", nombre:"OP13", precio:"6.60", moneda:"EUR", avail:"out of stock",
    img:"https://comicstores.es/imagenes/8101588/810158833517.webp",
    url:"https://comicstores.es/producto/one-piece-card-game-booster-op13-ingles_589136"},
-  {ean:"810158830936", set:"OP-12", nombre:"Legacy of the Master — Sobre", tipo:"Sobre", idioma:"Inglés",
-   precio:"5.65", moneda:"EUR", avail:"out of stock",
+  {ean:"810158830936", set:"OP-12", tipo:"Sobre", idioma:"Inglés", nombre:"OP12 Legacy of the Master", precio:"5.65", moneda:"EUR", avail:"out of stock",
    img:"https://comicstores.es/imagenes/8101588/810158830936.webp",
    url:"https://comicstores.es/producto/one-piece-card-game-booster-op12-ingles_585998"},
+  {ean:"810199502786", set:"EB-05", tipo:"Sobre", idioma:"Inglés", nombre:"Extra Booster EB05", precio:"6.64", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101995/810199502786.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-extra-booster-eb05-ingles_604407"},
+  {ean:"810059787124", set:"ST-16", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST16 Uta (Verde)", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8100597/810059787124.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st16-uta-verde-ingles_574611"},
+  {ean:"810059787155", set:"ST-17", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST17 Doflamingo (Azul)", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8100597/810059787155.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st17-doflamingo-azul-ingles_574612"},
+  {ean:"810059787186", set:"ST-18", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST18 Luffy (Morado)", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8100597/810059787186.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st18-luffy-morado-ingles_574613"},
+  {ean:"810059787247", set:"ST-20", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST20 Katakuri (Amarillo)", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8100597/810059787247.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st20-katakuri-amarillo-ingles_574615"},
+  {ean:"810158832367", set:"ST-23", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST23 Red Shanks", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158832367.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st23-ingles_583970"},
+  {ean:"810158832428", set:"ST-25", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST25", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158832428.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st25-ingles_583972"},
+  {ean:"810158832459", set:"ST-26", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST26", precio:"16.63", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158832459.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st26-ingles_583973"},
+  {ean:"810158839977", set:"ST-30", tipo:"Mazo ST", idioma:"Inglés", nombre:"Starter Deck ST30", precio:"20.89", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158839977.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-starter-deck-st30-ingles_599206"},
+  {ean:"810059786073", set:"DP-05", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set Vol.5 DP05", precio:"11.35", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8100597/810059786073.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-doble-pack-set-vol-5-dp05-ingles_572437"},
+  {ean:"1015883643", set:"DP-09", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set DP09", precio:"12.30", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/1015883/1015883643.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp09-ingles_590349"},
+  {ean:"810199503851", set:"DP-13", tipo:"Double Pack", idioma:"Inglés", nombre:"Double Pack Set DP13", precio:"14.24", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101995/810199503851.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-double-pack-set-dp13-ingles_604943"},
 ];
 
 const AVAIL = {"in stock":["#1f9d55","Disponible"],"out of stock":["#c8102e","Agotado"],
@@ -216,7 +251,7 @@ function updateTray(){
 function generar(){
   const lista = CATALOGO.filter(p=>sel.has(p.ean)).map(p=>({
     id:"comicstores|"+p.ean,
-    nombre:"One Piece "+p.set+" — "+p.nombre.replace(/ — Sobre$/,'')+" ("+p.idioma+")",
+    nombre:"One Piece "+p.nombre+" ("+p.idioma+")",
     tienda:"Comic Stores",
     ean:p.ean,
     url:p.url
@@ -239,7 +274,7 @@ document.getElementById('fSet').onchange = render;
 document.getElementById('fTipo').onchange = render;
 poblarFiltros();
 document.getElementById('seed').textContent =
-  "Muestra inicial: "+CATALOGO.length+" productos reales de Comic Stores. Cuando confirmes que te gusta, cargo aquí todo el catálogo OP-12 a OP-18 + EB (cajas, sobres, Double Packs y mazos ST).";
+  "Catálogo Comic Stores: "+CATALOGO.length+" productos verificados (sobres, extra boosters, mazos ST y Double Packs). Las cajas/booster box y sets como OP-16 y OP-18 se añadirán al incorporar más tiendas que los vendan.";
 render(); updateTray();
 </script>
 </body>
