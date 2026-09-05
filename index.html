@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Selector One Piece</title>
+<style>
+  :root{
+    --bg:#f6f5f2; --card:#ffffff; --ink:#1c1a17; --muted:#6b655c;
+    --line:#e7e3db; --accent:#c8102e; --accent2:#e0a021; --ok:#1f9d55;
+    --shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#15140f;--card:#201e18;--ink:#f2efe8;--muted:#a49d90;
+    --line:#332f27;--shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.5);}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{padding:26px 20px 10px;max-width:1100px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 4px;letter-spacing:-.2px}
+  h1 span{color:var(--accent)}
+  .sub{color:var(--muted);margin:0}
+  .bar{position:sticky;top:0;z-index:5;background:var(--bg);
+    border-bottom:1px solid var(--line);padding:12px 20px}
+  .bar .wrap{max-width:1100px;margin:0 auto;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  input[type=search]{flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--line);
+    border-radius:10px;background:var(--card);color:var(--ink);font-size:15px;outline:none}
+  input[type=search]:focus{border-color:var(--accent2)}
+  select{padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);
+    color:var(--ink);font-size:14px;outline:none;cursor:pointer;max-width:48%}
+  select:focus{border-color:var(--accent2)}
+  .count{color:var(--muted);font-size:13px;white-space:nowrap}
+  main{max-width:1100px;margin:0 auto;padding:16px 20px 40px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;
+    transition:transform .12s ease,border-color .12s ease}
+  .card:hover{transform:translateY(-2px)}
+  .card.sel{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset,var(--shadow)}
+  .thumb{aspect-ratio:1/1;background:#f0ece3 center/contain no-repeat;display:flex;
+    align-items:center;justify-content:center;position:relative}
+  @media (prefers-color-scheme:dark){.thumb{background:#2a271f}}
+  .thumb img{width:100%;height:100%;object-fit:contain}
+  .ph{color:var(--muted);font-weight:600;font-size:13px;text-align:center;padding:8px}
+  .tick{position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:50%;
+    background:rgba(255,255,255,.85);border:1px solid var(--line);display:flex;
+    align-items:center;justify-content:center;font-size:15px;color:var(--muted)}
+  .card.sel .tick{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;flex:1}
+  .set{font-size:11px;font-weight:700;color:var(--accent2);letter-spacing:.4px}
+  .name{font-size:13px;font-weight:600;line-height:1.3}
+  .meta{margin-top:auto;display:flex;justify-content:space-between;align-items:center;
+    color:var(--muted);font-size:12px;padding-top:6px}
+  .price{font-weight:700;color:var(--ink)}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+  .empty{color:var(--muted);text-align:center;padding:40px}
+  /* barra inferior de seleccion */
+  .tray{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);
+    box-shadow:0 -6px 20px rgba(0,0,0,.06);padding:12px 20px}
+  .tray .wrap{max-width:1100px;margin:0 auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  .tray b{font-size:14px}
+  .btn{border:0;border-radius:10px;padding:11px 16px;font-size:14px;font-weight:600;
+    cursor:pointer;background:var(--accent);color:#fff}
+  .btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  dialog{border:0;border-radius:16px;max-width:640px;width:92%;padding:0;box-shadow:var(--shadow);
+    background:var(--card);color:var(--ink)}
+  dialog::backdrop{background:rgba(0,0,0,.45)}
+  .dlg{padding:20px}
+  .dlg h2{margin:0 0 6px;font-size:18px}
+  .dlg p{color:var(--muted);margin:0 0 12px}
+  textarea{width:100%;height:180px;border:1px solid var(--line);border-radius:10px;
+    background:var(--bg);color:var(--ink);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:12px;padding:10px;resize:vertical}
+  .steps{font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);
+    border-radius:10px;padding:12px 14px;margin:12px 0}
+  .steps ol{margin:6px 0 0;padding-left:20px}
+  .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  a.gh{display:inline-block;background:#24292f;color:#fff;text-decoration:none;
+    padding:11px 16px;border-radius:10px;font-weight:600;font-size:14px}
+  .note{font-size:12px;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Selector <span>One Piece</span></h1>
+  <p class="sub">Elige los productos que quieres vigilar. El vigilante (en el servidor) revisará las tiendas cada pocas horas y te avisará por Telegram solo cuando haya un cambio.</p>
+</header>
+
+<div class="bar"><div class="wrap">
+  <input id="q" type="search" placeholder="Busca por nombre o EAN…  (ej: booster, Kami)">
+  <select id="fSet"><option value="">Todas las ediciones</option></select>
+  <select id="fTipo"><option value="">Todos los tipos</option></select>
+  <span class="count" id="count"></span>
+</div></div>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No hay productos que coincidan con tu búsqueda.</div>
+  <p class="note" id="seed"></p>
+</main>
+
+<div class="tray"><div class="wrap">
+  <b id="selCount">0 productos seleccionados</b>
+  <span class="count">Tienda activa: Comic Stores · (Zacatrus, Turol, OzJuegos, Punt de Partida: próximamente)</span>
+  <span style="flex:1"></span>
+  <button class="btn ghost" id="clear">Vaciar</button>
+  <button class="btn" id="gen" disabled>Generar mi lista de vigilancia ▸</button>
+</div></div>
+
+<dialog id="dlg"><div class="dlg">
+  <h2>Tu lista de vigilancia</h2>
+  <p>Esto es el contenido del archivo <b>productos.json</b>. Cópialo y pégalo en GitHub para que el vigilante empiece a vigilar lo que has elegido.</p>
+  <textarea id="out" readonly></textarea>
+  <div class="row">
+    <button class="btn" id="copy">Copiar</button>
+    <a class="gh" href="https://github.com/jarvis-BGR/vigilante-one-piece/edit/main/productos.json" target="_blank" rel="noopener">Abrir productos.json en GitHub ▸</a>
+  </div>
+  <div class="steps">
+    <b>Cómo activarlo (30 segundos):</b>
+    <ol>
+      <li>Pulsa <b>Copiar</b>.</li>
+      <li>Pulsa <b>Abrir productos.json en GitHub</b>.</li>
+      <li>Borra todo lo que haya en el recuadro y <b>pega</b> lo copiado.</li>
+      <li>Abajo, <b>Commit changes</b> → <b>Commit changes</b>. ¡Listo!</li>
+    </ol>
+  </div>
+  <div class="row"><button class="btn ghost" id="close">Cerrar</button></div>
+  <p class="note">Nota: cada producto trae ya su enlace directo de Comic Stores. La foto se carga desde Comic Stores al abrir esta página en tu navegador.</p>
+</div></dialog>
+
+<script>
+// ---- CATÁLOGO (muestra inicial real; se ampliará a OP-12..OP-18 + EB) ----
+const CATALOGO = [
+  {ean:"810199501963", set:"OP-17", nombre:"The World's Strongest Warriors — Sobre", tipo:"Sobre", idioma:"Inglés",
+   precio:"7.59", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101995/810199501963.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-booster-op17-the-world-s-strongest-warriors-ingles_600648"},
+  {ean:"810158838437", set:"OP-15 EB-04", nombre:"Adventure on Kami's Island — Sobre", tipo:"Sobre", idioma:"Inglés",
+   precio:"6.64", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158838437.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-booster-op15-eb-04-ingles_599199"},
+  {ean:"810158833517", set:"OP-13", nombre:"OP-13 — Sobre", tipo:"Sobre", idioma:"Inglés",
+   precio:"6.60", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158833517.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-booster-op13-ingles_589136"},
+  {ean:"810158830936", set:"OP-12", nombre:"Legacy of the Master — Sobre", tipo:"Sobre", idioma:"Inglés",
+   precio:"5.65", moneda:"EUR", avail:"out of stock",
+   img:"https://comicstores.es/imagenes/8101588/810158830936.webp",
+   url:"https://comicstores.es/producto/one-piece-card-game-booster-op12-ingles_585998"},
+];
+
+const AVAIL = {"in stock":["#1f9d55","Disponible"],"out of stock":["#c8102e","Agotado"],
+  "available for order":["#e0a021","Preventa"],"preorder":["#e0a021","Preventa"]};
+
+const sel = new Set();
+const grid = document.getElementById('grid');
+const q = document.getElementById('q');
+
+function precioTxt(p,m){ if(!p) return ""; const s=Number(p).toFixed(2).replace('.',',');
+  const sim={EUR:"€",USD:"$",GBP:"£"}[m]||m||""; return s+" "+sim; }
+
+function poblarFiltros(){
+  const sets=[...new Set(CATALOGO.map(p=>p.set))];
+  const tipos=[...new Set(CATALOGO.map(p=>p.tipo))].sort();
+  const fSet=document.getElementById('fSet'), fTipo=document.getElementById('fTipo');
+  sets.forEach(s=>fSet.insertAdjacentHTML('beforeend',`<option value="${s}">${s}</option>`));
+  tipos.forEach(t=>fTipo.insertAdjacentHTML('beforeend',`<option value="${t}">${t}</option>`));
+}
+
+function render(){
+  const term = q.value.trim().toLowerCase();
+  const fs = document.getElementById('fSet').value;
+  const ft = document.getElementById('fTipo').value;
+  const items = CATALOGO.filter(p =>
+    (!term || (p.set+" "+p.nombre+" "+p.ean+" "+p.tipo).toLowerCase().includes(term)) &&
+    (!fs || p.set===fs) && (!ft || p.tipo===ft));
+  grid.innerHTML = "";
+  items.forEach(p=>{
+    const [col,lab] = AVAIL[p.avail]||["#6b655c","—"];
+    const card = document.createElement('div');
+    card.className = 'card'+(sel.has(p.ean)?' sel':'');
+    card.innerHTML = `
+      <div class="thumb">
+        <img src="${p.img}" alt="" loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="ph" style="display:none">${p.set}<br>(sin foto)</div>
+        <div class="tick">${sel.has(p.ean)?'✓':''}</div>
+      </div>
+      <div class="body">
+        <div class="set">${p.set} · ${p.tipo} · ${p.idioma}</div>
+        <div class="name">${p.nombre}</div>
+        <div class="meta">
+          <span><span class="dot" style="background:${col}"></span>${lab}</span>
+          <span class="price">${precioTxt(p.precio,p.moneda)}</span>
+        </div>
+      </div>`;
+    card.onclick = ()=>{ sel.has(p.ean)?sel.delete(p.ean):sel.add(p.ean); render(); updateTray(); };
+    grid.appendChild(card);
+  });
+  document.getElementById('empty').hidden = items.length>0;
+  document.getElementById('count').textContent = items.length+" de "+CATALOGO.length+" productos";
+}
+
+function updateTray(){
+  document.getElementById('selCount').textContent = sel.size+" producto"+(sel.size===1?"":"s")+" seleccionado"+(sel.size===1?"":"s");
+  document.getElementById('gen').disabled = sel.size===0;
+}
+
+function generar(){
+  const lista = CATALOGO.filter(p=>sel.has(p.ean)).map(p=>({
+    id:"comicstores|"+p.ean,
+    nombre:"One Piece "+p.set+" — "+p.nombre.replace(/ — Sobre$/,'')+" ("+p.idioma+")",
+    tienda:"Comic Stores",
+    ean:p.ean,
+    url:p.url
+  }));
+  document.getElementById('out').value = JSON.stringify(lista,null,2);
+  document.getElementById('dlg').showModal();
+}
+
+document.getElementById('gen').onclick = generar;
+document.getElementById('clear').onclick = ()=>{ sel.clear(); render(); updateTray(); };
+document.getElementById('close').onclick = ()=>document.getElementById('dlg').close();
+document.getElementById('copy').onclick = ()=>{
+  const t=document.getElementById('out'); t.select();
+  navigator.clipboard.writeText(t.value).then(()=>{
+    const b=document.getElementById('copy'); b.textContent="¡Copiado!"; setTimeout(()=>b.textContent="Copiar",1500);
+  });
+};
+q.oninput = render;
+document.getElementById('fSet').onchange = render;
+document.getElementById('fTipo').onchange = render;
+poblarFiltros();
+document.getElementById('seed').textContent =
+  "Muestra inicial: "+CATALOGO.length+" productos reales de Comic Stores. Cuando confirmes que te gusta, cargo aquí todo el catálogo OP-12 a OP-18 + EB (cajas, sobres, Double Packs y mazos ST).";
+render(); updateTray();
+</script>
+</body>
+</html>
