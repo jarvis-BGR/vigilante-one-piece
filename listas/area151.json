@@ -1,6 +1,6 @@
 {
   "tienda": "Area151",
-  "actualizado": "2026-09-06 16:16 UTC",
+  "actualizado": "2026-09-06 17:08 UTC",
   "items": {
     "booster-box-display-op-17-24-sobres-ingles-one-piece-card-game|Inglés": {
       "handle": "booster-box-display-op-17-24-sobres-ingles-one-piece-card-game",
@@ -9,7 +9,8 @@
       "idioma": "Inglés",
       "estado": "AGOTADO",
       "precio": "129.95",
-      "url": "https://area151.es/products/booster-box-display-op-17-24-sobres-ingles-one-piece-card-game"
+      "url": "https://area151.es/products/booster-box-display-op-17-24-sobres-ingles-one-piece-card-game",
+      "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/op17.webp?v=1777029292"
     },
     "preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece|Inglés": {
       "handle": "preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece",
@@ -18,7 +19,8 @@
       "idioma": "Inglés",
       "estado": "AGOTADO",
       "precio": "124.95",
-      "url": "https://area151.es/products/preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece"
+      "url": "https://area151.es/products/preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece",
+      "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/one-piece-card-game-eb-05-caja.jpg?v=1777066307"
     },
     "preventa-double-pack-set-display-dp-12-ingles-one-piece|Inglés": {
       "handle": "preventa-double-pack-set-display-dp-12-ingles-one-piece",
@@ -27,7 +29,8 @@
       "idioma": "Inglés",
       "estado": "AGOTADO",
       "precio": "22.95",
-      "url": "https://area151.es/products/preventa-double-pack-set-display-dp-12-ingles-one-piece"
+      "url": "https://area151.es/products/preventa-double-pack-set-display-dp-12-ingles-one-piece",
+      "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/pendientefabricanteonepiece.png?v=1777286361"
     },
     "preventa-double-pack-set-display-dp-10-ingles-one-piece|Inglés": {
       "handle": "preventa-double-pack-set-display-dp-10-ingles-one-piece",
@@ -36,7 +39,8 @@
       "idioma": "Inglés",
       "estado": "AGOTADO",
       "precio": "22.95",
-      "url": "https://area151.es/products/preventa-double-pack-set-display-dp-10-ingles-one-piece"
+      "url": "https://area151.es/products/preventa-double-pack-set-display-dp-10-ingles-one-piece",
+      "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/dp10onepiece.webp?v=1777286230"
     }
   }
 }
