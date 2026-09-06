@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-06 15:48 UTC",
+  "actualizado": "2026-09-06 16:16 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -191,15 +191,6 @@
       "precio": "59.90",
       "url": "https://pokemillon.com/products/caja-op-01"
     },
-    "mystery-box-one-piece-pokemillon|?": {
-      "handle": "mystery-box-one-piece-pokemillon",
-      "nombre": "Mystery Box One Piece - Pokemillon",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "100.00",
-      "url": "https://pokemillon.com/products/mystery-box-one-piece-pokemillon"
-    },
     "caja-op-09|Inglés": {
       "handle": "caja-op-09",
       "nombre": "One Piece Caja 24 Sobres OP09 Emperors in the New World",
@@ -290,24 +281,6 @@
       "precio": "119.90",
       "url": "https://pokemillon.com/products/one-piece-memorial-collection-eb-04"
     },
-    "one-piece-sobre-tournament-pack-2024-oct-dec|Inglés": {
-      "handle": "one-piece-sobre-tournament-pack-2024-oct-dec",
-      "nombre": "One Piece Sobre Tournament Pack 2024 Oct.-Dec.",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "1.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-2024-oct-dec"
-    },
-    "one-piece-sobre-tournament-pack-2024-oct-dec|Japonés": {
-      "handle": "one-piece-sobre-tournament-pack-2024-oct-dec",
-      "nombre": "One Piece Sobre Tournament Pack 2024 Oct.-Dec.",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.37",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-2024-oct-dec"
-    },
     "one-piece-dp12|Inglés": {
       "handle": "one-piece-dp12",
       "nombre": "OP17 One Piece DP12 The World's Strongest Warriors OP17",
@@ -325,24 +298,6 @@
       "estado": "AGOTADO",
       "precio": "19.90",
       "url": "https://pokemillon.com/products/one-piece-dp12"
-    },
-    "one-piece-tournament-pack-2026-vol-2|Inglés": {
-      "handle": "one-piece-tournament-pack-2026-vol-2",
-      "nombre": "One Piece Sobre Tournament pack 2026 Vol. 2",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "2.99",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-2026-vol-2"
-    },
-    "one-piece-tournament-pack-2026-vol-2|Japonés": {
-      "handle": "one-piece-tournament-pack-2026-vol-2",
-      "nombre": "One Piece Sobre Tournament pack 2026 Vol. 2",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.35",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-2026-vol-2"
     },
     "one-piece-caja-24-sobres-kingdoms-of-intrigue|Inglés": {
       "handle": "one-piece-caja-24-sobres-kingdoms-of-intrigue",
@@ -406,24 +361,6 @@
       "estado": "AGOTADO",
       "precio": "11.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-5-ingles-2023"
-    },
-    "tournament-pack-2025-vol-1|Inglés": {
-      "handle": "tournament-pack-2025-vol-1",
-      "nombre": "One Piece Tournament Pack 2025 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/tournament-pack-2025-vol-1"
-    },
-    "tournament-pack-2025-vol-1|Japonés": {
-      "handle": "tournament-pack-2025-vol-1",
-      "nombre": "One Piece Tournament Pack 2025 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/tournament-pack-2025-vol-1"
     },
     "one-piece-sobre-welcome-pack-vol1|Inglés": {
       "handle": "one-piece-sobre-welcome-pack-vol1",
@@ -505,42 +442,6 @@
       "estado": "AGOTADO",
       "precio": "28.90",
       "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024"
-    },
-    "tournament-pack-2026-vol-1|Inglés": {
-      "handle": "tournament-pack-2026-vol-1",
-      "nombre": "One Piece Tournament pack 2026 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "1.83",
-      "url": "https://pokemillon.com/products/tournament-pack-2026-vol-1"
-    },
-    "tournament-pack-2026-vol-1|Japonés": {
-      "handle": "tournament-pack-2026-vol-1",
-      "nombre": "One Piece Tournament pack 2026 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.10",
-      "url": "https://pokemillon.com/products/tournament-pack-2026-vol-1"
-    },
-    "one-piece-tournament-pack-2025-vol-3|Japonés": {
-      "handle": "one-piece-tournament-pack-2025-vol-3",
-      "nombre": "One Piece Tournament Pack 2025 Vol. 3",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-2025-vol-3"
-    },
-    "one-piece-tournament-pack-2025-vol-3|Inglés": {
-      "handle": "one-piece-tournament-pack-2025-vol-3",
-      "nombre": "One Piece Tournament Pack 2025 Vol. 3",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "3.90",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-2025-vol-3"
     },
     "one-piece-dp10|?": {
       "handle": "one-piece-dp10",
@@ -668,24 +569,6 @@
       "precio": "1.00",
       "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island"
     },
-    "one-piece-sobre-tournament-pack-vol-7|Inglés": {
-      "handle": "one-piece-sobre-tournament-pack-vol-7",
-      "nombre": "One Piece Sobre Tournament Pack Vol. 7",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-vol-7"
-    },
-    "one-piece-sobre-tournament-pack-vol-7|Japonés": {
-      "handle": "one-piece-sobre-tournament-pack-vol-7",
-      "nombre": "One Piece Sobre Tournament Pack Vol. 7",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-vol-7"
-    },
     "caja-24-sobres-eb01|Japonés": {
       "handle": "caja-24-sobres-eb01",
       "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
@@ -740,33 +623,6 @@
       "precio": "9.90",
       "url": "https://pokemillon.com/products/one-piece-dash-pack-2025"
     },
-    "one-piece-sobre-2nd-anniversary-tournament-pack|Inglés": {
-      "handle": "one-piece-sobre-2nd-anniversary-tournament-pack",
-      "nombre": "One Piece Sobre Emperors in the New World: 2nd Anniversary Tournament Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "9.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-2nd-anniversary-tournament-pack"
-    },
-    "one-piece-sobre-2nd-anniversary-tournament-pack|Japonés": {
-      "handle": "one-piece-sobre-2nd-anniversary-tournament-pack",
-      "nombre": "One Piece Sobre Emperors in the New World: 2nd Anniversary Tournament Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "1.00",
-      "url": "https://pokemillon.com/products/one-piece-sobre-2nd-anniversary-tournament-pack"
-    },
-    "one-piece-tournament-pack-vol-6|?": {
-      "handle": "one-piece-tournament-pack-vol-6",
-      "nombre": "One Piece | Tournament Pack Vol.6",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "0.99",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-vol-6"
-    },
     "one-piece-sobre-judge-pack-vol-7|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-7",
       "nombre": "One Piece Sobre Judge Pack Vol. 7",
@@ -784,69 +640,6 @@
       "estado": "AGOTADO",
       "precio": "0.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7"
-    },
-    "3rd-anniversary-tournament-3-brothers-pack|Inglés": {
-      "handle": "3rd-anniversary-tournament-3-brothers-pack",
-      "nombre": "3rd Anniversary Tournament 3 Brothers Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "19.90",
-      "url": "https://pokemillon.com/products/3rd-anniversary-tournament-3-brothers-pack"
-    },
-    "3rd-anniversary-tournament-3-brothers-pack|Japonés": {
-      "handle": "3rd-anniversary-tournament-3-brothers-pack",
-      "nombre": "3rd Anniversary Tournament 3 Brothers Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/3rd-anniversary-tournament-3-brothers-pack"
-    },
-    "one-piece-tournament-pack-vol-3|Japonés": {
-      "handle": "one-piece-tournament-pack-vol-3",
-      "nombre": "One Piece | Tournament Pack Vol.3",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-vol-3"
-    },
-    "one-piece-tournament-pack-vol-3|Inglés": {
-      "handle": "one-piece-tournament-pack-vol-3",
-      "nombre": "One Piece | Tournament Pack Vol.3",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-vol-3"
-    },
-    "one-piece-sobre-tournament-pack-2026-vol-3|Inglés": {
-      "handle": "one-piece-sobre-tournament-pack-2026-vol-3",
-      "nombre": "One Piece Sobre Tournament pack 2026 Vol. 3",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "3.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-2026-vol-3"
-    },
-    "one-piece-sobre-tournament-pack-2026-vol-3|Japonés": {
-      "handle": "one-piece-sobre-tournament-pack-2026-vol-3",
-      "nombre": "One Piece Sobre Tournament pack 2026 Vol. 3",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.35",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-2026-vol-3"
-    },
-    "one-piece-tournament-pack-vol-7|?": {
-      "handle": "one-piece-tournament-pack-vol-7",
-      "nombre": "One Piece | Tournament Pack Vol.7",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "0.99",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-vol-7"
     },
     "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
       "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
@@ -884,15 +677,6 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-st-15-st-20-release-event-pack"
     },
-    "one-piece-tournament-pack-vol-1|?": {
-      "handle": "one-piece-tournament-pack-vol-1",
-      "nombre": "One Piece | Tournament Pack Vol.1",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "5.90",
-      "url": "https://pokemillon.com/products/one-piece-tournament-pack-vol-1"
-    },
     "one-piece-sobre-prb-02|Inglés": {
       "handle": "one-piece-sobre-prb-02",
       "nombre": "One Piece Sobre PRB02 The Best vol.2 Premium Collection",
@@ -910,24 +694,6 @@
       "estado": "AGOTADO",
       "precio": "6.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-prb-02"
-    },
-    "pokemillon-mystery-box-one-piece-200-caja-misteriosa-copia|?": {
-      "handle": "pokemillon-mystery-box-one-piece-200-caja-misteriosa-copia",
-      "nombre": "Mystery Box One Piece - 200 €  Caja Misteriosa",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "200.00",
-      "url": "https://pokemillon.com/products/pokemillon-mystery-box-one-piece-200-caja-misteriosa-copia"
-    },
-    "pokemillon-mystery-box-one-piece-100-caja-misteriosa-1|?": {
-      "handle": "pokemillon-mystery-box-one-piece-100-caja-misteriosa-1",
-      "nombre": "Mystery Box One Piece - 100 €  Caja Misteriosa",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "100.00",
-      "url": "https://pokemillon.com/products/pokemillon-mystery-box-one-piece-100-caja-misteriosa-1"
     },
     "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
       "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
@@ -973,15 +739,6 @@
       "estado": "AGOTADO",
       "precio": "0.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6"
-    },
-    "pokemillon-mystery-box-one-piece-150-caja-misteriosa|?": {
-      "handle": "pokemillon-mystery-box-one-piece-150-caja-misteriosa",
-      "nombre": "Mystery Box One Piece - 150 €  Caja Misteriosa",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "150.00",
-      "url": "https://pokemillon.com/products/pokemillon-mystery-box-one-piece-150-caja-misteriosa"
     },
     "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece|Japonés": {
       "handle": "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece",
@@ -1037,15 +794,6 @@
       "precio": "2.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-winner-pack-2025-vol-3"
     },
-    "pokemillon-mystery-box-one-piece-250-caja-misteriosa|?": {
-      "handle": "pokemillon-mystery-box-one-piece-250-caja-misteriosa",
-      "nombre": "Mystery Box One Piece - 250 €  Caja Misteriosa",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "250.00",
-      "url": "https://pokemillon.com/products/pokemillon-mystery-box-one-piece-250-caja-misteriosa"
-    },
     "one-piece-double-pack-set-vol-2-ingles-2023|Inglés": {
       "handle": "one-piece-double-pack-set-vol-2-ingles-2023",
       "nombre": "One Piece | Double Pack Set DP-02 Inglés 2023",
@@ -1054,24 +802,6 @@
       "estado": "AGOTADO",
       "precio": "199.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023"
-    },
-    "one-piece-sobre-tournament-pack-2025-vol-2|Japonés": {
-      "handle": "one-piece-sobre-tournament-pack-2025-vol-2",
-      "nombre": "One Piece Sobre Tournament Pack 2025 Vol.2",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.59",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-2025-vol-2"
-    },
-    "one-piece-sobre-tournament-pack-2025-vol-2|Inglés": {
-      "handle": "one-piece-sobre-tournament-pack-2025-vol-2",
-      "nombre": "One Piece Sobre Tournament Pack 2025 Vol.2",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "1.89",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-2025-vol-2"
     },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
@@ -1090,42 +820,6 @@
       "estado": "AGOTADO",
       "precio": "2.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-winner-pack-2026-vol-1"
-    },
-    "one-piece-promo-pack-2022-vol-1|Inglés": {
-      "handle": "one-piece-promo-pack-2022-vol-1",
-      "nombre": "One Piece Promo Pack 2022 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "19.90",
-      "url": "https://pokemillon.com/products/one-piece-promo-pack-2022-vol-1"
-    },
-    "one-piece-promo-pack-2022-vol-1|Japonés": {
-      "handle": "one-piece-promo-pack-2022-vol-1",
-      "nombre": "One Piece Promo Pack 2022 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "29.90",
-      "url": "https://pokemillon.com/products/one-piece-promo-pack-2022-vol-1"
-    },
-    "promotion-pack-2023-vol-1|Inglés": {
-      "handle": "promotion-pack-2023-vol-1",
-      "nombre": "One Piece Sobre Promotion Pack 2023 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "8.90",
-      "url": "https://pokemillon.com/products/promotion-pack-2023-vol-1"
-    },
-    "promotion-pack-2023-vol-1|Japonés": {
-      "handle": "promotion-pack-2023-vol-1",
-      "nombre": "One Piece Sobre Promotion Pack 2023 Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/promotion-pack-2023-vol-1"
     },
     "one-piece-2nd-anniversary-premium-box-japones-2024|Inglés": {
       "handle": "one-piece-2nd-anniversary-premium-box-japones-2024",
@@ -1235,15 +929,6 @@
       "precio": "119.90",
       "url": "https://pokemillon.com/products/one-piece-1st-anniversary-set-box-japones-2023"
     },
-    "one-piece-2x-pack-cartas-luffy-2023|?": {
-      "handle": "one-piece-2x-pack-cartas-luffy-2023",
-      "nombre": "One Piece | 2x Pack Cartas Luffy 2023",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "12.47",
-      "url": "https://pokemillon.com/products/one-piece-2x-pack-cartas-luffy-2023"
-    },
     "one-piece-sobre-round1|Japonés": {
       "handle": "one-piece-sobre-round1",
       "nombre": "One Piece | Sobre Round1",
@@ -1252,24 +937,6 @@
       "estado": "AGOTADO",
       "precio": "52.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-round1"
-    },
-    "one-piece-sobre-tournament-pack-vol-7-winner|Japonés": {
-      "handle": "one-piece-sobre-tournament-pack-vol-7-winner",
-      "nombre": "One Piece Sobre Tournament Pack Vol.7 Winner",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "9.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-vol-7-winner"
-    },
-    "one-piece-sobre-tournament-pack-vol-7-winner|Inglés": {
-      "handle": "one-piece-sobre-tournament-pack-vol-7-winner",
-      "nombre": "One Piece Sobre Tournament Pack Vol.7 Winner",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "19.95",
-      "url": "https://pokemillon.com/products/one-piece-sobre-tournament-pack-vol-7-winner"
     },
     "one-piece-sobre-a-fist-of-divine-speed-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-a-fist-of-divine-speed-release-event-pack",
@@ -1433,24 +1100,6 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024"
     },
-    "one-piece-sobre-promotion-pack-2022-ingles-2022|Inglés": {
-      "handle": "one-piece-sobre-promotion-pack-2022-ingles-2022",
-      "nombre": "One Piece | Sobre Promotion Pack 2022 Inglés",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "14.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-promotion-pack-2022-ingles-2022"
-    },
-    "one-piece-sobre-v-jump-promo-japones-2022|Japonés": {
-      "handle": "one-piece-sobre-v-jump-promo-japones-2022",
-      "nombre": "One Piece | Sobre V Jump Promo Japonés 2022",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "29.00",
-      "url": "https://pokemillon.com/products/one-piece-sobre-v-jump-promo-japones-2022"
-    },
     "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
       "nombre": "One Piece Sobre Beginners Deck Party [ST-31]~[ST-36] Winner pack",
@@ -1558,42 +1207,6 @@
       "estado": "AGOTADO",
       "precio": "1.90",
       "url": "https://pokemillon.com/products/one-piece-special-don-card-pack-dp-05-two-legends"
-    },
-    "one-piece-promo-tc25|Inglés": {
-      "handle": "one-piece-promo-tc25",
-      "nombre": "One Piece | Sobre Promo Treasure Cup 2025",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "3.90",
-      "url": "https://pokemillon.com/products/one-piece-promo-tc25"
-    },
-    "one-piece-promo-tc25|Japonés": {
-      "handle": "one-piece-promo-tc25",
-      "nombre": "One Piece | Sobre Promo Treasure Cup 2025",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/one-piece-promo-tc25"
-    },
-    "pokemillon-mystery-box-one-piece-1000-caja-misteriosa|?": {
-      "handle": "pokemillon-mystery-box-one-piece-1000-caja-misteriosa",
-      "nombre": "Mystery Box One Piece - 1000 €  Caja Misteriosa",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "1000.00",
-      "url": "https://pokemillon.com/products/pokemillon-mystery-box-one-piece-1000-caja-misteriosa"
-    },
-    "pokemillon-mystery-box-one-piece-500-caja-misteriosa|?": {
-      "handle": "pokemillon-mystery-box-one-piece-500-caja-misteriosa",
-      "nombre": "Mystery Box One Piece - 500 €  Caja Misteriosa",
-      "tipo": "Caja",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "500.00",
-      "url": "https://pokemillon.com/products/pokemillon-mystery-box-one-piece-500-caja-misteriosa"
     },
     "caja-pre-errata-op-01|Inglés": {
       "handle": "caja-pre-errata-op-01",

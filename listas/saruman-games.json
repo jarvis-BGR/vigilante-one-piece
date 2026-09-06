@@ -1,0 +1,294 @@
+{
+  "tienda": "Saruman Games",
+  "actualizado": "2026-09-06 16:16 UTC",
+  "items": {
+    "one-piece-tcg-sobre-eb-03-heroines|?": {
+      "handle": "one-piece-tcg-sobre-eb-03-heroines",
+      "nombre": "ONE PIECE TCG: SOBRE EB-03 HEROINES",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb-03-heroines"
+    },
+    "one-piece-tcg-sobre-op15-adventure-on-kamis-island|?": {
+      "handle": "one-piece-tcg-sobre-op15-adventure-on-kamis-island",
+      "nombre": "ONE PIECE TCG: SOBRE op15 ADVENTURE ON KAMI'S ISLAND",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-op15-adventure-on-kamis-island"
+    },
+    "one-piece-tcg-sobre-eb03-japones|Japonés": {
+      "handle": "one-piece-tcg-sobre-eb03-japones",
+      "nombre": "ONE PIECE TCG: SOBRE EB03 JAPONES",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "7.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb03-japones"
+    },
+    "one-piece-tcg-sobre-op14-eb04|?": {
+      "handle": "one-piece-tcg-sobre-op14-eb04",
+      "nombre": "One Piece Tcg sobre op14-eb04",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-op14-eb04"
+    },
+    "prepedido-one-piece-tcg-op-15-booster-box|?": {
+      "handle": "prepedido-one-piece-tcg-op-15-booster-box",
+      "nombre": "One Piece Tcg OP-15 Booster Box MAX 6 por persona",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "130.00",
+      "url": "https://sarumangames.es/products/prepedido-one-piece-tcg-op-15-booster-box"
+    },
+    "one-piece-tcg-op-14-the-azure-seas-seven-booster-box|?": {
+      "handle": "one-piece-tcg-op-14-the-azure-seas-seven-booster-box",
+      "nombre": "One Piece Tcg OP-14 EB-04 THE AZURE SEA'S SEVEN Booster Box",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "125.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-op-14-the-azure-seas-seven-booster-box"
+    },
+    "one-piece-tcg-sobre-op13|?": {
+      "handle": "one-piece-tcg-sobre-op13",
+      "nombre": "One Piece Tcg sobre op13",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-op13"
+    },
+    "one-piece-tcg-premium2-prb-02-sobre|?": {
+      "handle": "one-piece-tcg-premium2-prb-02-sobre",
+      "nombre": "One Piece Tcg Premium2 – PRB-02 sobre",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "6.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-premium2-prb-02-sobre"
+    },
+    "one-piece-tcg-premium-booster-box-02-prb-02|?": {
+      "handle": "one-piece-tcg-premium-booster-box-02-prb-02",
+      "nombre": "One Piece Tcg Premium Booster Box 02 – PRB-02",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "120.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-premium-booster-box-02-prb-02"
+    },
+    "one-piece-tcg-legacy-of-the-master-booster-pack-op-12|?": {
+      "handle": "one-piece-tcg-legacy-of-the-master-booster-pack-op-12",
+      "nombre": "ONE PIECE TCG: LEGACY OF THE MASTER - BOOSTER PACK - OP-12",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-legacy-of-the-master-booster-pack-op-12"
+    },
+    "one-piece-tcg-op-12-legacy-of-the-master-double-pack-set-dp08|?": {
+      "handle": "one-piece-tcg-op-12-legacy-of-the-master-double-pack-set-dp08",
+      "nombre": "PREPEDIDO - One Piece Tcg OP-12 Legacy of the Master Double Pack Set DP08",
+      "tipo": "Double Pack",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "13.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-op-12-legacy-of-the-master-double-pack-set-dp08"
+    },
+    "one-piece-tcg-op-12-legacy-of-the-master-booster-box|?": {
+      "handle": "one-piece-tcg-op-12-legacy-of-the-master-booster-box",
+      "nombre": "One Piece Tcg OP-12 Legacy of the Master Booster Box",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "100.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-op-12-legacy-of-the-master-booster-box"
+    },
+    "one-piece-tcg-a-fist-of-divine-speedd-booster-pack-op-11|?": {
+      "handle": "one-piece-tcg-a-fist-of-divine-speedd-booster-pack-op-11",
+      "nombre": "ONE PIECE TCG: A FIST OF DIVINE SPEEDD - BOOSTER PACK - OP-11",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-a-fist-of-divine-speedd-booster-pack-op-11"
+    },
+    "one-piece-tcg-op-11-a-fist-of-godspeed-booster-box|?": {
+      "handle": "one-piece-tcg-op-11-a-fist-of-godspeed-booster-box",
+      "nombre": "One Piece Tcg OP-11 A Fist of Godspeed Booster Box",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "99.95",
+      "url": "https://sarumangames.es/products/one-piece-tcg-op-11-a-fist-of-godspeed-booster-box"
+    },
+    "one-piece-tcg-sobre-eb-02|?": {
+      "handle": "one-piece-tcg-sobre-eb-02",
+      "nombre": "ONE PIECE TCG SOBRE EB 02",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb-02"
+    },
+    "one-piece-tcg-tin-pack-set-vol-1-ts-01|?": {
+      "handle": "one-piece-tcg-tin-pack-set-vol-1-ts-01",
+      "nombre": "ONE PIECE TCG Tin Pack Set Vol.1 [TS-01] EAN: 810059788787",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "10.95",
+      "url": "https://sarumangames.es/products/one-piece-tcg-tin-pack-set-vol-1-ts-01"
+    },
+    "one-piece-tcg-eb-02-anime-25th-collection-booster-box|?": {
+      "handle": "one-piece-tcg-eb-02-anime-25th-collection-booster-box",
+      "nombre": "One Piece Tcg EB-02- Anime 25th Collection Booster Box",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "97.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-eb-02-anime-25th-collection-booster-box"
+    },
+    "sobre-op10-royal-blood|?": {
+      "handle": "sobre-op10-royal-blood",
+      "nombre": "SOBRE OP10 ROYAL BLOOD",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/sobre-op10-royal-blood"
+    },
+    "one-piece-tcg-caja-op10-royal-bloodlines|?": {
+      "handle": "one-piece-tcg-caja-op10-royal-bloodlines",
+      "nombre": "One Piece Tcg Caja Op10 ROYAL BLOOD",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "100.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-caja-op10-royal-bloodlines"
+    },
+    "sobre-op09-emperors-in-the-new-world|?": {
+      "handle": "sobre-op09-emperors-in-the-new-world",
+      "nombre": "SOBRE OP09 EMPERORS IN THE NEW WORLD",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/sobre-op09-emperors-in-the-new-world"
+    },
+    "one-piece-tcg-caja-op04-kingdoms-of-intrigue|?": {
+      "handle": "one-piece-tcg-caja-op04-kingdoms-of-intrigue",
+      "nombre": "One Piece Tcg Caja Op04 KINGDOMS OF INTRIGUE",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "140.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-caja-op04-kingdoms-of-intrigue"
+    },
+    "one-piece-tcg-caja-op04-awakening-of-the-new-era|?": {
+      "handle": "one-piece-tcg-caja-op04-awakening-of-the-new-era",
+      "nombre": "One Piece Tcg Caja Op05 AWAKENING OF THE NEW ERA",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "140.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-caja-op04-awakening-of-the-new-era"
+    },
+    "one-piece-tcg-caja-op03-pillars-of-the-strength|?": {
+      "handle": "one-piece-tcg-caja-op03-pillars-of-the-strength",
+      "nombre": "One Piece Tcg Caja Op03 PILLARS OF THE STRENGTH",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "145.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-caja-op03-pillars-of-the-strength"
+    },
+    "one-piece-tcg-op09-the-four-emperors-caja-de-sobres|?": {
+      "handle": "one-piece-tcg-op09-the-four-emperors-caja-de-sobres",
+      "nombre": "ONE PIECE TCG: OP09 THE FOUR EMPERORS - CAJA DE SOBRES",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "100.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-op09-the-four-emperors-caja-de-sobres"
+    },
+    "one-pice-tcg-the-best-box-booster-pack|?": {
+      "handle": "one-pice-tcg-the-best-box-booster-pack",
+      "nombre": "ONE PIECE TCG: THE BEST PRB01 - CAJA DE SOBRES",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "135.00",
+      "url": "https://sarumangames.es/products/one-pice-tcg-the-best-box-booster-pack"
+    },
+    "one-pice-tcg-the-best-booster-pack|?": {
+      "handle": "one-pice-tcg-the-best-booster-pack",
+      "nombre": "ONE PIECE TCG: THE BEST BOOSTER PACK",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "7.00",
+      "url": "https://sarumangames.es/products/one-pice-tcg-the-best-booster-pack"
+    },
+    "one-piece-tcg-two-legends-booster-pack|?": {
+      "handle": "one-piece-tcg-two-legends-booster-pack",
+      "nombre": "One Piece Tcg  TWO LEGENDS BOOSTER PACK",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-two-legends-booster-pack"
+    },
+    "one-piece-tcg-caja-op08-two-legends|?": {
+      "handle": "one-piece-tcg-caja-op08-two-legends",
+      "nombre": "One Piece Tcg Caja Op08 TWO LEGENDS",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "100.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-caja-op08-two-legends"
+    },
+    "sobgre-one-piece-op-07|?": {
+      "handle": "sobgre-one-piece-op-07",
+      "nombre": "Sobre One Piece Op 07",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/sobgre-one-piece-op-07"
+    },
+    "one-piece-tcg-caja-op07|?": {
+      "handle": "one-piece-tcg-caja-op07",
+      "nombre": "One Piece Tcg Caja Op07",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "100.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-caja-op07"
+    },
+    "sobre-one-piece-eb01-chopper-memorial-collection|?": {
+      "handle": "sobre-one-piece-eb01-chopper-memorial-collection",
+      "nombre": "Sobre One Piece EB01 - Chopper Memorial Collection",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/sobre-one-piece-eb01-chopper-memorial-collection"
+    },
+    "one-piecee-booster-pack-wings-of-the-captain-op-06|?": {
+      "handle": "one-piecee-booster-pack-wings-of-the-captain-op-06",
+      "nombre": "ONE PIECE: BOOSTER PACK - WINGS OF THE CAPTAIN - (OP06)",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piecee-booster-pack-wings-of-the-captain-op-06"
+    }
+  }
+}

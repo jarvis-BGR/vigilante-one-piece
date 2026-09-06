@@ -1,0 +1,384 @@
+{
+  "tienda": "CardZone",
+  "actualizado": "2026-09-06 16:16 UTC",
+  "items": {
+    "caja-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
+      "handle": "caja-one-piece-the-worlds-strongest-warriors-op17-japones",
+      "nombre": "Caja One Piece The World's Strongest Warriors OP17 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "149.95",
+      "url": "https://cardzone.es/products/caja-one-piece-the-worlds-strongest-warriors-op17-japones"
+    },
+    "pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones",
+      "nombre": "Pack 5 Sobres One Piece Adventure on KAMI’s Island OP15 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "25.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones"
+    },
+    "caja-one-piece-the-time-of-battle-op16-japones|Japonés": {
+      "handle": "caja-one-piece-the-time-of-battle-op16-japones",
+      "nombre": "Caja One Piece The Time of Battle OP16 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "124.95",
+      "url": "https://cardzone.es/products/caja-one-piece-the-time-of-battle-op16-japones"
+    },
+    "pack-5-sobres-one-piece-the-time-of-battle-op16-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-the-time-of-battle-op16-japones",
+      "nombre": "Pack 5 Sobres One Piece The Time of Battle OP16 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "25.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-the-time-of-battle-op16-japones"
+    },
+    "caja-one-piece-adventure-on-kami-s-island-op15-japones|Japonés": {
+      "handle": "caja-one-piece-adventure-on-kami-s-island-op15-japones",
+      "nombre": "Caja One Piece Adventure on Kami´s Island OP15 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "129.95",
+      "url": "https://cardzone.es/products/caja-one-piece-adventure-on-kami-s-island-op15-japones"
+    },
+    "caja-one-piece-egghead-crisis-eb04-japones|Japonés": {
+      "handle": "caja-one-piece-egghead-crisis-eb04-japones",
+      "nombre": "Caja One Piece Egghead Crisis EB04 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "134.95",
+      "url": "https://cardzone.es/products/caja-one-piece-egghead-crisis-eb04-japones"
+    },
+    "caja-one-piece-the-best-2-prb02-japones|Japonés": {
+      "handle": "caja-one-piece-the-best-2-prb02-japones",
+      "nombre": "Caja One Piece The Best 2 PRB02 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-the-best-2-prb02-japones"
+    },
+    "caja-one-piece-two-legends-op08-japones|Japonés": {
+      "handle": "caja-one-piece-two-legends-op08-japones",
+      "nombre": "Caja One Piece Two Legends OP08 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-two-legends-op08-japones"
+    },
+    "caja-one-piece-royal-blood-op10-japones|Japonés": {
+      "handle": "caja-one-piece-royal-blood-op10-japones",
+      "nombre": "Caja One Piece Royal Blood OP10 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-royal-blood-op10-japones"
+    },
+    "caja-one-piece-seven-warlords-of-the-sea-op14-japones|Japonés": {
+      "handle": "caja-one-piece-seven-warlords-of-the-sea-op14-japones",
+      "nombre": "Caja One Piece Seven Warlords of the Sea OP14 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "139.95",
+      "url": "https://cardzone.es/products/caja-one-piece-seven-warlords-of-the-sea-op14-japones"
+    },
+    "caja-one-piece-the-best-prb01-japones|Japonés": {
+      "handle": "caja-one-piece-the-best-prb01-japones",
+      "nombre": "Caja One Piece The Best PRB01 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "99.95",
+      "url": "https://cardzone.es/products/caja-one-piece-the-best-prb01-japones"
+    },
+    "sobre-special-pack-vjump-tokudaigou-one-piece-card-japones|Japonés": {
+      "handle": "sobre-special-pack-vjump-tokudaigou-one-piece-card-japones",
+      "nombre": "Sobre Special Pack VJUMP Tokudaigou One Piece Card - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "29.95",
+      "url": "https://cardzone.es/products/sobre-special-pack-vjump-tokudaigou-one-piece-card-japones"
+    },
+    "sobre-3rd-anniversary-one-piece-card-treasure-campaign-pack-japones|Japonés": {
+      "handle": "sobre-3rd-anniversary-one-piece-card-treasure-campaign-pack-japones",
+      "nombre": "Sobre 3rd Anniversary! One Piece Card Treasure Campaign Pack - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "10.95",
+      "url": "https://cardzone.es/products/sobre-3rd-anniversary-one-piece-card-treasure-campaign-pack-japones"
+    },
+    "caja-one-piece-heroines-edition-eb03-japones|Japonés": {
+      "handle": "caja-one-piece-heroines-edition-eb03-japones",
+      "nombre": "Caja One Piece Heroines Edition EB03 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "69.95",
+      "url": "https://cardzone.es/products/caja-one-piece-heroines-edition-eb03-japones"
+    },
+    "caja-one-piece-carrying-on-his-will-op13-japones|Japonés": {
+      "handle": "caja-one-piece-carrying-on-his-will-op13-japones",
+      "nombre": "Caja One Piece Carrying on His Will OP13 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "119.95",
+      "url": "https://cardzone.es/products/caja-one-piece-carrying-on-his-will-op13-japones"
+    },
+    "pack-5-sobres-op11-a-fist-divine-speed-japones|Japonés": {
+      "handle": "pack-5-sobres-op11-a-fist-divine-speed-japones",
+      "nombre": "Pack 5 Sobres OP11 A Fist Divine Speed - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "12.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-op11-a-fist-divine-speed-japones"
+    },
+    "caja-one-piece-legacy-of-the-master-op12-japones|Japonés": {
+      "handle": "caja-one-piece-legacy-of-the-master-op12-japones",
+      "nombre": "Caja One Piece Legacy of the Master OP12 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-legacy-of-the-master-op12-japones"
+    },
+    "caja-one-piece-four-emperors-op09-japones|Japonés": {
+      "handle": "caja-one-piece-four-emperors-op09-japones",
+      "nombre": "Caja One Piece Four Emperors OP09 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.95",
+      "url": "https://cardzone.es/products/caja-one-piece-four-emperors-op09-japones"
+    },
+    "caja-one-piece-a-fist-of-divine-speed-op11-japones|Japonés": {
+      "handle": "caja-one-piece-a-fist-of-divine-speed-op11-japones",
+      "nombre": "Caja One Piece A Fist of Divine Speed OP11 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "119.95",
+      "url": "https://cardzone.es/products/caja-one-piece-a-fist-of-divine-speed-op11-japones"
+    },
+    "caja-one-piece-romance-dawn-op01-chino|?": {
+      "handle": "caja-one-piece-romance-dawn-op01-chino",
+      "nombre": "Caja One Piece Romance Dawn OP01 - Chino",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "84.95",
+      "url": "https://cardzone.es/products/caja-one-piece-romance-dawn-op01-chino"
+    },
+    "caja-one-piece-paramount-war-op02-chino|?": {
+      "handle": "caja-one-piece-paramount-war-op02-chino",
+      "nombre": "Caja One Piece Paramount War OP02 - Chino",
+      "tipo": "Caja",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "77.95",
+      "url": "https://cardzone.es/products/caja-one-piece-paramount-war-op02-chino"
+    },
+    "caja-one-piece-anime-25th-collection-eb02-japones|Japonés": {
+      "handle": "caja-one-piece-anime-25th-collection-eb02-japones",
+      "nombre": "Caja One Piece Anime 25th Collection EB02 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-anime-25th-collection-eb02-japones"
+    },
+    "caja-de-24-sobres-legacy-of-the-master-op12-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-legacy-of-the-master-op12-ingles",
+      "nombre": "Caja de 24 Sobres Legacy of the Master OP12 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "89.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-legacy-of-the-master-op12-ingles"
+    },
+    "caja-de-24-sobres-royal-blood-op10-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-royal-blood-op10-ingles",
+      "nombre": "Caja de 24 Sobres Royal Blood OP10 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "92.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-royal-blood-op10-ingles"
+    },
+    "caja-de-24-sobres-two-legends-op08-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-two-legends-op08-ingles",
+      "nombre": "Caja de 24 Sobres Two Legends OP08 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "92.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-two-legends-op08-ingles"
+    },
+    "caja-de-24-sobres-one-piece-kingdoms-of-intrigue-op04-ingles-1|Inglés": {
+      "handle": "caja-de-24-sobres-one-piece-kingdoms-of-intrigue-op04-ingles-1",
+      "nombre": "Caja de 24 Sobres Awakening of the New Era OP05 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "199.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-one-piece-kingdoms-of-intrigue-op04-ingles-1"
+    },
+    "caja-de-24-sobres-one-piece-kingdoms-of-intrigue-op04-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-one-piece-kingdoms-of-intrigue-op04-ingles",
+      "nombre": "Caja de 24 Sobres One Piece Kingdoms of Intrigue OP04 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-one-piece-kingdoms-of-intrigue-op04-ingles"
+    },
+    "caja-de-24-sobres-carrying-on-his-will-op13-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-carrying-on-his-will-op13-ingles",
+      "nombre": "Caja de 24 Sobres Carrying on his Will OP13 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "129.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-carrying-on-his-will-op13-ingles"
+    },
+    "caja-de-24-sobres-one-piece-paramount-war-op02-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-one-piece-paramount-war-op02-ingles",
+      "nombre": "Caja de 24 Sobres One Piece Paramount War OP02 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "84.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-one-piece-paramount-war-op02-ingles"
+    },
+    "caja-de-24-sobres-fist-of-divine-speed-op11-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-fist-of-divine-speed-op11-ingles",
+      "nombre": "Caja de 24 Sobres Fist of Divine Speed OP11 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "89.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-fist-of-divine-speed-op11-ingles"
+    },
+    "caja-one-piece-500-years-future-op07-japones|Japonés": {
+      "handle": "caja-one-piece-500-years-future-op07-japones",
+      "nombre": "Caja One Piece 500 Years Future OP07 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "84.95",
+      "url": "https://cardzone.es/products/caja-one-piece-500-years-future-op07-japones"
+    },
+    "caja-de-20-sobres-the-best-2-prb02-ingles|Inglés": {
+      "handle": "caja-de-20-sobres-the-best-2-prb02-ingles",
+      "nombre": "Caja de 20 Sobres The Best 2 PRB02 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-de-20-sobres-the-best-2-prb02-ingles"
+    },
+    "caja-one-piece-awakening-of-the-new-era-op05-japones|Japonés": {
+      "handle": "caja-one-piece-awakening-of-the-new-era-op05-japones",
+      "nombre": "Caja One Piece Awakening of the New Era OP05 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "99.95",
+      "url": "https://cardzone.es/products/caja-one-piece-awakening-of-the-new-era-op05-japones"
+    },
+    "caja-de-24-sobres-one-piece-pillars-of-strength-op03-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-one-piece-pillars-of-strength-op03-ingles",
+      "nombre": "Caja de 24 Sobres One Piece Pillars Of Strength OP03 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "150.00",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-one-piece-pillars-of-strength-op03-ingles"
+    },
+    "caja-one-piece-memorial-collection-eb01-japones|Japonés": {
+      "handle": "caja-one-piece-memorial-collection-eb01-japones",
+      "nombre": "Caja One Piece Memorial Collection EB01 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "54.95",
+      "url": "https://cardzone.es/products/caja-one-piece-memorial-collection-eb01-japones"
+    },
+    "caja-de-24-sobres-500-years-into-the-future-op07-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-500-years-into-the-future-op07-ingles",
+      "nombre": "Caja de 24 Sobres 500 Years Into The Future OP07 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "89.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-500-years-into-the-future-op07-ingles"
+    },
+    "caja-one-piece-twin-champions-op06-japones|Japonés": {
+      "handle": "caja-one-piece-twin-champions-op06-japones",
+      "nombre": "Caja One Piece Twin Champions OP06 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "79.95",
+      "url": "https://cardzone.es/products/caja-one-piece-twin-champions-op06-japones"
+    },
+    "caja-one-piece-devil-fruits-collection-vol-2-ingles|Inglés": {
+      "handle": "caja-one-piece-devil-fruits-collection-vol-2-ingles",
+      "nombre": "Caja One Piece Devil Fruits Collection Vol.2 - Ingles",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "34.95",
+      "url": "https://cardzone.es/products/caja-one-piece-devil-fruits-collection-vol-2-ingles"
+    },
+    "pack-5-sobres-one-piece-carrying-on-his-will-op13-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-carrying-on-his-will-op13-japones",
+      "nombre": "Pack 5 Sobres One Piece Carrying on His Will OP13 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "11.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-carrying-on-his-will-op13-japones"
+    },
+    "one-piece-anime-25th-collection-eb-02|Inglés": {
+      "handle": "one-piece-anime-25th-collection-eb-02",
+      "nombre": "Caja de 24 Sobres Anime 25th Collection EB02 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "99.95",
+      "url": "https://cardzone.es/products/one-piece-anime-25th-collection-eb-02"
+    },
+    "caja-one-piece-kingdoms-of-intrigue-op04-japones|Japonés": {
+      "handle": "caja-one-piece-kingdoms-of-intrigue-op04-japones",
+      "nombre": "Caja One Piece Kingdoms of Intrigue OP04 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "97.95",
+      "url": "https://cardzone.es/products/caja-one-piece-kingdoms-of-intrigue-op04-japones"
+    },
+    "caja-one-piece-adventure-on-kami-s-island-op15-japones-embalaje-danado|Japonés": {
+      "handle": "caja-one-piece-adventure-on-kami-s-island-op15-japones-embalaje-danado",
+      "nombre": "Caja One Piece Adventure on Kami´s Island OP15 - Japones \"Embalaje dañado\"",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "97.95",
+      "url": "https://cardzone.es/products/caja-one-piece-adventure-on-kami-s-island-op15-japones-embalaje-danado"
+    }
+  }
+}

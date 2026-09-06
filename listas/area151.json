@@ -1,0 +1,42 @@
+{
+  "tienda": "Area151",
+  "actualizado": "2026-09-06 16:16 UTC",
+  "items": {
+    "booster-box-display-op-17-24-sobres-ingles-one-piece-card-game|Inglés": {
+      "handle": "booster-box-display-op-17-24-sobres-ingles-one-piece-card-game",
+      "nombre": "Booster Box Display OP-17 (24 sobres) Inglés - One Piece Card Game (PREVENTA)",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "129.95",
+      "url": "https://area151.es/products/booster-box-display-op-17-24-sobres-ingles-one-piece-card-game"
+    },
+    "preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece|Inglés": {
+      "handle": "preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece",
+      "nombre": "Booster Box Display EB-05 One Piece TCG (Inglés) - 24 Sobres - PREVENTA",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "124.95",
+      "url": "https://area151.es/products/preventa-booster-box-display-eb-05-24-sobres-ingles-one-piece"
+    },
+    "preventa-double-pack-set-display-dp-12-ingles-one-piece|Inglés": {
+      "handle": "preventa-double-pack-set-display-dp-12-ingles-one-piece",
+      "nombre": "Double Pack Set DP-12 One Piece Card Game (Inglés) - PREVENTA",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "22.95",
+      "url": "https://area151.es/products/preventa-double-pack-set-display-dp-12-ingles-one-piece"
+    },
+    "preventa-double-pack-set-display-dp-10-ingles-one-piece|Inglés": {
+      "handle": "preventa-double-pack-set-display-dp-10-ingles-one-piece",
+      "nombre": "Double Pack Set DP-10 One Piece TCG (Inglés) - PREVENTA OP-15",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "22.95",
+      "url": "https://area151.es/products/preventa-double-pack-set-display-dp-10-ingles-one-piece"
+    }
+  }
+}
