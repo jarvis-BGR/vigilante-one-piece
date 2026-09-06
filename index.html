@@ -460,6 +460,15 @@ function render(){
     const eans=(p.tiendas||[]).map(t=>t.ean).join(" ");
     return (!term||(p.set+" "+p.nombre+" "+eans+" "+p.tipo).toLowerCase().includes(term))
       &&(!fs||p.set===fs)&&(!ft||p.tipo===ft);});
+  // Orden por defecto: primero lo que está en stock, luego preventa, agotado y sin datos.
+  const rkEstado={DISPONIBLE:0,PREVENTA:1,AGOTADO:2};
+  items.sort((a,b)=>{
+    const ba=mejor(ofertas(a)), bb=mejor(ofertas(b));
+    const ra=ba?(rkEstado[ba.clase]??3):3, rb=bb?(rkEstado[bb.clase]??3):3;
+    if(ra!==rb) return ra-rb;
+    const pa=ba&&ba.precio!=null?ba.precio:1e12, pb=bb&&bb.precio!=null?bb.precio:1e12;
+    return pa-pb;
+  });
   const g=$("grid"); g.innerHTML="";
   items.forEach(p=>{
     const offs=ofertas(p), b=mejor(offs), md=media(offs);
