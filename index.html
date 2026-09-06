@@ -132,7 +132,7 @@ function construir(CAT,DATOS,LISTAS){
   // 2) inventario en vivo de las tiendas de colección (Función 2)
   LISTAS.forEach(store=>{
     Object.values(store.items||{}).forEach(it=>{
-      addOffer(map,parseSet(it.nombre),it.tipo,it.idioma,it.nombre,"",
+      addOffer(map,parseSet(it.nombre),it.tipo,it.idioma,it.nombre,it.img||"",
         {tienda:store.tienda,estado:it.estado||"—",precio:num(it.precio),url:it.url,fecha:it.fecha||""});
     });
   });

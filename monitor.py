@@ -310,6 +310,12 @@ def parsear_coleccion_shopify(productos, dominio):
         if isinstance(tags, list):
             tags = " ".join(tags)
         url = f"{dominio.rstrip('/')}/products/{handle}"
+        img = ""
+        imgs = p.get("images") or []
+        if imgs and isinstance(imgs[0], dict):
+            img = imgs[0].get("src", "") or ""
+        elif isinstance(p.get("image"), dict):
+            img = p["image"].get("src", "") or ""
         for v in p.get("variants", []) or []:
             idi = idioma_variante(v, p)
             estado = "DISPONIBLE" if v.get("available") else "AGOTADO"
@@ -321,7 +327,7 @@ def parsear_coleccion_shopify(productos, dominio):
             if actual is None or (estado == "DISPONIBLE" and actual["estado"] != "DISPONIBLE"):
                 foto[clave] = {"handle": handle, "nombre": titulo, "tipo": tipo,
                                "idioma": idi, "estado": estado, "precio": precio,
-                               "url": url}
+                               "url": url, "img": img}
     return foto
 
 
