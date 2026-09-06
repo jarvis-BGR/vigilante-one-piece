@@ -36,8 +36,9 @@ PREVENTA_KW = ("preventa", "pre-venta", "preorder", "pre-order", "reserva",
 TIPO_FUERA_KW = ("funda", "sleeve", "álbum", "album", "archivador", "binder",
                  "tapete", "playmat", "play mat", "deck box", "caja de mazo",
                  "cajas de mazo", "portamazo", "porta mazo", "carta suelta",
-                 "cartas sueltas", "single", "singles", "illustration",
-                 "art box", "promo suelta", "promocard", "promo card",
+                 "cartas sueltas", "pack cartas", "single", "singles",
+                 "illustration", "art box", "promo", "promotion", "v jump",
+                 "tournament", "mystery", "caja misteriosa", "misterios",
                  "moneda", "coin", "dado", "dice", "toploader", "top loader",
                  "protector", "separador", "storage", "premium card")
 # DENTRO (por orden de deteccion): Caja/Booster Box, Double Pack, Sobre/Pack.

@@ -4,5 +4,23 @@
     "plataforma": "shopify",
     "dominio": "https://pokemillon.com",
     "coleccion": "https://pokemillon.com/collections/one-piece"
+  },
+  {
+    "tienda": "CardZone",
+    "plataforma": "shopify",
+    "dominio": "https://cardzone.es",
+    "coleccion": "https://cardzone.es/collections/one-piece-tcg"
+  },
+  {
+    "tienda": "Saruman Games",
+    "plataforma": "shopify",
+    "dominio": "https://sarumangames.es",
+    "coleccion": "https://sarumangames.es/collections/one-piece-juego-de-cartas-coleccionables"
+  },
+  {
+    "tienda": "Area151",
+    "plataforma": "shopify",
+    "dominio": "https://area151.es",
+    "coleccion": "https://area151.es/collections/one-piece"
   }
 ]
