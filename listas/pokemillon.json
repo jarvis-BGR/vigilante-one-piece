@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-07 09:10 UTC",
+  "actualizado": "2026-09-07 12:13 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -892,6 +892,26 @@
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
     },
+    "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
+      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.00",
+      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
+    },
+    "one-piece-sobre-beginners-deck-party-st-31-st-36|Inglés": {
+      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "6.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
+    },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
       "nombre": "One Piece Sobre Winner Pack 2026 Vol. 1",
@@ -931,26 +951,6 @@
       "precio": "29.90",
       "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.00",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36|Inglés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "6.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
     },
     "one-piece-winner-pack-2024-oct-dec|Japonés": {
       "handle": "one-piece-winner-pack-2024-oct-dec",
