@@ -1,7 +1,17 @@
 {
   "tienda": "CardZone",
-  "actualizado": "2026-09-08 06:13 UTC",
+  "actualizado": "2026-09-08 09:10 UTC",
   "items": {
+    "caja-de-24-sobres-the-time-of-battle-op16-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-the-time-of-battle-op16-ingles",
+      "nombre": "Caja de 24 Sobres The Time of Battle OP16 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "189.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-the-time-of-battle-op16-ingles",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-08T095531.556.png?v=1788854152"
+    },
     "caja-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
       "handle": "caja-one-piece-the-worlds-strongest-warriors-op17-japones",
       "nombre": "Caja One Piece The World's Strongest Warriors OP17 - Japones",
