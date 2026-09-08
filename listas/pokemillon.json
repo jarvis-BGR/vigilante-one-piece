@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-08 09:10 UTC",
+  "actualizado": "2026-09-08 12:13 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -212,26 +212,6 @@
       "url": "https://pokemillon.com/products/caja-op-01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/products/one-piece-tcg-romance-dawn-op01-24-sobres-pokemillon_b41d9719-bad3-4555-98c0-bb6a95031c0f.jpg?v=1753228302"
     },
-    "caja-op-09|Inglés": {
-      "handle": "caja-op-09",
-      "nombre": "One Piece Caja 24 Sobres OP09 Emperors in the New World",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "479.90",
-      "url": "https://pokemillon.com/products/caja-op-09",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/One_Piece_Caja_24_Sobres_OP-09_Emperors_in_the_New_World_Sin_Fondo_Pokemillon.png?v=1764623572"
-    },
-    "caja-op-09|Japonés": {
-      "handle": "caja-op-09",
-      "nombre": "One Piece Caja 24 Sobres OP09 Emperors in the New World",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "109.90",
-      "url": "https://pokemillon.com/products/caja-op-09",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/One_Piece_Caja_24_Sobres_OP-09_Emperors_in_the_New_World_Sin_Fondo_Pokemillon.png?v=1764623572"
-    },
     "sobre-op17|Inglés": {
       "handle": "sobre-op17",
       "nombre": "One Piece | Sobre OP17 The World's Strongest Warriors",
@@ -251,6 +231,26 @@
       "precio": "9.90",
       "url": "https://pokemillon.com/products/sobre-op17",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-op17-the-worlds-strongest-warriors.jpg?v=1788134293"
+    },
+    "caja-op-09|Inglés": {
+      "handle": "caja-op-09",
+      "nombre": "One Piece Caja 24 Sobres OP09 Emperors in the New World",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "479.90",
+      "url": "https://pokemillon.com/products/caja-op-09",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/One_Piece_Caja_24_Sobres_OP-09_Emperors_in_the_New_World_Sin_Fondo_Pokemillon.png?v=1764623572"
+    },
+    "caja-op-09|Japonés": {
+      "handle": "caja-op-09",
+      "nombre": "One Piece Caja 24 Sobres OP09 Emperors in the New World",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "109.90",
+      "url": "https://pokemillon.com/products/caja-op-09",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/One_Piece_Caja_24_Sobres_OP-09_Emperors_in_the_New_World_Sin_Fondo_Pokemillon.png?v=1764623572"
     },
     "caja-op06|Inglés": {
       "handle": "caja-op06",
