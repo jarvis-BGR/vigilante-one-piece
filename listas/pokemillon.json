@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-10 09:10 UTC",
+  "actualizado": "2026-09-10 12:13 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -392,16 +392,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-op13",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-13_Sobre_Japones_Pokemillon.png?v=1787964357"
     },
-    "one-piece-double-pack-set-vol-5-ingles-2023|Inglés": {
-      "handle": "one-piece-double-pack-set-vol-5-ingles-2023",
-      "nombre": "One Piece | Double Pack Set DP-05 OP-08 Two Legends Inglés 2024",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "11.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-5-ingles-2023",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-09-01_185919.png?v=1754154896"
-    },
     "one-piece-sobre-welcome-pack-vol1|Inglés": {
       "handle": "one-piece-sobre-welcome-pack-vol1",
       "nombre": "One Piece Sobre Welcome Pack Vol. 1",
@@ -421,6 +411,16 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-welcome-pack-vol1",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/804766.png?v=1782469968"
+    },
+    "one-piece-double-pack-set-vol-5-ingles-2023|Inglés": {
+      "handle": "one-piece-double-pack-set-vol-5-ingles-2023",
+      "nombre": "One Piece | Double Pack Set DP-05 OP-08 Two Legends Inglés 2024",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "11.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-5-ingles-2023",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-09-01_185919.png?v=1754154896"
     },
     "event-pack-vol-4|Japonés": {
       "handle": "event-pack-vol-4",
@@ -502,26 +502,6 @@
       "url": "https://pokemillon.com/products/one-piece-dp10",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
     },
-    "one-piece-caja-aprende-a-jugar|Inglés": {
-      "handle": "one-piece-caja-aprende-a-jugar",
-      "nombre": "One Piece | Caja Aprende a Jugar",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "49.90",
-      "url": "https://pokemillon.com/products/one-piece-caja-aprende-a-jugar",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-09-23143921.png?v=1764623917"
-    },
-    "one-piece-double-pack-set-dp-05-ingles-2024|Inglés": {
-      "handle": "one-piece-double-pack-set-dp-05-ingles-2024",
-      "nombre": "One Piece | Double Pack Set DP-06 OP-09 Four Emperors Inglés 2024",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "99.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
-    },
     "one-piece-op14-the-azure-seas-seven-dash-pack|Inglés": {
       "handle": "one-piece-op14-the-azure-seas-seven-dash-pack",
       "nombre": "One Piece OP14 The Azure Sea's Seven Dash Pack",
@@ -541,6 +521,26 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
+    },
+    "one-piece-caja-aprende-a-jugar|Inglés": {
+      "handle": "one-piece-caja-aprende-a-jugar",
+      "nombre": "One Piece | Caja Aprende a Jugar",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "49.90",
+      "url": "https://pokemillon.com/products/one-piece-caja-aprende-a-jugar",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-09-23143921.png?v=1764623917"
+    },
+    "one-piece-double-pack-set-dp-05-ingles-2024|Inglés": {
+      "handle": "one-piece-double-pack-set-dp-05-ingles-2024",
+      "nombre": "One Piece | Double Pack Set DP-06 OP-09 Four Emperors Inglés 2024",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
     },
     "double-pack-op-11-en|Inglés": {
       "handle": "double-pack-op-11-en",
@@ -767,20 +767,10 @@
       "nombre": "One Piece Sobre PRB02 The Best vol.2 Premium Collection",
       "tipo": "Sobre",
       "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "6.90",
+      "estado": "DISPONIBLE",
+      "precio": "8.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
-    },
-    "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
-      "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
-      "nombre": "One Piece | Double Pack Set DP-03 Inglés 2023",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "14.90",
-      "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
     "one-piece-sobre-judge-pack-vol-3|Japonés": {
       "handle": "one-piece-sobre-judge-pack-vol-3",
@@ -802,6 +792,16 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-3",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/780227.png?v=1784295332"
     },
+    "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
+      "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
+      "nombre": "One Piece | Double Pack Set DP-03 Inglés 2023",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "14.90",
+      "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
+    },
     "one-piece-sobre-judge-pack-vol-6|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-6",
       "nombre": "One Piece Sobre Judge Pack Vol.5",
@@ -821,6 +821,26 @@
       "precio": "0.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
+    },
+    "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
+      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.00",
+      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
+    },
+    "one-piece-sobre-beginners-deck-party-st-31-st-36|Inglés": {
+      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "6.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
     },
     "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece|Japonés": {
       "handle": "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece",
@@ -891,26 +911,6 @@
       "precio": "199.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.00",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36|Inglés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "6.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1788134478"
     },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
