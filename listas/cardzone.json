@@ -1,6 +1,6 @@
 {
   "tienda": "CardZone",
-  "actualizado": "2026-09-11 09:09 UTC",
+  "actualizado": "2026-09-11 12:13 UTC",
   "items": {
     "caja-de-24-sobres-the-time-of-battle-op16-ingles|Inglés": {
       "handle": "caja-de-24-sobres-the-time-of-battle-op16-ingles",
@@ -11,6 +11,16 @@
       "precio": "189.95",
       "url": "https://cardzone.es/products/caja-de-24-sobres-the-time-of-battle-op16-ingles",
       "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-08T095531.556.png?v=1788854152"
+    },
+    "pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones",
+      "nombre": "Pack 5 Sobres One Piece The World's Strongest Warriors OP17 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "29.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-11T113647.474.png?v=1789119486"
     },
     "caja-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
       "handle": "caja-one-piece-the-worlds-strongest-warriors-op17-japones",

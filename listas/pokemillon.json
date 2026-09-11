@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-11 09:09 UTC",
+  "actualizado": "2026-09-11 12:13 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -492,16 +492,6 @@
       "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-12_014839.png?v=1747278354"
     },
-    "one-piece-dp10|?": {
-      "handle": "one-piece-dp10",
-      "nombre": "One Piece | OP15 Double Pack Set DP-10 Adventure on KAMI’s Island",
-      "tipo": "Double Pack",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "24.90",
-      "url": "https://pokemillon.com/products/one-piece-dp10",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
-    },
     "one-piece-op14-the-azure-seas-seven-dash-pack|Inglés": {
       "handle": "one-piece-op14-the-azure-seas-seven-dash-pack",
       "nombre": "One Piece OP14 The Azure Sea's Seven Dash Pack",
@@ -521,6 +511,16 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
+    },
+    "one-piece-dp10|?": {
+      "handle": "one-piece-dp10",
+      "nombre": "One Piece | OP15 Double Pack Set DP-10 Adventure on KAMI’s Island",
+      "tipo": "Double Pack",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "24.90",
+      "url": "https://pokemillon.com/products/one-piece-dp10",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
     },
     "one-piece-caja-aprende-a-jugar|Inglés": {
       "handle": "one-piece-caja-aprende-a-jugar",
@@ -542,16 +542,6 @@
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
     },
-    "double-pack-op-11-en|Inglés": {
-      "handle": "double-pack-op-11-en",
-      "nombre": "One Piece | DP-07 A Fist of Divine Speed OP-11",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "14.90",
-      "url": "https://pokemillon.com/products/double-pack-op-11-en",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
-    },
     "one-piece-sobre-op16|Inglés": {
       "handle": "one-piece-sobre-op16",
       "nombre": "One Piece | Sobre OP16 The Time of the Battle",
@@ -571,6 +561,16 @@
       "precio": "6.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-op16",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
+    },
+    "double-pack-op-11-en|Inglés": {
+      "handle": "double-pack-op-11-en",
+      "nombre": "One Piece | DP-07 A Fist of Divine Speed OP-11",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "14.90",
+      "url": "https://pokemillon.com/products/double-pack-op-11-en",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
     "sobre-op10-royal-blood-release-event-packone-piece|Japonés": {
       "handle": "sobre-op10-royal-blood-release-event-packone-piece",
@@ -632,26 +632,6 @@
       "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
     },
-    "caja-24-sobres-eb01|Japonés": {
-      "handle": "caja-24-sobres-eb01",
-      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "3.90",
-      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
-    },
-    "caja-24-sobres-eb01|Inglés": {
-      "handle": "caja-24-sobres-eb01",
-      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "199.90",
-      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
-    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -691,6 +671,26 @@
       "precio": "9.90",
       "url": "https://pokemillon.com/products/one-piece-dash-pack-2025",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/dash-pack-2025-promos.webp?v=1779286930"
+    },
+    "caja-24-sobres-eb01|Japonés": {
+      "handle": "caja-24-sobres-eb01",
+      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "3.90",
+      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
+    },
+    "caja-24-sobres-eb01|Inglés": {
+      "handle": "caja-24-sobres-eb01",
+      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "199.90",
+      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
     },
     "one-piece-sobre-judge-pack-vol-7|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-7",
@@ -802,26 +802,6 @@
       "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
-    "one-piece-sobre-judge-pack-vol-6|Inglés": {
-      "handle": "one-piece-sobre-judge-pack-vol-6",
-      "nombre": "One Piece Sobre Judge Pack Vol.5",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "3.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
-    },
-    "one-piece-sobre-judge-pack-vol-6|Japonés": {
-      "handle": "one-piece-sobre-judge-pack-vol-6",
-      "nombre": "One Piece Sobre Judge Pack Vol.5",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
-    },
     "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
       "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
@@ -841,6 +821,26 @@
       "precio": "6.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1789063721"
+    },
+    "one-piece-sobre-judge-pack-vol-6|Inglés": {
+      "handle": "one-piece-sobre-judge-pack-vol-6",
+      "nombre": "One Piece Sobre Judge Pack Vol.5",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "3.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
+    },
+    "one-piece-sobre-judge-pack-vol-6|Japonés": {
+      "handle": "one-piece-sobre-judge-pack-vol-6",
+      "nombre": "One Piece Sobre Judge Pack Vol.5",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
     },
     "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece|Japonés": {
       "handle": "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece",
