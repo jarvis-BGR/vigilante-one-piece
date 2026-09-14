@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-14 18:11 UTC",
+  "actualizado": "2026-09-14 21:09 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -27,8 +27,8 @@
       "nombre": "One Piece Caja 24 Sobres OP15 Adventure on KAMI’s Island",
       "tipo": "Caja",
       "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "167.90",
+      "estado": "DISPONIBLE",
+      "precio": "229.00",
       "url": "https://pokemillon.com/products/op-15-caja",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-15__Mejor_Carta_Pokemillon.png?v=1773156371"
     },
@@ -47,7 +47,7 @@
       "nombre": "One Piece | Caja 24 Sobres OP08 Two Legends",
       "tipo": "Caja",
       "idioma": "Inglés",
-      "estado": "DISPONIBLE",
+      "estado": "AGOTADO",
       "precio": "249.90",
       "url": "https://pokemillon.com/products/caja-op-08",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-08_Mejor_Carta_Pokemillon.png?v=1767916427"
