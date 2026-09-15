@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-15 09:11 UTC",
+  "actualizado": "2026-09-15 12:12 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -332,6 +332,26 @@
       "url": "https://pokemillon.com/products/one-piece-dp12",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op17-one-piece-dp12-the-worlds-strongest-warriors-op17.jpg?v=1788134309"
     },
+    "one-piece-sobre-welcome-pack-vol1|Inglés": {
+      "handle": "one-piece-sobre-welcome-pack-vol1",
+      "nombre": "One Piece Sobre Welcome Pack Vol. 1",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "2.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-welcome-pack-vol1",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/804766.png?v=1782469968"
+    },
+    "one-piece-sobre-welcome-pack-vol1|Japonés": {
+      "handle": "one-piece-sobre-welcome-pack-vol1",
+      "nombre": "One Piece Sobre Welcome Pack Vol. 1",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-welcome-pack-vol1",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/804766.png?v=1782469968"
+    },
     "one-piece-caja-24-sobres-kingdoms-of-intrigue|Inglés": {
       "handle": "one-piece-caja-24-sobres-kingdoms-of-intrigue",
       "nombre": "One Piece | Caja 24 Sobres OP-04 Kingdoms Of Intrigue",
@@ -391,26 +411,6 @@
       "precio": "7.29",
       "url": "https://pokemillon.com/products/one-piece-sobre-op13",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-13_Sobre_Japones_Pokemillon.png?v=1787964357"
-    },
-    "one-piece-sobre-welcome-pack-vol1|Inglés": {
-      "handle": "one-piece-sobre-welcome-pack-vol1",
-      "nombre": "One Piece Sobre Welcome Pack Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-welcome-pack-vol1",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/804766.png?v=1782469968"
-    },
-    "one-piece-sobre-welcome-pack-vol1|Japonés": {
-      "handle": "one-piece-sobre-welcome-pack-vol1",
-      "nombre": "One Piece Sobre Welcome Pack Vol. 1",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-welcome-pack-vol1",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/804766.png?v=1782469968"
     },
     "one-piece-double-pack-set-vol-5-ingles-2023|Inglés": {
       "handle": "one-piece-double-pack-set-vol-5-ingles-2023",
@@ -522,26 +522,6 @@
       "url": "https://pokemillon.com/products/one-piece-dp10",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
     },
-    "one-piece-caja-aprende-a-jugar|Inglés": {
-      "handle": "one-piece-caja-aprende-a-jugar",
-      "nombre": "One Piece | Caja Aprende a Jugar",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "49.90",
-      "url": "https://pokemillon.com/products/one-piece-caja-aprende-a-jugar",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-09-23143921.png?v=1764623917"
-    },
-    "one-piece-double-pack-set-dp-05-ingles-2024|Inglés": {
-      "handle": "one-piece-double-pack-set-dp-05-ingles-2024",
-      "nombre": "One Piece | Double Pack Set DP-06 OP-09 Four Emperors Inglés 2024",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "99.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
-    },
     "one-piece-sobre-op16|Inglés": {
       "handle": "one-piece-sobre-op16",
       "nombre": "One Piece | Sobre OP16 The Time of the Battle",
@@ -561,6 +541,26 @@
       "precio": "6.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-op16",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
+    },
+    "one-piece-caja-aprende-a-jugar|Inglés": {
+      "handle": "one-piece-caja-aprende-a-jugar",
+      "nombre": "One Piece | Caja Aprende a Jugar",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "49.90",
+      "url": "https://pokemillon.com/products/one-piece-caja-aprende-a-jugar",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-09-23143921.png?v=1764623917"
+    },
+    "one-piece-double-pack-set-dp-05-ingles-2024|Inglés": {
+      "handle": "one-piece-double-pack-set-dp-05-ingles-2024",
+      "nombre": "One Piece | Double Pack Set DP-06 OP-09 Four Emperors Inglés 2024",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
     },
     "double-pack-op-11-en|Inglés": {
       "handle": "double-pack-op-11-en",
@@ -612,26 +612,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
     },
-    "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
-      "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
-      "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "9.90",
-      "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
-    },
-    "one-piece-op15-sobre-adventure-on-kamis-island|Japonés": {
-      "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
-      "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "1.00",
-      "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
-    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -651,6 +631,26 @@
       "precio": "7.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-eb03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/IMG_6440.webp?v=1771254587"
+    },
+    "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
+      "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
+      "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "9.90",
+      "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
+    },
+    "one-piece-op15-sobre-adventure-on-kamis-island|Japonés": {
+      "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
+      "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "1.00",
+      "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
     },
     "one-piece-dash-pack-2025|Inglés": {
       "handle": "one-piece-dash-pack-2025",
