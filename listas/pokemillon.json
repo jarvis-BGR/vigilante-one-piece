@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-16 09:10 UTC",
+  "actualizado": "2026-09-16 12:13 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -912,6 +912,16 @@
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
     },
+    "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
+      "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+      "nombre": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "29.90",
+      "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
+    },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
       "nombre": "One Piece Sobre Winner Pack 2026 Vol. 1",
@@ -941,16 +951,6 @@
       "precio": "199.90",
       "url": "https://pokemillon.com/products/one-piece-2nd-anniversary-premium-box-japones-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-24_014529.png?v=1747278311"
-    },
-    "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
-      "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
-      "nombre": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "29.90",
-      "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
     },
     "one-piece-winner-pack-2024-oct-dec|Japonés": {
       "handle": "one-piece-winner-pack-2024-oct-dec",
