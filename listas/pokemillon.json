@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-18 09:09 UTC",
+  "actualizado": "2026-09-18 12:12 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -842,6 +842,16 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
     },
+    "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
+      "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+      "nombre": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "29.90",
+      "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
+    },
     "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece|Japonés": {
       "handle": "sobre-op11-a-fist-of-divine-speed-release-event-pack-one-piece",
       "nombre": "Sobre OP11 A Fist of Divine Speed Release Event Pack One Piece",
@@ -911,16 +921,6 @@
       "precio": "199.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
-    },
-    "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
-      "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
-      "nombre": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "29.90",
-      "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
     },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
