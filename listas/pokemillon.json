@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-19 21:08 UTC",
+  "actualizado": "2026-09-20 00:14 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -27,8 +27,8 @@
       "nombre": "One Piece Caja 24 Sobres OP15 Adventure on KAMI’s Island",
       "tipo": "Caja",
       "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "229.00",
+      "estado": "PREVENTA",
+      "precio": "329.00",
       "url": "https://pokemillon.com/products/op-15-caja",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-15__Mejor_Carta_Pokemillon.png?v=1773156371"
     },
@@ -107,8 +107,8 @@
       "nombre": "One Piece Caja 24 Sobres OP14 The Azure Sea's Seven EB04",
       "tipo": "Caja",
       "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "269.99",
+      "estado": "PREVENTA",
+      "precio": "299.99",
       "url": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-14_Mejor_Carta_Pokemillon.png?v=1771337446"
     },
@@ -167,7 +167,7 @@
       "nombre": "One Piece Caja 24 Sobres OP16 The Time of the Battle",
       "tipo": "Caja",
       "idioma": "Inglés",
-      "estado": "DISPONIBLE",
+      "estado": "PREVENTA",
       "precio": "249.90",
       "url": "https://pokemillon.com/products/op-16-the-time-of-the-battle",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op16-booster-box.png?v=1781758200"
@@ -177,7 +177,7 @@
       "nombre": "One Piece Caja 24 Sobres OP16 The Time of the Battle",
       "tipo": "Caja",
       "idioma": "Japonés",
-      "estado": "DISPONIBLE",
+      "estado": "PREVENTA",
       "precio": "149.90",
       "url": "https://pokemillon.com/products/op-16-the-time-of-the-battle",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op16-booster-box.png?v=1781758200"
