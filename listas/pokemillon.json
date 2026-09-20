@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-20 15:09 UTC",
+  "actualizado": "2026-09-20 18:10 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -251,6 +251,26 @@
       "precio": "109.90",
       "url": "https://pokemillon.com/products/caja-op-09",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/One_Piece_Caja_24_Sobres_OP-09_Emperors_in_the_New_World_Sin_Fondo_Pokemillon.png?v=1764623572"
+    },
+    "caja-op17|Inglés": {
+      "handle": "caja-op17",
+      "nombre": "One Piece Caja 24 Sobres OP17 The World's Strongest Warriors",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "399.00",
+      "url": "https://pokemillon.com/products/caja-op17",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_bfeb4abb-ae08-43be-ac20-7c39c658b750.jpg?v=1787158517"
+    },
+    "caja-op17|Japonés": {
+      "handle": "caja-op17",
+      "nombre": "One Piece Caja 24 Sobres OP17 The World's Strongest Warriors",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "219.61",
+      "url": "https://pokemillon.com/products/caja-op17",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_bfeb4abb-ae08-43be-ac20-7c39c658b750.jpg?v=1787158517"
     },
     "caja-op06|Inglés": {
       "handle": "caja-op06",
