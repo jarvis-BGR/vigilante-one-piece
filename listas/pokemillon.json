@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-24 06:13 UTC",
+  "actualizado": "2026-09-24 09:10 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -214,7 +214,7 @@
     },
     "sobre-op17|Inglés": {
       "handle": "sobre-op17",
-      "nombre": "One Piece | Sobre OP17 The World's Strongest Warriors",
+      "nombre": "One Piece Sobre OP17 The World's Strongest Warriors",
       "tipo": "Sobre",
       "idioma": "Inglés",
       "estado": "AGOTADO",
@@ -224,7 +224,7 @@
     },
     "sobre-op17|Japonés": {
       "handle": "sobre-op17",
-      "nombre": "One Piece | Sobre OP17 The World's Strongest Warriors",
+      "nombre": "One Piece Sobre OP17 The World's Strongest Warriors",
       "tipo": "Sobre",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
