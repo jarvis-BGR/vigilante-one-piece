@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-09-30 09:10 UTC",
+  "actualizado": "2026-09-30 12:13 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -182,6 +182,26 @@
       "url": "https://pokemillon.com/products/op-16-the-time-of-the-battle",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op16-booster-box.png?v=1781758200"
     },
+    "sobre-op17|Inglés": {
+      "handle": "sobre-op17",
+      "nombre": "One Piece Sobre OP17 The World's Strongest Warriors",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "16.90",
+      "url": "https://pokemillon.com/products/sobre-op17",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-op17-the-worlds-strongest-warriors.jpg?v=1788134293"
+    },
+    "sobre-op17|Japonés": {
+      "handle": "sobre-op17",
+      "nombre": "One Piece Sobre OP17 The World's Strongest Warriors",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "9.90",
+      "url": "https://pokemillon.com/products/sobre-op17",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-op17-the-worlds-strongest-warriors.jpg?v=1788134293"
+    },
     "caja-op-01|Inglés": {
       "handle": "caja-op-01",
       "nombre": "One Piece | Caja 24 Sobres Romance Dawn OP-01",
@@ -211,26 +231,6 @@
       "precio": "59.90",
       "url": "https://pokemillon.com/products/caja-op-01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/products/one-piece-tcg-romance-dawn-op01-24-sobres-pokemillon_b41d9719-bad3-4555-98c0-bb6a95031c0f.jpg?v=1753228302"
-    },
-    "sobre-op17|Inglés": {
-      "handle": "sobre-op17",
-      "nombre": "One Piece Sobre OP17 The World's Strongest Warriors",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "16.90",
-      "url": "https://pokemillon.com/products/sobre-op17",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-op17-the-worlds-strongest-warriors.jpg?v=1788134293"
-    },
-    "sobre-op17|Japonés": {
-      "handle": "sobre-op17",
-      "nombre": "One Piece Sobre OP17 The World's Strongest Warriors",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "9.90",
-      "url": "https://pokemillon.com/products/sobre-op17",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-op17-the-worlds-strongest-warriors.jpg?v=1788134293"
     },
     "caja-op-09|Inglés": {
       "handle": "caja-op-09",
@@ -612,26 +612,6 @@
       "url": "https://pokemillon.com/products/sobre-op10-royal-blood-release-event-packone-piece",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/817580.png?v=1784296246"
     },
-    "one-piece-sobre-op-14|Inglés": {
-      "handle": "one-piece-sobre-op-14",
-      "nombre": "One Piece Sobre OP14 The Azure Sea's Seven",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "8.69",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
-    },
-    "one-piece-sobre-op-14|Japonés": {
-      "handle": "one-piece-sobre-op-14",
-      "nombre": "One Piece Sobre OP14 The Azure Sea's Seven",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "2.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
-    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -651,6 +631,26 @@
       "precio": "7.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-eb03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/IMG_6440.webp?v=1771254587"
+    },
+    "one-piece-sobre-op-14|Inglés": {
+      "handle": "one-piece-sobre-op-14",
+      "nombre": "One Piece Sobre OP14 The Azure Sea's Seven",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "8.69",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
+    },
+    "one-piece-sobre-op-14|Japonés": {
+      "handle": "one-piece-sobre-op-14",
+      "nombre": "One Piece Sobre OP14 The Azure Sea's Seven",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "2.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
     },
     "one-piece-dash-pack-2025|Inglés": {
       "handle": "one-piece-dash-pack-2025",
