@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-01 09:12 UTC",
+  "actualizado": "2026-10-01 12:14 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -142,26 +142,6 @@
       "url": "https://pokemillon.com/products/caja-memorial-eb-03-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB-03__Mejor_Carta_Pokemillon.png?v=1771254587"
     },
-    "caja-op-12|Inglés": {
-      "handle": "caja-op-12",
-      "nombre": "One Piece Caja 24 Sobres OP12 Legacy of the Master",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "196.90",
-      "url": "https://pokemillon.com/products/caja-op-12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-12_Mejor_Carta_Pokemillon.png?v=1767916502"
-    },
-    "caja-op-12|Japonés": {
-      "handle": "caja-op-12",
-      "nombre": "One Piece Caja 24 Sobres OP12 Legacy of the Master",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "119.99",
-      "url": "https://pokemillon.com/products/caja-op-12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-12_Mejor_Carta_Pokemillon.png?v=1767916502"
-    },
     "op-16-the-time-of-the-battle|Inglés": {
       "handle": "op-16-the-time-of-the-battle",
       "nombre": "One Piece Caja 24 Sobres OP16 The Time of the Battle",
@@ -181,6 +161,26 @@
       "precio": "149.90",
       "url": "https://pokemillon.com/products/op-16-the-time-of-the-battle",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op16-booster-box.png?v=1781758200"
+    },
+    "caja-op-12|Inglés": {
+      "handle": "caja-op-12",
+      "nombre": "One Piece Caja 24 Sobres OP12 Legacy of the Master",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "196.90",
+      "url": "https://pokemillon.com/products/caja-op-12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-12_Mejor_Carta_Pokemillon.png?v=1767916502"
+    },
+    "caja-op-12|Japonés": {
+      "handle": "caja-op-12",
+      "nombre": "One Piece Caja 24 Sobres OP12 Legacy of the Master",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "119.99",
+      "url": "https://pokemillon.com/products/caja-op-12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-12_Mejor_Carta_Pokemillon.png?v=1767916502"
     },
     "sobre-op17|Inglés": {
       "handle": "sobre-op17",
@@ -812,16 +812,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-3",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/780227.png?v=1784295332"
     },
-    "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
-      "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
-      "nombre": "One Piece | Double Pack Set DP-03 Inglés 2023",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "14.90",
-      "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
-    },
     "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
       "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
@@ -841,6 +831,16 @@
       "precio": "6.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1789063721"
+    },
+    "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
+      "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
+      "nombre": "One Piece | Double Pack Set DP-03 Inglés 2023",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "14.90",
+      "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
     "one-piece-sobre-judge-pack-vol-6|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-6",
