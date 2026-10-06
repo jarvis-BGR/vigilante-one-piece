@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-05 18:13 UTC",
+  "actualizado": "2026-10-06 00:15 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -268,7 +268,7 @@
       "tipo": "Caja",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
-      "precio": "219.61",
+      "precio": "159.95",
       "url": "https://pokemillon.com/products/caja-op17",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_bfeb4abb-ae08-43be-ac20-7c39c658b750.jpg?v=1787158517"
     },
