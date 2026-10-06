@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-06 09:46 UTC",
+  "actualizado": "2026-10-06 17:57 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -592,26 +592,6 @@
       "url": "https://pokemillon.com/products/double-pack-op-11-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
-    "sobre-op10-royal-blood-release-event-packone-piece|Japonés": {
-      "handle": "sobre-op10-royal-blood-release-event-packone-piece",
-      "nombre": "Sobre OP10 Royal Blood Release Event Pack One Piece",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/sobre-op10-royal-blood-release-event-packone-piece",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/817580.png?v=1784296246"
-    },
-    "sobre-op10-royal-blood-release-event-packone-piece|Inglés": {
-      "handle": "sobre-op10-royal-blood-release-event-packone-piece",
-      "nombre": "Sobre OP10 Royal Blood Release Event Pack One Piece",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/sobre-op10-royal-blood-release-event-packone-piece",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/817580.png?v=1784296246"
-    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -631,6 +611,26 @@
       "precio": "7.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-eb03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/IMG_6440.webp?v=1771254587"
+    },
+    "sobre-op10-royal-blood-release-event-packone-piece|Japonés": {
+      "handle": "sobre-op10-royal-blood-release-event-packone-piece",
+      "nombre": "Sobre OP10 Royal Blood Release Event Pack One Piece",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.90",
+      "url": "https://pokemillon.com/products/sobre-op10-royal-blood-release-event-packone-piece",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/817580.png?v=1784296246"
+    },
+    "sobre-op10-royal-blood-release-event-packone-piece|Inglés": {
+      "handle": "sobre-op10-royal-blood-release-event-packone-piece",
+      "nombre": "Sobre OP10 Royal Blood Release Event Pack One Piece",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "2.90",
+      "url": "https://pokemillon.com/products/sobre-op10-royal-blood-release-event-packone-piece",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/817580.png?v=1784296246"
     },
     "one-piece-sobre-op-14|Inglés": {
       "handle": "one-piece-sobre-op-14",
