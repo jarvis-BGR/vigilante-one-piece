@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-08 10:00 UTC",
+  "actualizado": "2026-10-08 18:26 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -512,26 +512,6 @@
       "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-12_014839.png?v=1747278354"
     },
-    "one-piece-sobre-op16|Inglés": {
-      "handle": "one-piece-sobre-op16",
-      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "7.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
-    },
-    "one-piece-sobre-op16|Japonés": {
-      "handle": "one-piece-sobre-op16",
-      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "6.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
-    },
     "one-piece-op14-the-azure-seas-seven-dash-pack|Inglés": {
       "handle": "one-piece-op14-the-azure-seas-seven-dash-pack",
       "nombre": "One Piece OP14 The Azure Sea's Seven Dash Pack",
@@ -551,6 +531,26 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
+    },
+    "one-piece-sobre-op16|Inglés": {
+      "handle": "one-piece-sobre-op16",
+      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "7.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
+    },
+    "one-piece-sobre-op16|Japonés": {
+      "handle": "one-piece-sobre-op16",
+      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "6.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
     },
     "one-piece-dp10|?": {
       "handle": "one-piece-dp10",
@@ -712,26 +712,6 @@
       "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
     },
-    "one-piece-sobre-judge-pack-vol-7|Inglés": {
-      "handle": "one-piece-sobre-judge-pack-vol-7",
-      "nombre": "One Piece Sobre Judge Pack Vol. 7",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "6.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
-    },
-    "one-piece-sobre-judge-pack-vol-7|Japonés": {
-      "handle": "one-piece-sobre-judge-pack-vol-7",
-      "nombre": "One Piece Sobre Judge Pack Vol. 7",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
-    },
     "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
       "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
       "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
@@ -751,6 +731,26 @@
       "precio": "5.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
+    },
+    "one-piece-sobre-judge-pack-vol-7|Inglés": {
+      "handle": "one-piece-sobre-judge-pack-vol-7",
+      "nombre": "One Piece Sobre Judge Pack Vol. 7",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "6.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
+    },
+    "one-piece-sobre-judge-pack-vol-7|Japonés": {
+      "handle": "one-piece-sobre-judge-pack-vol-7",
+      "nombre": "One Piece Sobre Judge Pack Vol. 7",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
     },
     "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
