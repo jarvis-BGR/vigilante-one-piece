@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-15 10:52 UTC",
+  "actualizado": "2026-10-15 16:20 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -812,6 +812,26 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-3",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/780227.png?v=1784295332"
     },
+    "one-piece-eb-05|Inglés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB-05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "PREVENTA",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-eb-05|Japonés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB-05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.90",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
     "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
       "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
@@ -861,6 +881,26 @@
       "precio": "0.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
+    },
+    "one-piece-op18|Inglés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "PREVENTA",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
+    },
+    "one-piece-op18|Japonés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.90",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
     },
     "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
       "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
@@ -941,46 +981,6 @@
       "precio": "199.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
-    },
-    "one-piece-eb-05|Inglés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB-05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "PREVENTA",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
-    },
-    "one-piece-eb-05|Japonés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB-05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "59.90",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
-    },
-    "one-piece-op18|Inglés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "PREVENTA",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
-    },
-    "one-piece-op18|Japonés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "59.90",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
     },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
@@ -1091,6 +1091,26 @@
       "precio": "119.90",
       "url": "https://pokemillon.com/products/one-piece-1st-anniversary-set-box-japones-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/722832.png?v=1740519965"
+    },
+    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Japonés": {
+      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "1.20",
+      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
+    },
+    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Inglés": {
+      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "6.90",
+      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
     },
     "one-piece-sobre-round1|Japonés": {
       "handle": "one-piece-sobre-round1",
@@ -1281,26 +1301,6 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20240620_155206_X.jpg?v=1747278302"
-    },
-    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Japonés": {
-      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "1.20",
-      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
-    },
-    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Inglés": {
-      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "6.90",
-      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
     },
     "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
