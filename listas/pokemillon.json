@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-18 10:25 UTC",
+  "actualizado": "2026-10-18 15:23 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -862,26 +862,6 @@
       "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
-    "one-piece-sobre-judge-pack-vol-6|Inglés": {
-      "handle": "one-piece-sobre-judge-pack-vol-6",
-      "nombre": "One Piece Sobre Judge Pack Vol.5",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "3.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
-    },
-    "one-piece-sobre-judge-pack-vol-6|Japonés": {
-      "handle": "one-piece-sobre-judge-pack-vol-6",
-      "nombre": "One Piece Sobre Judge Pack Vol.5",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
-    },
     "one-piece-op18|Inglés": {
       "handle": "one-piece-op18",
       "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
@@ -901,6 +881,26 @@
       "precio": "59.90",
       "url": "https://pokemillon.com/products/one-piece-op18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
+    },
+    "one-piece-sobre-judge-pack-vol-6|Inglés": {
+      "handle": "one-piece-sobre-judge-pack-vol-6",
+      "nombre": "One Piece Sobre Judge Pack Vol.5",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "3.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
+    },
+    "one-piece-sobre-judge-pack-vol-6|Japonés": {
+      "handle": "one-piece-sobre-judge-pack-vol-6",
+      "nombre": "One Piece Sobre Judge Pack Vol.5",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
     },
     "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
       "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
