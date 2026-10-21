@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-21 03:22 UTC",
+  "actualizado": "2026-10-21 11:12 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -692,26 +692,6 @@
       "url": "https://pokemillon.com/products/one-piece-dash-pack-2025",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/dash-pack-2025-promos.webp?v=1779286930"
     },
-    "caja-24-sobres-eb01|Japonés": {
-      "handle": "caja-24-sobres-eb01",
-      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "3.90",
-      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
-    },
-    "caja-24-sobres-eb01|Inglés": {
-      "handle": "caja-24-sobres-eb01",
-      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "199.90",
-      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
-    },
     "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
       "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
       "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
@@ -731,6 +711,26 @@
       "precio": "5.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
+    },
+    "caja-24-sobres-eb01|Japonés": {
+      "handle": "caja-24-sobres-eb01",
+      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "3.90",
+      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
+    },
+    "caja-24-sobres-eb01|Inglés": {
+      "handle": "caja-24-sobres-eb01",
+      "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "199.90",
+      "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
     },
     "one-piece-sobre-judge-pack-vol-7|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-7",
@@ -832,6 +832,26 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-3",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/780227.png?v=1784295332"
     },
+    "one-piece-op18|Inglés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "PREVENTA",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
+    },
+    "one-piece-op18|Japonés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.90",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
+    },
     "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
       "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
@@ -861,26 +881,6 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
-    },
-    "one-piece-op18|Inglés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "PREVENTA",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
-    },
-    "one-piece-op18|Japonés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "59.90",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
     },
     "one-piece-sobre-judge-pack-vol-6|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-6",
