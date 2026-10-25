@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-25 15:34 UTC",
+  "actualizado": "2026-10-25 20:23 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -97,8 +97,8 @@
       "nombre": "One Piece Caja 24 Sobres OP10 Royal Blood",
       "tipo": "Caja",
       "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "56.90",
+      "estado": "DISPONIBLE",
+      "precio": "96.90",
       "url": "https://pokemillon.com/products/caja-op10",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-10_Mejor_Carta_Pokemillon.png?v=1767916537"
     },
@@ -157,7 +157,7 @@
       "nombre": "One Piece Caja 24 Sobres OP16 The Time of the Battle",
       "tipo": "Caja",
       "idioma": "Japonés",
-      "estado": "AGOTADO",
+      "estado": "DISPONIBLE",
       "precio": "149.90",
       "url": "https://pokemillon.com/products/op-16-the-time-of-the-battle",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op16-booster-box.png?v=1781758200"
@@ -327,7 +327,7 @@
       "nombre": "One Piece Caja 24 Sobres Memorial Collection EB04 Egghead Crisis",
       "tipo": "Caja",
       "idioma": "Japonés",
-      "estado": "AGOTADO",
+      "estado": "DISPONIBLE",
       "precio": "119.90",
       "url": "https://pokemillon.com/products/one-piece-memorial-collection-eb-04",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB-04__Mejor_Carta_Pokemillon.png?v=1771254267"
@@ -1301,6 +1301,16 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20240620_155206_X.jpg?v=1747278302"
+    },
+    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
+      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "nombre": "One Piece | Double Pack [DP-13] OP18 The Dominance of God",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "28.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1792946711"
     },
     "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
