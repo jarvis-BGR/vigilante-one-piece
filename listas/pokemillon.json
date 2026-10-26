@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-26 03:17 UTC",
+  "actualizado": "2026-10-26 12:17 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -502,16 +502,6 @@
       "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
     },
-    "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024|Inglés": {
-      "handle": "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
-      "nombre": "One Piece | Mazo Ultra Deck de Luffy Gear 5 ST-21 + Sobre Bonus Inglés 2025",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "28.90",
-      "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-12_014839.png?v=1747278354"
-    },
     "one-piece-op14-the-azure-seas-seven-dash-pack|Inglés": {
       "handle": "one-piece-op14-the-azure-seas-seven-dash-pack",
       "nombre": "One Piece OP14 The Azure Sea's Seven Dash Pack",
@@ -531,6 +521,16 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
+    },
+    "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024|Inglés": {
+      "handle": "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
+      "nombre": "One Piece | Mazo Ultra Deck de Luffy Gear 5 ST-21 + Sobre Bonus Inglés 2025",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "28.90",
+      "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-12_014839.png?v=1747278354"
     },
     "one-piece-sobre-op16|Inglés": {
       "handle": "one-piece-sobre-op16",
