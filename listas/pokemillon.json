@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-27 08:39 UTC",
+  "actualizado": "2026-10-27 15:07 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -752,6 +752,26 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
     },
+    "one-piece-eb-05|Inglés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "PREVENTA",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-eb-05|Japonés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.90",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
     "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
       "nombre": "One Piece Sobre ST-15 - ST-20 Release Event Pack",
@@ -791,26 +811,6 @@
       "precio": "8.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
-    },
-    "one-piece-eb-05|Inglés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "PREVENTA",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
-    },
-    "one-piece-eb-05|Japonés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "59.90",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
     },
     "one-piece-sobre-judge-pack-vol-3|Japonés": {
       "handle": "one-piece-sobre-judge-pack-vol-3",
