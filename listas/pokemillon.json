@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-27 21:49 UTC",
+  "actualizado": "2026-10-28 04:03 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -757,7 +757,7 @@
       "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
       "tipo": "Caja",
       "idioma": "Inglés",
-      "estado": "PREVENTA",
+      "estado": "DISPONIBLE",
       "precio": "289.00",
       "url": "https://pokemillon.com/products/one-piece-eb-05",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
@@ -1301,6 +1301,26 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20240620_155206_X.jpg?v=1747278302"
+    },
+    "one-piece-sobres-eb05-heroines-edition-vol-2|Inglés": {
+      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
+      "nombre": "One Piece | Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "12.00",
+      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793143701"
+    },
+    "one-piece-sobres-eb05-heroines-edition-vol-2|Japonés": {
+      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
+      "nombre": "One Piece | Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "2.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793143701"
     },
     "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
       "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
