@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-29 09:21 UTC",
+  "actualizado": "2026-10-29 18:02 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -732,26 +732,6 @@
       "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
     },
-    "one-piece-sobre-judge-pack-vol-7|Inglés": {
-      "handle": "one-piece-sobre-judge-pack-vol-7",
-      "nombre": "One Piece Sobre Judge Pack Vol. 7",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "6.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
-    },
-    "one-piece-sobre-judge-pack-vol-7|Japonés": {
-      "handle": "one-piece-sobre-judge-pack-vol-7",
-      "nombre": "One Piece Sobre Judge Pack Vol. 7",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
-    },
     "one-piece-eb-05|Inglés": {
       "handle": "one-piece-eb-05",
       "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
@@ -771,6 +751,26 @@
       "precio": "142.90",
       "url": "https://pokemillon.com/products/one-piece-eb-05",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-sobre-judge-pack-vol-7|Inglés": {
+      "handle": "one-piece-sobre-judge-pack-vol-7",
+      "nombre": "One Piece Sobre Judge Pack Vol. 7",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "6.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
+    },
+    "one-piece-sobre-judge-pack-vol-7|Japonés": {
+      "handle": "one-piece-sobre-judge-pack-vol-7",
+      "nombre": "One Piece Sobre Judge Pack Vol. 7",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
     },
     "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
@@ -982,6 +982,26 @@
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
     },
+    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Japonés": {
+      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "1.20",
+      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
+    },
+    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Inglés": {
+      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "6.90",
+      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
+    },
     "one-piece-sobre-winner-pack-2026-vol-1|Inglés": {
       "handle": "one-piece-sobre-winner-pack-2026-vol-1",
       "nombre": "One Piece Sobre Winner Pack 2026 Vol. 1",
@@ -1012,25 +1032,25 @@
       "url": "https://pokemillon.com/products/one-piece-2nd-anniversary-premium-box-japones-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-24_014529.png?v=1747278311"
     },
-    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Japonés": {
-      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "1.20",
-      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
-    },
-    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Inglés": {
-      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
+    "one-piece-sobres-eb05-heroines-edition-vol-2|Inglés": {
+      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
+      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
       "tipo": "Sobre",
       "idioma": "Inglés",
       "estado": "DISPONIBLE",
-      "precio": "6.90",
-      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
+      "precio": "12.00",
+      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
+    },
+    "one-piece-sobres-eb05-heroines-edition-vol-2|Japonés": {
+      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
+      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "2.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
     },
     "one-piece-winner-pack-2024-oct-dec|Japonés": {
       "handle": "one-piece-winner-pack-2024-oct-dec",
@@ -1301,26 +1321,6 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20240620_155206_X.jpg?v=1747278302"
-    },
-    "one-piece-sobres-eb05-heroines-edition-vol-2|Inglés": {
-      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
-      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "12.00",
-      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
-    },
-    "one-piece-sobres-eb05-heroines-edition-vol-2|Japonés": {
-      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
-      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
     },
     "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
       "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
