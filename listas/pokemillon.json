@@ -1,10 +1,10 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-30 21:56 UTC",
+  "actualizado": "2026-10-31 04:08 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
-      "nombre": "One Piece Caja Sobres PRB-02 The Best vol.2 Premium Collection",
+      "nombre": "One Piece Caja Sobres PRB02 The Best vol2 Premium Collection",
       "tipo": "Caja",
       "idioma": "Inglés",
       "estado": "AGOTADO",
@@ -14,7 +14,7 @@
     },
     "one-piece-prb-02-box|Japonés": {
       "handle": "one-piece-prb-02-box",
-      "nombre": "One Piece Caja Sobres PRB-02 The Best vol.2 Premium Collection",
+      "nombre": "One Piece Caja Sobres PRB02 The Best vol2 Premium Collection",
       "tipo": "Caja",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
