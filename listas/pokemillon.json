@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-10-31 04:08 UTC",
+  "actualizado": "2026-10-31 11:42 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -612,6 +612,26 @@
       "url": "https://pokemillon.com/products/double-pack-op-11-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
+    "one-piece-eb-05|Inglés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-eb-05|Japonés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "142.90",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
     "sobre-op10-royal-blood-release-event-packone-piece|Japonés": {
       "handle": "sobre-op10-royal-blood-release-event-packone-piece",
       "nombre": "Sobre OP10 Royal Blood Release Event Pack One Piece",
@@ -651,26 +671,6 @@
       "precio": "2.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
-    },
-    "one-piece-eb-05|Inglés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
-    },
-    "one-piece-eb-05|Japonés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "142.90",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
     },
     "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
       "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
@@ -852,6 +852,26 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-3",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/780227.png?v=1784295332"
     },
+    "one-piece-sobres-eb05-heroines-edition-vol-2|Inglés": {
+      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
+      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "12.00",
+      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
+    },
+    "one-piece-sobres-eb05-heroines-edition-vol-2|Japonés": {
+      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
+      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "2.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
+    },
     "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
       "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
       "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
@@ -901,26 +921,6 @@
       "precio": "0.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
-    },
-    "one-piece-sobres-eb05-heroines-edition-vol-2|Inglés": {
-      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
-      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "12.00",
-      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
-    },
-    "one-piece-sobres-eb05-heroines-edition-vol-2|Japonés": {
-      "handle": "one-piece-sobres-eb05-heroines-edition-vol-2",
-      "nombre": "One Piece | Sobre EB05 Heroines Edition Vol 2",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "2.90",
-      "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
     },
     "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
       "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
