@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-02 10:33 UTC",
+  "actualizado": "2026-11-02 21:24 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -332,26 +332,6 @@
       "url": "https://pokemillon.com/products/one-piece-memorial-collection-eb-04",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB-04__Mejor_Carta_Pokemillon.png?v=1771254267"
     },
-    "one-piece-dp12|Inglés": {
-      "handle": "one-piece-dp12",
-      "nombre": "OP17 One Piece DP12 The World's Strongest Warriors OP17",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "39.90",
-      "url": "https://pokemillon.com/products/one-piece-dp12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op17-one-piece-dp12-the-worlds-strongest-warriors-op17.jpg?v=1788134309"
-    },
-    "one-piece-dp12|?": {
-      "handle": "one-piece-dp12",
-      "nombre": "OP17 One Piece DP12 The World's Strongest Warriors OP17",
-      "tipo": "Double Pack",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "19.90",
-      "url": "https://pokemillon.com/products/one-piece-dp12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op17-one-piece-dp12-the-worlds-strongest-warriors-op17.jpg?v=1788134309"
-    },
     "one-piece-sobre-welcome-pack-vol1|Inglés": {
       "handle": "one-piece-sobre-welcome-pack-vol1",
       "nombre": "One Piece Sobre Welcome Pack Vol. 1",
@@ -371,6 +351,26 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-welcome-pack-vol1",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/804766.png?v=1782469968"
+    },
+    "one-piece-dp12|Inglés": {
+      "handle": "one-piece-dp12",
+      "nombre": "OP17 One Piece DP12 The World's Strongest Warriors OP17",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "39.90",
+      "url": "https://pokemillon.com/products/one-piece-dp12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op17-one-piece-dp12-the-worlds-strongest-warriors-op17.jpg?v=1788134309"
+    },
+    "one-piece-dp12|?": {
+      "handle": "one-piece-dp12",
+      "nombre": "OP17 One Piece DP12 The World's Strongest Warriors OP17",
+      "tipo": "Double Pack",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "19.90",
+      "url": "https://pokemillon.com/products/one-piece-dp12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/op17-one-piece-dp12-the-worlds-strongest-warriors-op17.jpg?v=1788134309"
     },
     "one-piece-caja-24-sobres-kingdoms-of-intrigue|Inglés": {
       "handle": "one-piece-caja-24-sobres-kingdoms-of-intrigue",
@@ -492,16 +492,6 @@
       "url": "https://pokemillon.com/products/caja-24-sobres-pilars-of-strength",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-3-Pillars-of-Strenght-pokemillon.png?v=1753228917"
     },
-    "one-piece-dp-08-legacy-of-the-master-op-12|Inglés": {
-      "handle": "one-piece-dp-08-legacy-of-the-master-op-12",
-      "nombre": "One Piece | DP-08 Legacy of the Master OP-12",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "13.90",
-      "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
-    },
     "one-piece-op14-the-azure-seas-seven-dash-pack|Inglés": {
       "handle": "one-piece-op14-the-azure-seas-seven-dash-pack",
       "nombre": "One Piece OP14 The Azure Sea's Seven Dash Pack",
@@ -541,6 +531,16 @@
       "precio": "6.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-op16",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
+    },
+    "one-piece-dp-08-legacy-of-the-master-op-12|Inglés": {
+      "handle": "one-piece-dp-08-legacy-of-the-master-op-12",
+      "nombre": "One Piece | DP-08 Legacy of the Master OP-12",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "13.90",
+      "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
     },
     "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024|Inglés": {
       "handle": "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
