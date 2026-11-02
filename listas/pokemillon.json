@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-01 19:22 UTC",
+  "actualizado": "2026-11-02 00:15 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -122,24 +122,24 @@
       "url": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-14_Mejor_Carta_Pokemillon.png?v=1771337446"
     },
-    "caja-memorial-eb-03-en|Inglés": {
-      "handle": "caja-memorial-eb-03-en",
+    "caja-memorial-eb-03|Inglés": {
+      "handle": "caja-memorial-eb-03",
       "nombre": "One Piece Caja 24 Sobres Memorial Collection EB03 - Heroines Edition",
       "tipo": "Caja",
       "idioma": "Inglés",
       "estado": "AGOTADO",
       "precio": "289.90",
-      "url": "https://pokemillon.com/products/caja-memorial-eb-03-en",
+      "url": "https://pokemillon.com/products/caja-memorial-eb-03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB-03__Mejor_Carta_Pokemillon.png?v=1771254587"
     },
-    "caja-memorial-eb-03-en|Japonés": {
-      "handle": "caja-memorial-eb-03-en",
+    "caja-memorial-eb-03|Japonés": {
+      "handle": "caja-memorial-eb-03",
       "nombre": "One Piece Caja 24 Sobres Memorial Collection EB03 - Heroines Edition",
       "tipo": "Caja",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
       "precio": "132.90",
-      "url": "https://pokemillon.com/products/caja-memorial-eb-03-en",
+      "url": "https://pokemillon.com/products/caja-memorial-eb-03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB-03__Mejor_Carta_Pokemillon.png?v=1771254587"
     },
     "op-16-the-time-of-the-battle|Inglés": {
@@ -248,7 +248,7 @@
       "tipo": "Caja",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
-      "precio": "159.95",
+      "precio": "119.95",
       "url": "https://pokemillon.com/products/caja-op17",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_bfeb4abb-ae08-43be-ac20-7c39c658b750.jpg?v=1787158517"
     },
