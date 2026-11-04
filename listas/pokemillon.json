@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-04 10:29 UTC",
+  "actualizado": "2026-11-04 19:23 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -1137,7 +1137,7 @@
       "nombre": "One Piece | Sobre Round1",
       "tipo": "Sobre",
       "idioma": "Japonés",
-      "estado": "AGOTADO",
+      "estado": "DISPONIBLE",
       "precio": "52.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-round1",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-01223518.png?v=1788359085"
@@ -1321,6 +1321,36 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20240620_155206_X.jpg?v=1747278302"
+    },
+    "one-piece-sobres-romance-dawn-op-01|Inglés": {
+      "handle": "one-piece-sobres-romance-dawn-op-01",
+      "nombre": "One Piece | Sobres Romance Dawn OP-01",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "39.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
+    "one-piece-sobres-romance-dawn-op-01|Japonés": {
+      "handle": "one-piece-sobres-romance-dawn-op-01",
+      "nombre": "One Piece | Sobres Romance Dawn OP-01",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "9.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
+    "one-piece-sobres-romance-dawn-op-01|?": {
+      "handle": "one-piece-sobres-romance-dawn-op-01",
+      "nombre": "One Piece | Sobres Romance Dawn OP-01",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "4.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
     },
     "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
       "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
