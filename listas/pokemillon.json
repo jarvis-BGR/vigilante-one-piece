@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-05 10:21 UTC",
+  "actualizado": "2026-11-05 19:30 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -562,26 +562,6 @@
       "url": "https://pokemillon.com/products/one-piece-dp10",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
     },
-    "one-piece-caja-aprende-a-jugar|Inglés": {
-      "handle": "one-piece-caja-aprende-a-jugar",
-      "nombre": "One Piece | Caja Aprende a Jugar",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "49.90",
-      "url": "https://pokemillon.com/products/one-piece-caja-aprende-a-jugar",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-09-23143921.png?v=1764623917"
-    },
-    "one-piece-double-pack-set-dp-05-ingles-2024|Inglés": {
-      "handle": "one-piece-double-pack-set-dp-05-ingles-2024",
-      "nombre": "One Piece | Double Pack Set DP-06 OP-09 Four Emperors Inglés 2024",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "99.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
-    },
     "one-piece-eb-05|Inglés": {
       "handle": "one-piece-eb-05",
       "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
@@ -601,6 +581,26 @@
       "precio": "142.90",
       "url": "https://pokemillon.com/products/one-piece-eb-05",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-caja-aprende-a-jugar|Inglés": {
+      "handle": "one-piece-caja-aprende-a-jugar",
+      "nombre": "One Piece | Caja Aprende a Jugar",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "49.90",
+      "url": "https://pokemillon.com/products/one-piece-caja-aprende-a-jugar",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-09-23143921.png?v=1764623917"
+    },
+    "one-piece-double-pack-set-dp-05-ingles-2024|Inglés": {
+      "handle": "one-piece-double-pack-set-dp-05-ingles-2024",
+      "nombre": "One Piece | Double Pack Set DP-06 OP-09 Four Emperors Inglés 2024",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-05-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2024-12-02_214251.png?v=1754155387"
     },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
@@ -772,6 +772,26 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
     },
+    "one-piece-op18|Inglés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "PREVENTA",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
+    },
+    "one-piece-op18|Japonés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.90",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
+    },
     "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
       "nombre": "One Piece Sobre ST-15 - ST-20 Release Event Pack",
@@ -811,26 +831,6 @@
       "precio": "8.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
-    },
-    "one-piece-op18|Inglés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "PREVENTA",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
-    },
-    "one-piece-op18|Japonés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "59.90",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP18.png?v=1789904811"
     },
     "one-piece-sobre-judge-pack-vol-3|Japonés": {
       "handle": "one-piece-sobre-judge-pack-vol-3",
