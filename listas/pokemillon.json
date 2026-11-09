@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-09 10:54 UTC",
+  "actualizado": "2026-11-09 21:56 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -572,16 +572,6 @@
       "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-12_014839.png?v=1747278354"
     },
-    "one-piece-dp10|?": {
-      "handle": "one-piece-dp10",
-      "nombre": "One Piece | OP15 Double Pack Set DP-10 Adventure on KAMI’s Island",
-      "tipo": "Double Pack",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "24.90",
-      "url": "https://pokemillon.com/products/one-piece-dp10",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
-    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -601,6 +591,16 @@
       "precio": "6.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-eb03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/IMG_6440.webp?v=1771254587"
+    },
+    "one-piece-dp10|?": {
+      "handle": "one-piece-dp10",
+      "nombre": "One Piece | OP15 Double Pack Set DP-10 Adventure on KAMI’s Island",
+      "tipo": "Double Pack",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "24.90",
+      "url": "https://pokemillon.com/products/one-piece-dp10",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
     },
     "one-piece-caja-aprende-a-jugar|Inglés": {
       "handle": "one-piece-caja-aprende-a-jugar",
@@ -1052,6 +1052,36 @@
       "url": "https://pokemillon.com/products/one-piece-2nd-anniversary-premium-box-japones-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-24_014529.png?v=1747278311"
     },
+    "one-piece-sobres-romance-dawn-op-01|Inglés": {
+      "handle": "one-piece-sobres-romance-dawn-op-01",
+      "nombre": "One Piece | Sobres Romance Dawn OP-01",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "39.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
+    "one-piece-sobres-romance-dawn-op-01|Japonés": {
+      "handle": "one-piece-sobres-romance-dawn-op-01",
+      "nombre": "One Piece | Sobres Romance Dawn OP-01",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "9.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
+    "one-piece-sobres-romance-dawn-op-01|?": {
+      "handle": "one-piece-sobres-romance-dawn-op-01",
+      "nombre": "One Piece | Sobres Romance Dawn OP-01",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "4.90",
+      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
     "one-piece-winner-pack-2024-oct-dec|Japonés": {
       "handle": "one-piece-winner-pack-2024-oct-dec",
       "nombre": "One Piece Sobre Winner Pack 2024 Oct.-Dec.",
@@ -1131,36 +1161,6 @@
       "precio": "119.90",
       "url": "https://pokemillon.com/products/one-piece-1st-anniversary-set-box-japones-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/722832.png?v=1740519965"
-    },
-    "one-piece-sobres-romance-dawn-op-01|Inglés": {
-      "handle": "one-piece-sobres-romance-dawn-op-01",
-      "nombre": "One Piece | Sobres Romance Dawn OP-01",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "39.90",
-      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
-    },
-    "one-piece-sobres-romance-dawn-op-01|Japonés": {
-      "handle": "one-piece-sobres-romance-dawn-op-01",
-      "nombre": "One Piece | Sobres Romance Dawn OP-01",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "9.90",
-      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
-    },
-    "one-piece-sobres-romance-dawn-op-01|?": {
-      "handle": "one-piece-sobres-romance-dawn-op-01",
-      "nombre": "One Piece | Sobres Romance Dawn OP-01",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "4.90",
-      "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
     },
     "one-piece-sobre-round1|Japonés": {
       "handle": "one-piece-sobre-round1",
