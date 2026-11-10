@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-10 05:58 UTC",
+  "actualizado": "2026-11-10 14:44 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -102,26 +102,6 @@
       "url": "https://pokemillon.com/products/caja-op10",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Op-10_Mejor_Carta_Pokemillon.png?v=1767916537"
     },
-    "caja-op-14-the-azure-sea-seven|Inglés": {
-      "handle": "caja-op-14-the-azure-sea-seven",
-      "nombre": "One Piece Caja 24 Sobres OP14 The Azure Sea's Seven EB04",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "299.99",
-      "url": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-14_Mejor_Carta_Pokemillon.png?v=1771337446"
-    },
-    "caja-op-14-the-azure-sea-seven|Japonés": {
-      "handle": "caja-op-14-the-azure-sea-seven",
-      "nombre": "One Piece Caja 24 Sobres OP14 The Azure Sea's Seven EB04",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "74.99",
-      "url": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-14_Mejor_Carta_Pokemillon.png?v=1771337446"
-    },
     "caja-memorial-eb-03|Inglés": {
       "handle": "caja-memorial-eb-03",
       "nombre": "One Piece Caja 24 Sobres Memorial Collection EB03 - Heroines Edition",
@@ -141,6 +121,26 @@
       "precio": "124.90",
       "url": "https://pokemillon.com/products/caja-memorial-eb-03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB-03__Mejor_Carta_Pokemillon.png?v=1771254587"
+    },
+    "caja-op-14-the-azure-sea-seven|Inglés": {
+      "handle": "caja-op-14-the-azure-sea-seven",
+      "nombre": "One Piece Caja 24 Sobres OP14 The Azure Sea's Seven EB04",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "299.99",
+      "url": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-14_Mejor_Carta_Pokemillon.png?v=1771337446"
+    },
+    "caja-op-14-the-azure-sea-seven|Japonés": {
+      "handle": "caja-op-14-the-azure-sea-seven",
+      "nombre": "One Piece Caja 24 Sobres OP14 The Azure Sea's Seven EB04",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "74.99",
+      "url": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-14_Mejor_Carta_Pokemillon.png?v=1771337446"
     },
     "op-16-the-time-of-the-battle|Inglés": {
       "handle": "op-16-the-time-of-the-battle",
@@ -532,16 +532,6 @@
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
     },
-    "one-piece-dp-08-legacy-of-the-master-op-12|Inglés": {
-      "handle": "one-piece-dp-08-legacy-of-the-master-op-12",
-      "nombre": "One Piece | DP-08 Legacy of the Master OP-12",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "13.90",
-      "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
-    },
     "one-piece-eb-05|Inglés": {
       "handle": "one-piece-eb-05",
       "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
@@ -561,6 +551,16 @@
       "precio": "142.90",
       "url": "https://pokemillon.com/products/one-piece-eb-05",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-dp-08-legacy-of-the-master-op-12|Inglés": {
+      "handle": "one-piece-dp-08-legacy-of-the-master-op-12",
+      "nombre": "One Piece | DP-08 Legacy of the Master OP-12",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "13.90",
+      "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
     },
     "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024|Inglés": {
       "handle": "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
