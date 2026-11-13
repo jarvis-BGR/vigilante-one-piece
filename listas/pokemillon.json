@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-12 21:43 UTC",
+  "actualizado": "2026-11-13 05:09 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -1351,6 +1351,126 @@
       "precio": "14.90",
       "url": "https://pokemillon.com/products/one-piece-double-pack-set-dp-04-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20240620_155206_X.jpg?v=1747278302"
+    },
+    "one-piece-come-on-well-fight-you-op09-020-premium-booster-best-vol-2|?": {
+      "handle": "one-piece-come-on-well-fight-you-op09-020-premium-booster-best-vol-2",
+      "nombre": "One Piece | Come On!! We'll Fight You!! OP09-020 Premium Booster: Best Vol.2",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "299.90",
+      "url": "https://pokemillon.com/products/one-piece-come-on-well-fight-you-op09-020-premium-booster-best-vol-2",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13003735.png?v=1794526741"
+    },
+    "one-piece-kouzuki-momonosuke-p-064-celebration-pack|?": {
+      "handle": "one-piece-kouzuki-momonosuke-p-064-celebration-pack",
+      "nombre": "One Piece | Kouzuki Momonosuke P-064 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "89.90",
+      "url": "https://pokemillon.com/products/one-piece-kouzuki-momonosuke-p-064-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13003213.png?v=1794526430"
+    },
+    "one-piece-roronoa-zoro-p-042-celebration-pack|?": {
+      "handle": "one-piece-roronoa-zoro-p-042-celebration-pack",
+      "nombre": "One Piece | Roronoa Zoro P-042 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "239.90",
+      "url": "https://pokemillon.com/products/one-piece-roronoa-zoro-p-042-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13002901.png?v=1794526188"
+    },
+    "one-piece-sabo-law-p-044-celebration-pack|?": {
+      "handle": "one-piece-sabo-law-p-044-celebration-pack",
+      "nombre": "One Piece | Sabo P-044 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-sabo-law-p-044-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13002533.png?v=1794526050"
+    },
+    "one-piece-trafalgar-law-p-017-celebration-pack|?": {
+      "handle": "one-piece-trafalgar-law-p-017-celebration-pack",
+      "nombre": "One Piece | Trafalgar Law P-017 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-trafalgar-law-p-017-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13002225.png?v=1794525801"
+    },
+    "one-piece-kaido-st04-003-cs-24-celebration-pack|?": {
+      "handle": "one-piece-kaido-st04-003-cs-24-celebration-pack",
+      "nombre": "One Piece | Kaido ST04-003 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-kaido-st04-003-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-11-13_002056.png?v=1794525676"
+    },
+    "one-piece-trafalgar-law-p-038-cs-24-celebration-pack|?": {
+      "handle": "one-piece-trafalgar-law-p-038-cs-24-celebration-pack",
+      "nombre": "One Piece | Trafalgar Law P-038 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "89.90",
+      "url": "https://pokemillon.com/products/one-piece-trafalgar-law-p-038-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13000041.png?v=1794524480"
+    },
+    "one-piece-bepo-p-019-cs-24-celebration-pack|?": {
+      "handle": "one-piece-bepo-p-019-cs-24-celebration-pack",
+      "nombre": "One Piece | Bepo P-019 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "89.90",
+      "url": "https://pokemillon.com/products/one-piece-bepo-p-019-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-12235259.png?v=1794524370"
+    },
+    "one-piece-crocodile-st03-003-cs-24-celebration-pack|?": {
+      "handle": "one-piece-crocodile-st03-003-cs-24-celebration-pack",
+      "nombre": "One Piece | Crocodile ST03-003 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-crocodile-st03-003-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-12234820.png?v=1794523751"
+    },
+    "one-piece-fukurou-op03-088-cs-24-celebration-pack|?": {
+      "handle": "one-piece-fukurou-op03-088-cs-24-celebration-pack",
+      "nombre": "One Piece | Fukurou OP03-088 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "89.90",
+      "url": "https://pokemillon.com/products/one-piece-fukurou-op03-088-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-12234548.png?v=1794523615"
+    },
+    "one-piece-monet-op05-036-cs-24-celebration-pack|?": {
+      "handle": "one-piece-monet-op05-036-cs-24-celebration-pack",
+      "nombre": "One Piece | Monet OP05-036 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "89.90",
+      "url": "https://pokemillon.com/products/one-piece-monet-op05-036-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-12234233.png?v=1794523407"
+    },
+    "one-piece-kouzuki-momonosuke-op01-041-cs-24-celebration-pack|?": {
+      "handle": "one-piece-kouzuki-momonosuke-op01-041-cs-24-celebration-pack",
+      "nombre": "One Piece | Kouzuki Momonosuke OP01-041 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "DISPONIBLE",
+      "precio": "99.90",
+      "url": "https://pokemillon.com/products/one-piece-kouzuki-momonosuke-op01-041-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-12233900.png?v=1794523259"
     },
     "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
       "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
