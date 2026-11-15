@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-15 10:24 UTC",
+  "actualizado": "2026-11-15 18:29 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -552,16 +552,6 @@
       "url": "https://pokemillon.com/products/one-piece-eb-05",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
     },
-    "one-piece-dp-08-legacy-of-the-master-op-12|Inglés": {
-      "handle": "one-piece-dp-08-legacy-of-the-master-op-12",
-      "nombre": "One Piece | DP-08 Legacy of the Master OP-12",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "13.90",
-      "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
-    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -581,6 +571,16 @@
       "precio": "6.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-eb03",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/IMG_6440.webp?v=1771254587"
+    },
+    "one-piece-dp-08-legacy-of-the-master-op-12|Inglés": {
+      "handle": "one-piece-dp-08-legacy-of-the-master-op-12",
+      "nombre": "One Piece | DP-08 Legacy of the Master OP-12",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "13.90",
+      "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
     },
     "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024|Inglés": {
       "handle": "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
@@ -632,6 +632,26 @@
       "url": "https://pokemillon.com/products/double-pack-op-11-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
+    "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
+      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
+      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "8.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
+    },
+    "one-piece-sobre-op15-adventure-on-kami-s-island|Japonés": {
+      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
+      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "5.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
+    },
     "sobre-op10-royal-blood-release-event-packone-piece|Japonés": {
       "handle": "sobre-op10-royal-blood-release-event-packone-piece",
       "nombre": "Sobre OP10 Royal Blood Release Event Pack One Piece",
@@ -672,26 +692,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-op-14",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_121117.png?v=1771337446"
     },
-    "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
-      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
-      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "8.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
-    },
-    "one-piece-sobre-op15-adventure-on-kami-s-island|Japonés": {
-      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
-      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "5.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
-    },
     "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
       "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
       "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
@@ -711,6 +711,26 @@
       "precio": "1.00",
       "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
+    },
+    "one-piece-op18|Inglés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
+    },
+    "one-piece-op18|Japonés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "59.90",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
     },
     "one-piece-dash-pack-2025|Inglés": {
       "handle": "one-piece-dash-pack-2025",
@@ -732,6 +752,16 @@
       "url": "https://pokemillon.com/products/one-piece-dash-pack-2025",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/dash-pack-2025-promos.webp?v=1779286930"
     },
+    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
+      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "32.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
+    },
     "caja-24-sobres-eb01|Japonés": {
       "handle": "caja-24-sobres-eb01",
       "nombre": "One Piece | Caja 24 Sobres EB-01 Memorial Collection",
@@ -751,26 +781,6 @@
       "precio": "199.90",
       "url": "https://pokemillon.com/products/caja-24-sobres-eb01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Eb-01__Mejor_Carta_Pokemillon.png?v=1767917451"
-    },
-    "one-piece-op18|Inglés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
-    },
-    "one-piece-op18|Japonés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "59.90",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
     },
     "one-piece-sobre-judge-pack-vol-7|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-7",
@@ -811,16 +821,6 @@
       "precio": "6.90",
       "url": "https://pokemillon.com/products/one-piece-sobres-eb05-heroines-edition-vol-2",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-10-28_002757.png?v=1793233162"
-    },
-    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
-      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "32.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
     },
     "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
@@ -912,6 +912,26 @@
       "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
+    "one-piece-sobre-op18-the-dominance-of-god-op-18|Inglés": {
+      "handle": "one-piece-sobre-op18-the-dominance-of-god-op-18",
+      "nombre": "One Piece | Sobre OP18 The Dominance of God OP-18",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "12.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
+    },
+    "one-piece-sobre-op18-the-dominance-of-god-op-18|Japonés": {
+      "handle": "one-piece-sobre-op18-the-dominance-of-god-op-18",
+      "nombre": "One Piece | Sobre OP18 The Dominance of God OP-18",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "5.16",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
+    },
     "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Japonés": {
       "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
       "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
@@ -951,26 +971,6 @@
       "precio": "0.99",
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-6",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/808732_93fee6d1-a516-4c5d-8768-419a09b6124c.png?v=1782470599"
-    },
-    "one-piece-sobre-op18-the-dominance-of-god-op-18|Inglés": {
-      "handle": "one-piece-sobre-op18-the-dominance-of-god-op-18",
-      "nombre": "One Piece | Sobre OP18 The Dominance of God OP-18",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "12.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
-    },
-    "one-piece-sobre-op18-the-dominance-of-god-op-18|Japonés": {
-      "handle": "one-piece-sobre-op18-the-dominance-of-god-op-18",
-      "nombre": "One Piece | Sobre OP18 The Dominance of God OP-18",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "5.16",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
     },
     "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
       "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
@@ -1112,6 +1112,16 @@
       "url": "https://pokemillon.com/products/one-piece-2nd-anniversary-premium-box-japones-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-24_014529.png?v=1747278311"
     },
+    "one-piece-sobre-round1|Japonés": {
+      "handle": "one-piece-sobre-round1",
+      "nombre": "One Piece | Sobre Round1",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "52.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-round1",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-01223518.png?v=1788359085"
+    },
     "one-piece-winner-pack-2024-oct-dec|Japonés": {
       "handle": "one-piece-winner-pack-2024-oct-dec",
       "nombre": "One Piece Sobre Winner Pack 2024 Oct.-Dec.",
@@ -1192,15 +1202,15 @@
       "url": "https://pokemillon.com/products/one-piece-1st-anniversary-set-box-japones-2023",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/722832.png?v=1740519965"
     },
-    "one-piece-sobre-round1|Japonés": {
-      "handle": "one-piece-sobre-round1",
-      "nombre": "One Piece | Sobre Round1",
+    "one-piece-kouzuki-momonosuke-p-064-celebration-pack|?": {
+      "handle": "one-piece-kouzuki-momonosuke-p-064-celebration-pack",
+      "nombre": "One Piece | Kouzuki Momonosuke P-064 Celebration Pack",
       "tipo": "Sobre",
-      "idioma": "Japonés",
+      "idioma": "?",
       "estado": "DISPONIBLE",
-      "precio": "52.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-round1",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-01223518.png?v=1788359085"
+      "precio": "49.90",
+      "url": "https://pokemillon.com/products/one-piece-kouzuki-momonosuke-p-064-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13003213.png?v=1794526430"
     },
     "one-piece-sobre-a-fist-of-divine-speed-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-a-fist-of-divine-speed-release-event-pack",
@@ -1387,27 +1397,17 @@
       "nombre": "One Piece | Come On!! We'll Fight You!! OP09-020 Premium Booster: Best Vol.2",
       "tipo": "Sobre",
       "idioma": "?",
-      "estado": "DISPONIBLE",
+      "estado": "AGOTADO",
       "precio": "299.90",
       "url": "https://pokemillon.com/products/one-piece-come-on-well-fight-you-op09-020-premium-booster-best-vol-2",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13003735.png?v=1794526741"
-    },
-    "one-piece-kouzuki-momonosuke-p-064-celebration-pack|?": {
-      "handle": "one-piece-kouzuki-momonosuke-p-064-celebration-pack",
-      "nombre": "One Piece | Kouzuki Momonosuke P-064 Celebration Pack",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "DISPONIBLE",
-      "precio": "49.90",
-      "url": "https://pokemillon.com/products/one-piece-kouzuki-momonosuke-p-064-celebration-pack",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13003213.png?v=1794526430"
     },
     "one-piece-roronoa-zoro-p-042-celebration-pack|?": {
       "handle": "one-piece-roronoa-zoro-p-042-celebration-pack",
       "nombre": "One Piece | Roronoa Zoro P-042 Celebration Pack",
       "tipo": "Sobre",
       "idioma": "?",
-      "estado": "DISPONIBLE",
+      "estado": "AGOTADO",
       "precio": "239.90",
       "url": "https://pokemillon.com/products/one-piece-roronoa-zoro-p-042-celebration-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13002901.png?v=1794526188"
