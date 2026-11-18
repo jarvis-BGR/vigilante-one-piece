@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-18 11:09 UTC",
+  "actualizado": "2026-11-18 19:59 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -638,7 +638,7 @@
       "tipo": "Caja",
       "idioma": "Inglés",
       "estado": "DISPONIBLE",
-      "precio": "284.90",
+      "precio": "275.90",
       "url": "https://pokemillon.com/products/one-piece-op18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
     },
@@ -888,7 +888,7 @@
       "tipo": "Sobre",
       "idioma": "Inglés",
       "estado": "DISPONIBLE",
-      "precio": "12.90",
+      "precio": "11.90",
       "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
     },
