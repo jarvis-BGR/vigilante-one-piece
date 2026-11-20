@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-20 10:54 UTC",
+  "actualizado": "2026-11-20 19:37 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -632,6 +632,16 @@
       "url": "https://pokemillon.com/products/double-pack-op-11-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
+    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
+      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "32.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
+    },
     "one-piece-op18|Inglés": {
       "handle": "one-piece-op18",
       "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
@@ -651,16 +661,6 @@
       "precio": "59.90",
       "url": "https://pokemillon.com/products/one-piece-op18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
-    },
-    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
-      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "32.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
     },
     "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
       "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
