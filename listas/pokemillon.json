@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-21 10:38 UTC",
+  "actualizado": "2026-11-21 18:42 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -492,6 +492,26 @@
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
     },
+    "one-piece-eb-05|Inglés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "289.00",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
+    "one-piece-eb-05|Japonés": {
+      "handle": "one-piece-eb-05",
+      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "142.90",
+      "url": "https://pokemillon.com/products/one-piece-eb-05",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
+    },
     "one-piece-sobre-op16|Inglés": {
       "handle": "one-piece-sobre-op16",
       "nombre": "One Piece | Sobre OP16 The Time of the Battle",
@@ -531,26 +551,6 @@
       "precio": "79.90",
       "url": "https://pokemillon.com/products/caja-24-sobres-pilars-of-strength",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-3-Pillars-of-Strenght-pokemillon.png?v=1753228917"
-    },
-    "one-piece-eb-05|Inglés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "289.00",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
-    },
-    "one-piece-eb-05|Japonés": {
-      "handle": "one-piece-eb-05",
-      "nombre": "One Piece | Caja 24 Sobres EB05 Heroines Edition Vol 2",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "142.90",
-      "url": "https://pokemillon.com/products/one-piece-eb-05",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/EB05.png?v=1789904913"
     },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
@@ -592,6 +592,26 @@
       "url": "https://pokemillon.com/products/one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-03-12_014839.png?v=1747278354"
     },
+    "one-piece-op18|Inglés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "219.90",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
+    },
+    "one-piece-op18|Japonés": {
+      "handle": "one-piece-op18",
+      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "104.90",
+      "url": "https://pokemillon.com/products/one-piece-op18",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
+    },
     "one-piece-dp10|?": {
       "handle": "one-piece-dp10",
       "nombre": "One Piece | OP15 Double Pack Set DP-10 Adventure on KAMI’s Island",
@@ -601,6 +621,16 @@
       "precio": "24.90",
       "url": "https://pokemillon.com/products/one-piece-dp10",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/DP-10_One_Piece_Caja_Pokemillon.png?v=1775082972"
+    },
+    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
+      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "32.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
     },
     "one-piece-caja-aprende-a-jugar|Inglés": {
       "handle": "one-piece-caja-aprende-a-jugar",
@@ -632,35 +662,25 @@
       "url": "https://pokemillon.com/products/double-pack-op-11-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
-    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
-      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
-      "tipo": "Double Pack",
+    "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
+      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
+      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
+      "tipo": "Sobre",
       "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "32.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
+      "estado": "AGOTADO",
+      "precio": "8.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
     },
-    "one-piece-op18|Inglés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "219.90",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
-    },
-    "one-piece-op18|Japonés": {
-      "handle": "one-piece-op18",
-      "nombre": "One Piece | Caja 24 Sobres OP18 The Dominance of God",
-      "tipo": "Caja",
+    "one-piece-sobre-op15-adventure-on-kami-s-island|Japonés": {
+      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
+      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
+      "tipo": "Sobre",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
-      "precio": "104.90",
-      "url": "https://pokemillon.com/products/one-piece-op18",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
+      "precio": "5.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
     },
     "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
       "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
@@ -681,26 +701,6 @@
       "precio": "1.00",
       "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
-    },
-    "one-piece-sobre-op15-adventure-on-kami-s-island|Inglés": {
-      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
-      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "8.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
-    },
-    "one-piece-sobre-op15-adventure-on-kami-s-island|Japonés": {
-      "handle": "one-piece-sobre-op15-adventure-on-kami-s-island",
-      "nombre": "One Piece Sobre OP15 Adventure on KAMI’s Island",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "5.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op15-adventure-on-kami-s-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260227_183241_X.jpg?v=1773573360"
     },
     "sobre-op10-royal-blood-release-event-packone-piece|Japonés": {
       "handle": "sobre-op10-royal-blood-release-event-packone-piece",
