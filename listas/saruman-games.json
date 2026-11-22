@@ -1,17 +1,7 @@
 {
   "tienda": "Saruman Games",
-  "actualizado": "2026-11-21 18:42 UTC",
+  "actualizado": "2026-11-22 00:57 UTC",
   "items": {
-    "one-piece-tcg-sobre-eb-03-heroines|?": {
-      "handle": "one-piece-tcg-sobre-eb-03-heroines",
-      "nombre": "ONE PIECE TCG: SOBRE EB-03 HEROINES",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "5.50",
-      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb-03-heroines",
-      "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/Gamenerdzimage9999-7861__15217.webp?v=1776014869"
-    },
     "one-piece-tcg-sobre-op15-adventure-on-kamis-island|?": {
       "handle": "one-piece-tcg-sobre-op15-adventure-on-kamis-island",
       "nombre": "ONE PIECE TCG: SOBRE op15 ADVENTURE ON KAMI'S ISLAND",
@@ -21,16 +11,6 @@
       "precio": "5.50",
       "url": "https://sarumangames.es/products/one-piece-tcg-sobre-op15-adventure-on-kamis-island",
       "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/ONEEEE_0000_Firefly_GeminiFlash_PONELFONDONEGRO169001.jpg?v=1786993267"
-    },
-    "one-piece-tcg-sobre-eb03-japones|Japonés": {
-      "handle": "one-piece-tcg-sobre-eb03-japones",
-      "nombre": "ONE PIECE TCG: SOBRE EB03 JAPONES",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "7.00",
-      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb03-japones",
-      "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/One-Piece-EB03-Heroines-Edition-Japanese-Booster-Pack.webp?v=1771515215"
     },
     "prepedido-one-piece-tcg-op-15-booster-box|?": {
       "handle": "prepedido-one-piece-tcg-op-15-booster-box",
@@ -321,6 +301,26 @@
       "precio": "5.50",
       "url": "https://sarumangames.es/products/one-piecee-booster-pack-wings-of-the-captain-op-06",
       "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/6_be6dcce9-8d4d-4257-9a31-1c6513c52f87.jpg?v=1759049416"
+    },
+    "one-piece-tcg-sobre-eb-03-heroines|?": {
+      "handle": "one-piece-tcg-sobre-eb-03-heroines",
+      "nombre": "ONE PIECE TCG: SOBRE EB-03 HEROINES",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "5.50",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb-03-heroines",
+      "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/Gamenerdzimage9999-7861__15217.webp?v=1776014869"
+    },
+    "one-piece-tcg-sobre-eb03-japones|Japonés": {
+      "handle": "one-piece-tcg-sobre-eb03-japones",
+      "nombre": "ONE PIECE TCG: SOBRE EB03 JAPONES",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "7.00",
+      "url": "https://sarumangames.es/products/one-piece-tcg-sobre-eb03-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/One-Piece-EB03-Heroines-Edition-Japanese-Booster-Pack.webp?v=1771515215"
     }
   }
 }
