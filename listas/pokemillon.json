@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-24 08:28 UTC",
+  "actualizado": "2026-11-24 19:56 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -732,26 +732,6 @@
       "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
-    "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
-      "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
-      "nombre": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
-      "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "29.90",
-      "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
-    },
-    "one-piece-double-pack-set-vol-2-ingles-2023|Inglés": {
-      "handle": "one-piece-double-pack-set-vol-2-ingles-2023",
-      "nombre": "One Piece | Double Pack Set DP-02 Inglés 2023",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "199.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
-    },
     "one-piece-sobres-romance-dawn-op-01|Inglés": {
       "handle": "one-piece-sobres-romance-dawn-op-01",
       "nombre": "One Piece | Sobres Romance Dawn OP-01",
@@ -781,6 +761,26 @@
       "precio": "4.90",
       "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
+    "one-piece-booster-box-30-sobres-de-one-piece-by-netflix|Inglés": {
+      "handle": "one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+      "nombre": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "29.90",
+      "url": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-booster-box-30-sobres-de-one-piece-by-netflix.png?v=1788134767"
+    },
+    "one-piece-double-pack-set-vol-2-ingles-2023|Inglés": {
+      "handle": "one-piece-double-pack-set-vol-2-ingles-2023",
+      "nombre": "One Piece | Double Pack Set DP-02 Inglés 2023",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "199.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-set-vol-2-ingles-2023",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_2023-12-05-13-30-54-33_e4424258c8b8649f6e67d283a50a2cbc.jpg?v=1754154733"
     },
     "one-piece-2nd-anniversary-premium-box-japones-2024|Inglés": {
       "handle": "one-piece-2nd-anniversary-premium-box-japones-2024",
