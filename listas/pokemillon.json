@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-23 23:23 UTC",
+  "actualizado": "2026-11-24 08:28 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -428,7 +428,7 @@
       "tipo": "Caja",
       "idioma": "Inglés",
       "estado": "DISPONIBLE",
-      "precio": "219.90",
+      "precio": "199.90",
       "url": "https://pokemillon.com/products/one-piece-op18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
     },
@@ -622,26 +622,6 @@
       "url": "https://pokemillon.com/products/double-pack-op-11-en",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-05-30_212847.png?v=1784162012"
     },
-    "one-piece-op15-sobre-adventure-on-kamis-island|Inglés": {
-      "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
-      "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "9.90",
-      "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
-    },
-    "one-piece-op15-sobre-adventure-on-kamis-island|Japonés": {
-      "handle": "one-piece-op15-sobre-adventure-on-kamis-island",
-      "nombre": "One Piece OP15 Sobre Adventure On Kami's Island Dash Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "1.00",
-      "url": "https://pokemillon.com/products/one-piece-op15-sobre-adventure-on-kamis-island",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/883936.png?v=1780924103"
-    },
     "one-piece-sobre-op-14|Inglés": {
       "handle": "one-piece-sobre-op-14",
       "nombre": "One Piece Sobre OP14 The Azure Sea's Seven",
@@ -741,46 +721,6 @@
       "precio": "5.16",
       "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
-    },
-    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Japonés": {
-      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "1.20",
-      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
-    },
-    "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas|Inglés": {
-      "handle": "one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "nombre": "One Piece 4th Anniversary Treasure Campaign Pack (3 Cartas)",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "6.90",
-      "url": "https://pokemillon.com/products/one-piece-4th-anniversary-treasure-campaign-pack-3-cartas",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/909793.png?v=1791381243"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36|Japonés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.00",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1789063721"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36|Inglés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "nombre": "One Piece Sobre Beginners Deck Party ST-31 - ST-36 Participation Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "6.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31-st-36-participation-pack.png?v=1789063721"
     },
     "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
       "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
@@ -1191,26 +1131,6 @@
       "precio": "99.90",
       "url": "https://pokemillon.com/products/one-piece-kouzuki-momonosuke-op01-041-cs-24-celebration-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-12233900.png?v=1794523259"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack|Japonés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
-      "nombre": "One Piece Sobre Beginners Deck Party [ST-31]~[ST-36] Winner pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.00",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31st-36-winner-pack.png?v=1788134475"
-    },
-    "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack|Inglés": {
-      "handle": "one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
-      "nombre": "One Piece Sobre Beginners Deck Party [ST-31]~[ST-36] Winner pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "79.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-beginners-deck-party-st-31-st-36-winner-pack",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-sobre-beginners-deck-party-st-31st-36-winner-pack.png?v=1788134475"
     },
     "one-piece-sobre-op09|Inglés": {
       "handle": "one-piece-sobre-op09",
