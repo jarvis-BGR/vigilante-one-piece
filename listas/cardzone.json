@@ -1,26 +1,16 @@
 {
   "tienda": "CardZone",
-  "actualizado": "2026-11-26 01:34 UTC",
+  "actualizado": "2026-11-26 11:54 UTC",
   "items": {
-    "caja-de-24-sobres-the-time-of-battle-op16-ingles|Inglés": {
-      "handle": "caja-de-24-sobres-the-time-of-battle-op16-ingles",
-      "nombre": "Caja de 24 Sobres The Time of Battle OP16 - Inglés",
+    "caja-one-piece-heroines-vol-2-eb05-japones|Japonés": {
+      "handle": "caja-one-piece-heroines-vol-2-eb05-japones",
+      "nombre": "Caja One Piece Heroines Vol.2 EB05 - Japones",
       "tipo": "Caja",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "189.95",
-      "url": "https://cardzone.es/products/caja-de-24-sobres-the-time-of-battle-op16-ingles",
-      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-08T095531.556.png?v=1788854152"
-    },
-    "pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
-      "handle": "pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones",
-      "nombre": "Pack 5 Sobres One Piece The World's Strongest Warriors OP17 - Japones",
-      "tipo": "Sobre",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
-      "precio": "29.95",
-      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones",
-      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-11T113647.474.png?v=1789119486"
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-heroines-vol-2-eb05-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-26T121815.598.png?v=1795692017"
     },
     "caja-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
       "handle": "caja-one-piece-the-worlds-strongest-warriors-op17-japones",
@@ -32,15 +22,15 @@
       "url": "https://cardzone.es/products/caja-one-piece-the-worlds-strongest-warriors-op17-japones",
       "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/Caja-One-Piece-The-World_s-Strongest-Warriors-OP17-Japones-cardzone.png?v=1788515347"
     },
-    "pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones|Japonés": {
-      "handle": "pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones",
-      "nombre": "Pack 5 Sobres One Piece Adventure on KAMI’s Island OP15 - Japones",
-      "tipo": "Sobre",
+    "caja-one-piece-adventure-on-kami-s-island-op15-japones|Japonés": {
+      "handle": "caja-one-piece-adventure-on-kami-s-island-op15-japones",
+      "nombre": "Caja One Piece Adventure on Kami´s Island OP15 - Japones",
+      "tipo": "Caja",
       "idioma": "Japonés",
       "estado": "DISPONIBLE",
-      "precio": "25.95",
-      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones",
-      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_15_248fd5b7-a41f-43e0-b67f-93287d7f4067.png?v=1785848175"
+      "precio": "129.95",
+      "url": "https://cardzone.es/products/caja-one-piece-adventure-on-kami-s-island-op15-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-03-17T141535.165.png?v=1773753452"
     },
     "caja-one-piece-the-time-of-battle-op16-japones|Japonés": {
       "handle": "caja-one-piece-the-time-of-battle-op16-japones",
@@ -52,26 +42,6 @@
       "url": "https://cardzone.es/products/caja-one-piece-the-time-of-battle-op16-japones",
       "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-07-21T162658.030.png?v=1784644132"
     },
-    "pack-5-sobres-one-piece-the-time-of-battle-op16-japones|Japonés": {
-      "handle": "pack-5-sobres-one-piece-the-time-of-battle-op16-japones",
-      "nombre": "Pack 5 Sobres One Piece The Time of Battle OP16 - Japones",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "25.95",
-      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-the-time-of-battle-op16-japones",
-      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-08-17T133631.053.png?v=1786966608"
-    },
-    "caja-one-piece-adventure-on-kami-s-island-op15-japones|Japonés": {
-      "handle": "caja-one-piece-adventure-on-kami-s-island-op15-japones",
-      "nombre": "Caja One Piece Adventure on Kami´s Island OP15 - Japones",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "129.95",
-      "url": "https://cardzone.es/products/caja-one-piece-adventure-on-kami-s-island-op15-japones",
-      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-03-17T141535.165.png?v=1773753452"
-    },
     "caja-one-piece-egghead-crisis-eb04-japones|Japonés": {
       "handle": "caja-one-piece-egghead-crisis-eb04-japones",
       "nombre": "Caja One Piece Egghead Crisis EB04 - Japones",
@@ -82,16 +52,6 @@
       "url": "https://cardzone.es/products/caja-one-piece-egghead-crisis-eb04-japones",
       "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-de-sobres-one-piece-tcg-eb04-japones_0d9db6e7-4ba6-4537-87f8-4c3e567179fb.png?v=1770200533"
     },
-    "caja-one-piece-the-best-2-prb02-japones|Japonés": {
-      "handle": "caja-one-piece-the-best-2-prb02-japones",
-      "nombre": "Caja One Piece The Best 2 PRB02 - Japones",
-      "tipo": "Caja",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "109.95",
-      "url": "https://cardzone.es/products/caja-one-piece-the-best-2-prb02-japones",
-      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/siguemeeninstagram_1920x1920px_-2025-08-06T132250.661.png?v=1754479433"
-    },
     "caja-one-piece-two-legends-op08-japones|Japonés": {
       "handle": "caja-one-piece-two-legends-op08-japones",
       "nombre": "Caja One Piece Two Legends OP08 - Japones",
@@ -101,6 +61,46 @@
       "precio": "109.95",
       "url": "https://cardzone.es/products/caja-one-piece-two-legends-op08-japones",
       "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/siguemeeninstagram_1920x1920px_-2024-07-31T183802.198.png?v=1722443895"
+    },
+    "pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones",
+      "nombre": "Pack 5 Sobres One Piece The World's Strongest Warriors OP17 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "29.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-the-worlds-strongest-warriors-op17-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-11T113647.474.png?v=1789119486"
+    },
+    "pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones",
+      "nombre": "Pack 5 Sobres One Piece Adventure on KAMI’s Island OP15 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "25.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-adventure-on-kami-s-island-op-15-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_15_248fd5b7-a41f-43e0-b67f-93287d7f4067.png?v=1785848175"
+    },
+    "pack-5-sobres-one-piece-the-time-of-battle-op16-japones|Japonés": {
+      "handle": "pack-5-sobres-one-piece-the-time-of-battle-op16-japones",
+      "nombre": "Pack 5 Sobres One Piece The Time of Battle OP16 - Japones",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "25.95",
+      "url": "https://cardzone.es/products/pack-5-sobres-one-piece-the-time-of-battle-op16-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-08-17T133631.053.png?v=1786966608"
+    },
+    "caja-one-piece-the-best-2-prb02-japones|Japonés": {
+      "handle": "caja-one-piece-the-best-2-prb02-japones",
+      "nombre": "Caja One Piece The Best 2 PRB02 - Japones",
+      "tipo": "Caja",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "109.95",
+      "url": "https://cardzone.es/products/caja-one-piece-the-best-2-prb02-japones",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/siguemeeninstagram_1920x1920px_-2025-08-06T132250.661.png?v=1754479433"
     },
     "caja-one-piece-royal-blood-op10-japones|Japonés": {
       "handle": "caja-one-piece-royal-blood-op10-japones",
@@ -141,6 +141,16 @@
       "precio": "29.95",
       "url": "https://cardzone.es/products/sobre-special-pack-vjump-tokudaigou-one-piece-card-japones",
       "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/Sobre_Special_Pack_VJUMP_Tokudaigou_cardzone.png?v=1784205202"
+    },
+    "caja-de-24-sobres-the-time-of-battle-op16-ingles|Inglés": {
+      "handle": "caja-de-24-sobres-the-time-of-battle-op16-ingles",
+      "nombre": "Caja de 24 Sobres The Time of Battle OP16 - Inglés",
+      "tipo": "Caja",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "189.95",
+      "url": "https://cardzone.es/products/caja-de-24-sobres-the-time-of-battle-op16-ingles",
+      "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-09-08T095531.556.png?v=1788854152"
     },
     "sobre-3rd-anniversary-one-piece-card-treasure-campaign-pack-japones|Japonés": {
       "handle": "sobre-3rd-anniversary-one-piece-card-treasure-campaign-pack-japones",
