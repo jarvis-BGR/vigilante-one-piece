@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-27 03:31 UTC",
+  "actualizado": "2026-11-27 16:10 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -482,6 +482,26 @@
       "url": "https://pokemillon.com/products/one-piece-op18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_52646_371a223d17f912829f8d08abc637b3a1_1.png?v=1794576433"
     },
+    "one-piece-sobre-op16|Inglés": {
+      "handle": "one-piece-sobre-op16",
+      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "10.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
+    },
+    "one-piece-sobre-op16|Japonés": {
+      "handle": "one-piece-sobre-op16",
+      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "6.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
+    },
     "one-piece-dp-09-the-azure-seas-seven-op-14|Inglés": {
       "handle": "one-piece-dp-09-the-azure-seas-seven-op-14",
       "nombre": "One Piece DP09 The Azure Sea's Seven OP14",
@@ -511,26 +531,6 @@
       "precio": "0.90",
       "url": "https://pokemillon.com/products/one-piece-op14-the-azure-seas-seven-dash-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/867188.png?v=1779283831"
-    },
-    "one-piece-sobre-op16|Inglés": {
-      "handle": "one-piece-sobre-op16",
-      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "10.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
-    },
-    "one-piece-sobre-op16|Japonés": {
-      "handle": "one-piece-sobre-op16",
-      "nombre": "One Piece | Sobre OP16 The Time of the Battle",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "6.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-op16",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/one-piece-card-game-booster-pack-the-moment-of-decisive-battle-o-922951.4.webp?v=1779925435"
     },
     "one-piece-eb-05|Inglés": {
       "handle": "one-piece-eb-05",
@@ -572,6 +572,16 @@
       "url": "https://pokemillon.com/products/caja-24-sobres-pilars-of-strength",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/OP-3-Pillars-of-Strenght-pokemillon.png?v=1753228917"
     },
+    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
+      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "32.90",
+      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
+    },
     "one-piece-sobre-eb03|Inglés": {
       "handle": "one-piece-sobre-eb03",
       "nombre": "One Piece Sobre EB03 Memorial Collection - Heroines Edition",
@@ -601,16 +611,6 @@
       "precio": "13.90",
       "url": "https://pokemillon.com/products/one-piece-dp-08-legacy-of-the-master-op-12",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-08-08122245.png?v=1757011161"
-    },
-    "one-piece-double-pack-dp-13-op18-the-dominance-of-god|Inglés": {
-      "handle": "one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "nombre": "One Piece | Double Pack [DP13] OP18 The Dominance of God",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "32.90",
-      "url": "https://pokemillon.com/products/one-piece-double-pack-dp-13-op18-the-dominance-of-god",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-10-25174350.png?v=1793233144"
     },
     "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024|Inglés": {
       "handle": "one-piece-mazo-de-iniciacion-de-luffy-gear-5-st-21-ingles-2024",
@@ -842,26 +842,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
     },
-    "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
-      "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
-      "nombre": "One Piece Sobre ST-15 - ST-20 Release Event Pack",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "DISPONIBLE",
-      "precio": "7.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-st-15-st-20-release-event-pack",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/794695.png?v=1782469968"
-    },
-    "one-piece-sobre-st-15-st-20-release-event-pack|Japonés": {
-      "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
-      "nombre": "One Piece Sobre ST-15 - ST-20 Release Event Pack",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "AGOTADO",
-      "precio": "0.90",
-      "url": "https://pokemillon.com/products/one-piece-sobre-st-15-st-20-release-event-pack",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/794695.png?v=1782469968"
-    },
     "one-piece-sobre-op18-the-dominance-of-god-op-18|Inglés": {
       "handle": "one-piece-sobre-op18-the-dominance-of-god-op-18",
       "nombre": "One Piece | Sobre OP18 The Dominance of God OP-18",
@@ -881,6 +861,26 @@
       "precio": "5.16",
       "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
+    },
+    "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
+      "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
+      "nombre": "One Piece Sobre ST-15 - ST-20 Release Event Pack",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "DISPONIBLE",
+      "precio": "7.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-st-15-st-20-release-event-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/794695.png?v=1782469968"
+    },
+    "one-piece-sobre-st-15-st-20-release-event-pack|Japonés": {
+      "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
+      "nombre": "One Piece Sobre ST-15 - ST-20 Release Event Pack",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "AGOTADO",
+      "precio": "0.90",
+      "url": "https://pokemillon.com/products/one-piece-sobre-st-15-st-20-release-event-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/794695.png?v=1782469968"
     },
     "one-piece-sobre-judge-pack-vol-3|Japonés": {
       "handle": "one-piece-sobre-judge-pack-vol-3",
