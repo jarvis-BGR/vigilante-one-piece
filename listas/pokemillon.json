@@ -1,6 +1,6 @@
 {
   "tienda": "Pokemillón",
-  "actualizado": "2026-11-28 11:22 UTC",
+  "actualizado": "2026-11-28 19:33 UTC",
   "items": {
     "one-piece-prb-02-box|Inglés": {
       "handle": "one-piece-prb-02-box",
@@ -822,26 +822,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-7",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/870124.png?v=1779888510"
     },
-    "one-piece-sobre-prb-02|Inglés": {
-      "handle": "one-piece-sobre-prb-02",
-      "nombre": "One Piece Sobre PRB02 The Best vol.2 Premium Collection",
-      "tipo": "Sobre",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "13.95",
-      "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
-    },
-    "one-piece-sobre-prb-02|Japonés": {
-      "handle": "one-piece-sobre-prb-02",
-      "nombre": "One Piece Sobre PRB02 The Best vol.2 Premium Collection",
-      "tipo": "Sobre",
-      "idioma": "Japonés",
-      "estado": "DISPONIBLE",
-      "precio": "8.99",
-      "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
-    },
     "one-piece-sobre-op18-the-dominance-of-god-op-18|Inglés": {
       "handle": "one-piece-sobre-op18-the-dominance-of-god-op-18",
       "nombre": "One Piece | Sobre OP18 The Dominance of God OP-18",
@@ -861,6 +841,26 @@
       "precio": "5.16",
       "url": "https://pokemillon.com/products/one-piece-sobre-op18-the-dominance-of-god-op-18",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_item01.webp?v=1794576688"
+    },
+    "one-piece-sobre-prb-02|Inglés": {
+      "handle": "one-piece-sobre-prb-02",
+      "nombre": "One Piece Sobre PRB02 The Best vol.2 Premium Collection",
+      "tipo": "Sobre",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "13.95",
+      "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
+    },
+    "one-piece-sobre-prb-02|Japonés": {
+      "handle": "one-piece-sobre-prb-02",
+      "nombre": "One Piece Sobre PRB02 The Best vol.2 Premium Collection",
+      "tipo": "Sobre",
+      "idioma": "Japonés",
+      "estado": "DISPONIBLE",
+      "precio": "8.99",
+      "url": "https://pokemillon.com/products/one-piece-sobre-prb-02",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/PRB-02_Sobre_JAPONES_Pokemillon.webp?v=1767916327"
     },
     "one-piece-sobre-st-15-st-20-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-st-15-st-20-release-event-pack",
@@ -902,16 +902,6 @@
       "url": "https://pokemillon.com/products/one-piece-sobre-judge-pack-vol-3",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/780227.png?v=1784295332"
     },
-    "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
-      "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
-      "nombre": "One Piece | Double Pack Set DP-03 Inglés 2023",
-      "tipo": "Double Pack",
-      "idioma": "Inglés",
-      "estado": "AGOTADO",
-      "precio": "14.90",
-      "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
-    },
     "one-piece-sobres-romance-dawn-op-01|Inglés": {
       "handle": "one-piece-sobres-romance-dawn-op-01",
       "nombre": "One Piece | Sobres Romance Dawn OP-01",
@@ -941,6 +931,16 @@
       "precio": "4.90",
       "url": "https://pokemillon.com/products/one-piece-sobres-romance-dawn-op-01",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-04190007.png?v=1793815234"
+    },
+    "copia-one-piece-caja-24-sobres-op-07-ingles-2024|Inglés": {
+      "handle": "copia-one-piece-caja-24-sobres-op-07-ingles-2024",
+      "nombre": "One Piece | Double Pack Set DP-03 Inglés 2023",
+      "tipo": "Double Pack",
+      "idioma": "Inglés",
+      "estado": "AGOTADO",
+      "precio": "14.90",
+      "url": "https://pokemillon.com/products/copia-one-piece-caja-24-sobres-op-07-ingles-2024",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/img_14033_97d4537667bb9207da54ec63dd9a79e8_1.png?v=1754154545"
     },
     "one-piece-sobre-judge-pack-vol-6|Inglés": {
       "handle": "one-piece-sobre-judge-pack-vol-6",
@@ -1191,6 +1191,16 @@
       "precio": "239.90",
       "url": "https://pokemillon.com/products/one-piece-roronoa-zoro-p-042-celebration-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13002901.png?v=1794526188"
+    },
+    "one-piece-trafalgar-law-p-038-cs-24-celebration-pack|?": {
+      "handle": "one-piece-trafalgar-law-p-038-cs-24-celebration-pack",
+      "nombre": "One Piece | Trafalgar Law P-038 CS '24 Celebration Pack",
+      "tipo": "Sobre",
+      "idioma": "?",
+      "estado": "AGOTADO",
+      "precio": "89.90",
+      "url": "https://pokemillon.com/products/one-piece-trafalgar-law-p-038-cs-24-celebration-pack",
+      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13000041.png?v=1794524480"
     },
     "one-piece-sobre-a-fist-of-divine-speed-release-event-pack|Inglés": {
       "handle": "one-piece-sobre-a-fist-of-divine-speed-release-event-pack",
@@ -1491,16 +1501,6 @@
       "precio": "99.90",
       "url": "https://pokemillon.com/products/one-piece-kaido-st04-003-cs-24-celebration-pack",
       "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-11-13_002056.png?v=1794525676"
-    },
-    "one-piece-trafalgar-law-p-038-cs-24-celebration-pack|?": {
-      "handle": "one-piece-trafalgar-law-p-038-cs-24-celebration-pack",
-      "nombre": "One Piece | Trafalgar Law P-038 CS '24 Celebration Pack",
-      "tipo": "Sobre",
-      "idioma": "?",
-      "estado": "AGOTADO",
-      "precio": "89.90",
-      "url": "https://pokemillon.com/products/one-piece-trafalgar-law-p-038-cs-24-celebration-pack",
-      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-13000041.png?v=1794524480"
     },
     "one-piece-bepo-p-019-cs-24-celebration-pack|?": {
       "handle": "one-piece-bepo-p-019-cs-24-celebration-pack",
